@@ -27,7 +27,7 @@
     </q-carousel>
 
     <div class="q-pa-md">
-      <h1 class="text-h5 q-mb-md">Welcome to Benefi Café</h1>
+      <h1 class="text-h5 q-mb-md">Welcome to Benefi Café in Didim</h1>
       <p class="text-body1 q-mb-md">
         Enjoy Coffee, Tea and homemade cakes in our lovely atmosphere!
       </p>
