@@ -12,6 +12,7 @@
       options="regular"
       navigation
       swipeable
+      autoplay
     >
       <q-carousel-slide
         v-for="(slide, index) in slides"
@@ -27,23 +28,23 @@
     </q-carousel>
 
     <div class="q-pa-md">
-      <h1 class="text-h5 q-mb-md">Welcome to Benefi Café in Didim</h1>
+      <h1 class="text-h5 q-mb-md">{{ welcome }}</h1>
       <p class="text-body1 q-mb-md">
-        Enjoy Coffee, Tea and homemade cakes in our lovely atmosphere!
+        {{ enjoy }}
       </p>
     </div>
     <div class="q-pa-md">
-      <h1 class="text-h5 q-mb-md">Visit us every day 8:30 - 23</h1>
-      <p class="text-body1 q-mb-md">Directly opposite of the city square</p>
+      <h1 class="text-h5 q-mb-md">{{ opening }}</h1>
+      <p class="text-body1 q-mb-md">{{ location }}</p>
     </div>
     <div class="q-pa-md">
-      <h1 class="text-h6 q-mb-md">Imprint</h1>
+      <h1 class="text-h6 q-mb-md">{{ imprint }}</h1>
       <p class="text-body1">
-        Benefi Cafe<br />
-        Yeni, Atatürk Blv. No:138<br />
-        09270 Didim/Aydın<br />
+        {{ name }}<br />
+        {{ street }}<br />
+        {{ postcode }}<br />
         <br />
-        E-Mail: info@benefi.cafe<br />
+        {{ email }}<br />
       </p>
     </div>
   </div>
@@ -51,6 +52,10 @@
 
 <script setup>
 import { ref } from 'vue';
+import { inject } from 'vue';
+import en from 'src/locales/en.json';
+import tr from 'src/locales/tr.json';
+const bus = inject('bus');
 let selectedSlide = ref('Coffee');
 const slides = [
   {
@@ -66,8 +71,44 @@ const slides = [
     alt: 'Donut',
   },
 ];
+let current = {};
+current = tr;
+const welcome = ref(current['welcome']);
+const enjoy = ref(current['enjoy']);
+const opening = ref(current['opening']);
+const location = ref(current['location']);
+const imprint = ref(current['imprint']);
+const name = ref(current['name']);
+const street = ref(current['street']);
+const postcode = ref(current['postcode']);
+const email = ref(current['email']);
+function switchLanguage(language) {
+  if (language == 'tr') {
+    current = tr;
+  } else if (language == 'en') {
+    current = en;
+  } else {
+    return;
+  }
+  welcome.value = current['welcome'];
+  enjoy.value = current['enjoy'];
+  opening.value = current['opening'];
+  location.value = current['location'];
+  imprint.value = current['imprint'];
+  name.value = current['name'];
+  street.value = current['street'];
+  postcode.value = current['postcode'];
+  email.value = current['email'];
+}
+bus.on('changeLanguage', (lang) => {
+  switchLanguage(lang);
+});
+function getUserLocale() {
+  const locale =
+    window.navigator.language ||
+    window.navigator.userLanguage ||
+    Trans.defaultLocale;
+  return locale.split('-')[0];
+}
+switchLanguage(getUserLocale());
 </script>
-
-<style scoped>
-/* Fügen Sie hier Ihre benutzerdefinierten Styles hinzu */
-</style>
