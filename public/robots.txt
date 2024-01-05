@@ -1,0 +1,6 @@
+Host: benefi.cafe
+
+User-agent: *
+Allow: /
+
+Sitemap: https://benefi.cafe/sitemap.xml
