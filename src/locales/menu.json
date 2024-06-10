@@ -1,0 +1,349 @@
+[
+  {
+    "name": "KAHVELER / COFFEES",
+    "items": [
+      {
+        "name": "Espresso",
+        "smallPrice": 60,
+        "largePrice": 65
+      },
+      {
+        "name": "Espresso con Panna",
+        "largePrice": 65
+      },
+      {
+        "name": "Americano",
+        "largePrice": 75
+      },
+      {
+        "name": "Dark Americano",
+        "largePrice": 85
+      },
+      {
+        "name": "Cortado",
+        "largePrice": 75
+      },
+      {
+        "name": "Cappuccino",
+        "largePrice": 75
+      },
+      {
+        "name": "Flat White",
+        "largePrice": 85
+      },
+      {
+        "name": "Latte Macchiato",
+        "largePrice": 85
+      },
+      {
+        "name": "Mocha / W. Chocolate Mocha",
+        "largePrice": 95
+      },
+      {
+        "name": "Latte",
+        "description": "Extra Sirup + 10",
+        "largePrice": 85
+      },
+      {
+        "name": "Filtre Kahve",
+        "description": "filter coffee",
+        "largePrice": 75
+      },
+      {
+        "name": "Türk Kahvesi",
+        "description": "turkish coffee",
+        "smallPrice": 55,
+        "largePrice": 65
+      },
+      {
+        "name": "Kafeinsiz T. Kahvesi",
+        "description": "decaffeinated turkish coffee",
+        "smallPrice": 65,
+        "largePrice": 70
+      },
+      {
+        "name": "Dibek Kahvesi - Harput",
+        "description": "",
+        "smallPrice": 65,
+        "largePrice": 70
+      },
+      {
+        "name": "Sıcak Çikolata",
+        "description": "hot chocolate",
+        "largePrice": 85
+      },
+      {
+        "name": "Sahlep",
+        "description": "sweet hot creamy milk with cinnamon with herbal thickener (Sahlep plant)",
+        "largePrice": 85
+      },
+      {
+        "name": "Matcha Latte",
+        "description": "",
+        "largePrice": 85
+      }
+    ]
+  },
+  {
+    "name": "SOĞUK İÇECEKLER / COLD DRINKS",
+    "items": [
+      {
+        "name": "Iced Americano",
+        "smallPrice": 80,
+        "largePrice": 90
+      },
+      {
+        "name": "Iced Cappuccino",
+        "smallPrice": 85,
+        "largePrice": 95
+      },
+      {
+        "name": "Iced Flat White",
+        "smallPrice": 85,
+        "largePrice": 95
+      },
+      {
+        "name": "Iced Mocha",
+        "smallPrice": 95,
+        "largePrice": 105
+      },
+      {
+        "name": "Iced White Chocolate Mocha",
+        "smallPrice": 95,
+        "largePrice": 105
+      },
+      {
+        "name": "Iced Latte",
+        "description": "Extra Sirup + 10",
+        "smallPrice": 85,
+        "largePrice": 95
+      },
+      {
+        "name": "Affagato",
+        "largePrice": 80
+      },
+      {
+        "name": "Iced Chocolate",
+        "smallPrice": 80,
+        "largePrice": 90
+      },
+      {
+        "name": "Milkshake",
+        "description": "Vanilya / Çikolata / Muz / Çilek",
+        "largePrice": 110
+      },
+      {
+        "name": "Smoothie",
+        "description": "Muz / Çilek",
+        "largePrice": 110
+      },
+      {
+        "name": "Frappe",
+        "description": "Vanilya / Çikolata / Muz / Çilek / Karamel",
+        "largePrice": 110
+      },
+      {
+        "name": "Frozen",
+        "description": "Muz / Çilek / Yaban Mersini",
+        "largePrice": 110
+      },
+      {
+        "name": "İtalyan Sodası",
+        "description": "Mavi / Yeşil / Kırmızı",
+        "largePrice": 75
+      },
+      {
+        "name": "Buzlu Çay / Iced Tea",
+        "description": "Limonlu ve Tarçınlı",
+        "largePrice": 75
+      },
+      {
+        "name": "Yeşil Çaylı Mojito",
+        "description": "Green tea mojito",
+        "largePrice": 75
+      },
+      {
+        "name": "Chai Tea Latte",
+        "largePrice": 75
+      },
+      {
+        "name": "Island Rush Cooler",
+        "largePrice": 75
+      },
+      {
+        "name": "BENEFI Yeşili",
+        "description": "BENEFI green tea",
+        "largePrice": 75
+      }
+    ]
+  },
+  {
+    "name": "YERLI ÇAYLAR / LOCAL TEAS",
+    "items": [
+      {
+        "name": "Demleme Çay / Black Tea",
+        "smallPrice": 30,
+        "largePrice": 40
+      },
+      {
+        "name": "Ihlamur / Linden",
+        "largePrice": 65
+      },
+      {
+        "name": "Adaçayı / Sage",
+        "largePrice": 65
+      },
+      {
+        "name": "Nane Limon / Mint + Lemon",
+        "largePrice": 65
+      },
+      {
+        "name": "Yeşil Çay / Green Tea",
+        "description": "",
+        "smallPrice": 65,
+        "largePrice": 65
+      },
+      {
+        "name": "Naneli Yeşil Çay / Mint Green Tea",
+        "largePrice": 65
+      }
+    ]
+  },
+  {
+    "name": "ÇAYLAR / TEAS",
+    "items": [
+      {
+        "name": "Detoks Çay / Detox Tea",
+        "largePrice": 75
+      },
+      {
+        "name": "Rüya Çay / Dream Tea",
+        "largePrice": 75
+      },
+      {
+        "name": "Mavi Kelebek Çayı / Blue Butterfly Tea",
+        "largePrice": 75
+      }
+    ]
+  },
+  {
+    "name": "RONNEFELDT DÜNYA ÇAYLARI / RONNEFELDT WORLD TEA",
+    "items": [
+      {
+        "name": "Vanilla Rooibos",
+        "description": "Güney Afrika / rooibos, vanilya",
+        "largePrice": 75
+      },
+      {
+        "name": "Rooibos Cream Orange",
+        "description": "Güney Afrika / rooibos, portakal kabuğu",
+        "largePrice": 75
+      },
+      {
+        "name": "Ayurveda Herbs & Ginger",
+        "description": "Nijerya / zencefil, anason, rezene, limon otu, tarçın, karabiber, papatya, melisa, gül",
+        "largePrice": 75
+      },
+      {
+        "name": "Tropical Sun",
+        "description": "Almanya / ananas, elma, papatya, mango, portakal, gül yaprakları",
+        "largePrice": 75
+      },
+      {
+        "name": "Fruity Camomile",
+        "description": "Hırvatistan / papatya, portakal çiçeği",
+        "largePrice": 75
+      },
+      {
+        "name": "Siyah Çay / Black Tea",
+        "description": "Masalai Chai: Hindistan / siyah çay, tarçın, rezene, zencefil",
+        "largePrice": 75
+      },
+      {
+        "name": "Beyaz Çay / White Tea",
+        "description": "White Ling Yong",
+        "largePrice": 75
+      },
+      {
+        "name": "Morgentau",
+        "description": "Çin / yeşil çay, gül ve ayçiçeği yaprakları, doğal mango aroması",
+        "largePrice": 75
+      },
+      {
+        "name": "Lychee & Goji",
+        "description": "Çin / yeşil çay, kiraz parçacıkları, nar, kızılcık, goji meyveleri, liçi aroması",
+        "largePrice": 75
+      },
+      {
+        "name": "Jasmine Pearls",
+        "description": "Çin / yeşil çay, yasemin çiçekleri",
+        "largePrice": 75
+      }
+    ]
+  },
+  {
+    "name": "DIGER IÇECEKLER / OTHER DRINKS",
+    "items": [
+      {
+        "name": "Cola, Fanta, Sprite",
+        "largePrice": 45
+      },
+      {
+        "name": "Schweppes (Bitter Limon)",
+        "largePrice": 50
+      },
+      {
+        "name": "Naren (Katkısız Meyve Suları)",
+        "description": "",
+        "largePrice": 50
+      },
+      {
+        "name": "Gazoz Çeşitleri",
+        "description": "",
+        "largePrice": 50
+      },
+      {
+        "name": "Limonata",
+        "description": "lemonade",
+        "largePrice": 40
+      },
+      {
+        "name": "Soda (Sade / Limonlu)",
+        "description": "",
+        "smallPrice": 30,
+        "largePrice": 35
+      },
+      {
+        "name": "Su (Pet / Cam)",
+        "description": "Water (plastic / glas bottle)",
+        "smallPrice": 15,
+        "largePrice": 20
+      }
+    ]
+  },
+  {
+    "name": "EKSTRALAR / EXTRAS",
+    "items": [
+      {
+        "name": "2. Aroma / 2. Aroma",
+        "largePrice": 10
+      },
+      {
+        "name": "Bal / Honey",
+        "largePrice": 10
+      },
+      {
+        "name": "Krema / Cream",
+        "largePrice": 20
+      },
+      {
+        "name": "Yulaf Süt / Oat milk",
+        "largePrice": 20
+      },
+      {
+        "name": "Kafeinsiz / Decaffeinated",
+        "largePrice": 20
+      }
+    ]
+  }
+]
