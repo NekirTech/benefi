@@ -1,9 +1,9 @@
 <template>
   <q-layout view="hHh lpR fFf">
-    <div class="header row justify-between">
+    <div class="header row justify-between bg-accent">
       <div class="logo-container">
         <img src="benefi_logo.png" alt="Café Logo" class="logo" />
-        <div class="text-h5 text-white logo-text">Benefi Café</div>
+        <div class="text-h5 text-dark logo-text">Benefi Café</div>
       </div>
       <div class="flags">
         <country-flag country="us" size="big" @click="changeLanguage('en')" />
