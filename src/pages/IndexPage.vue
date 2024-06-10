@@ -50,7 +50,10 @@
         {{ street }}<br />
         {{ postcode }}<br />
         <br />
+        {{ phone }}<br />
         {{ email }}<br />
+        Instagram: benefi_cafe<br />
+        TikTok: benefi.cafe
       </p>
     </div>
   </div>
@@ -89,6 +92,7 @@ const imprint = ref(current['imprint']);
 const name = ref(current['name']);
 const street = ref(current['street']);
 const postcode = ref(current['postcode']);
+const phone = ref(current['phone']);
 const email = ref(current['email']);
 function switchLanguage(language) {
   if (language == 'tr') {
@@ -108,6 +112,7 @@ function switchLanguage(language) {
   name.value = current['name'];
   street.value = current['street'];
   postcode.value = current['postcode'];
+  phone.value = current['phone'];
   email.value = current['email'];
 }
 bus.on('changeLanguage', (lang) => {

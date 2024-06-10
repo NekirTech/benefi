@@ -2,11 +2,21 @@
   "welcome": "Didim'de Benefi Café'ye hoş geldiniz",
   "enjoy": "Kahve, Çay ve ev yapımı pastalarımızı güzel atmosferimizde keyifle tadın!",
   "opening": "Açılış Saatleri",
-  "times": ["Pazartesi - Cumartesi 8 - 24", "Pazar 10 - 24"],
-  "location": "Kent Meydanı karşısı",
+  "times": [
+    "Pazartesi:    08 - 24",
+    "Salı:         08 - 24",
+    "Carşamba:     08 - 24",
+    "Perşembe:     08 - 24",
+    "Cuma:         08 - 24",
+    "Cumartesi:    08 - 24",
+    "Pazar:       10 - 24"
+  ],
+  "location": "Konum-mevki",
+  "located": "Kent Meydanı YapıKredı Bankası karşısı",
   "imprint": "İletişim Bilgileri",
   "name": "Benefi Cafe",
   "street": "Yeni, Atatürk Blv. No:138",
   "postcode": "09270 Didim/Aydın",
+  "phone": "00 90 555 692 43 15",
   "email": "E-Posta: info@benefi.cafe"
 }
