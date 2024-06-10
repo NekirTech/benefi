@@ -35,7 +35,13 @@
     </div>
     <div class="q-pa-md">
       <h1 class="text-h5 q-mb-md">{{ opening }}</h1>
-      <p class="text-body1 q-mb-md">{{ location }}</p>
+      <p v-for="time in times" :key="time" class="text-body1 q-mb-md">
+        {{ time }}
+      </p>
+    </div>
+    <div class="q-pa-md">
+      <h1 class="text-h5 q-mb-md">{{ location }}</h1>
+      <p class="text-body1 q-mb-md">{{ located }}</p>
     </div>
     <div class="q-pa-md">
       <h1 class="text-h6 q-mb-md">{{ imprint }}</h1>
@@ -76,7 +82,9 @@ current = tr;
 const welcome = ref(current['welcome']);
 const enjoy = ref(current['enjoy']);
 const opening = ref(current['opening']);
+const times = ref(current['times']);
 const location = ref(current['location']);
+const located = ref(current['located']);
 const imprint = ref(current['imprint']);
 const name = ref(current['name']);
 const street = ref(current['street']);
@@ -93,7 +101,9 @@ function switchLanguage(language) {
   welcome.value = current['welcome'];
   enjoy.value = current['enjoy'];
   opening.value = current['opening'];
+  times.value = current['times'];
   location.value = current['location'];
+  located.value = current['located'];
   imprint.value = current['imprint'];
   name.value = current['name'];
   street.value = current['street'];

@@ -1,8 +1,10 @@
 {
   "welcome": "Welcome to Benefi Café in Didim",
   "enjoy": "Enjoy Coffee, Tea and homemade cakes in our lovely atmosphere!",
-  "opening": "Visit us every day 8 - 23",
-  "location": "Directly opposite of the city square",
+  "opening": "Opening Hours",
+  "times": ["Monday - Saturday 8 - 24", "Sunday 10 - 24"],
+  "location": "Location",
+  "located": "Directly opposite of the city square",
   "imprint": "Imprint",
   "name": "Benefi Cafe",
   "street": "Yeni, Atatürk Blv. No:138",
