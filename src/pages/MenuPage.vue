@@ -40,10 +40,3 @@
 <script setup>
 import menu from 'src/locales/menu.json';
 </script>
-
-<style scoped>
-.content2 {
-  margin-top: 80px; /* Platz für den fixierten Header schaffen */
-  padding: 20px;
-}
-</style>
