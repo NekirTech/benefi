@@ -1,0 +1,141 @@
+{
+    "hot_drinks": {
+        "name": "SICAK IÇECEKLER"
+    },
+    "hot_coffees": {
+        "name": "SICAK KAHVELER"
+    },
+    "hot_teas": {
+        "name": "SICAK ÇAYLAR"
+    },
+    "ronnefeldt_world_tea": {
+        "name": "RONNEFELDT DÜNYA ÇAYLARI"
+    },
+    "other_hot_drinks": {
+        "name": "DIĞER SICAK IÇECEKLER"
+    },
+    "cold_coffees": {
+        "name": "SOĞUK KAHVELER"
+    },
+    "softdrinks": {
+        "name": "MESRUBATLAR"
+    },
+    "espresso": {
+        "name": "Espresso"
+    },
+    "espresso_con_panna": {},
+    "americano": {},
+    "dark_americano": {},
+    "cortado": {},
+    "cappuccino": {},
+    "flat_white": {},
+    "latte_macchiato": {},
+    "mocha_/_w._chocolate_mocha": {},
+    "latte": {},
+    "filtre_kahve": {
+        "name": "Filtre Kahve",
+        "description": "filter coffee"
+    },
+    "türk_kahvesi": {
+        "name": "Türk Kahvesi",
+        "description": "turkish coffee"
+    },
+    "kafeinsiz_t._kahvesi": {
+        "name": "Kafeinsiz T. Kahvesi",
+        "description": "decaffeinated turkish coffee"
+    },
+    "dibek_kahvesi_-_harput": {
+        "name": "Dibek Kahvesi - Harput"
+    },
+    "demleme_çay_/_black_tea": {},
+    "ihlamur_/_linden": {},
+    "adaçayı_/_sage": {},
+    "nane_limon_/_mint_+_lemon": {},
+    "yeşil_çay_/_green_tea": {},
+    "naneli_yeşil_çay_/_mint_green_tea": {},
+    "detoks_çay_/_detox_tea": {},
+    "rüya_çay_/_dream_tea": {},
+    "mavi_kelebek_çayı_/_blue_butterfly_tea": {},
+    "chai_tea_latte": {},
+    "benefi_yeşili_/_benefi_green_tea": {},
+    "vanilla_rooibos": {},
+    "rooibos_cream_orange": {},
+    "ayurveda_herbs_&_ginger": {},
+    "tropical_sun": {},
+    "fruity_camomile": {},
+    "black_tea": {
+        "name": "Siyah Çay "
+    },
+    "beyaz_çay_/_white_tea": {},
+    "morgentau": {},
+    "lychee_&_goji": {},
+    "jasmine_pearls": {},
+    "sıcak_çikolata": {},
+    "sahlep": {},
+    "matcha_latte": {},
+    "iced_americano": {},
+    "iced_cappuccino": {},
+    "iced_flat_white": {},
+    "iced_mocha": {},
+    "iced_white_chocolate_mocha": {},
+    "iced_latte": {},
+    "iced_matcha_latte": {},
+    "iced_green_benefi": {},
+    "iced_blue_lagoon": {},
+    "iced_chocolate": {},
+    "island_rush_cooler": {},
+    "affagato": {},
+    "milkshake": {},
+    "smoothie": {},
+    "frappe": {},
+    "frozen": {},
+    "i̇talyan_sodası": {},
+    "buzlu_çay_/_iced_tea": {},
+    "yeşil_çaylı_mojito_/_green_tea_mojito": {},
+    "churchill": {},
+    "bubble_tea": {
+        "name": "Bubble Tea",
+        "description": "Karamel / Çilek / Yaban Mersini "
+    },
+    "limonata_/_lemonade_(homemade)": {},
+    "cola,_fanta,_sprite": {
+        "name": "Cola, Fanta, Sprite"
+    },
+    "schweppes_(bitter_limon)": {},
+    "naren_(katkısız_meyve_suları)": {},
+    "naren_fruizy_(katkısız_meyve_suları)": {
+        "description": "Naren Fruizy (Katkısız Meyve Suları)"
+    },
+    "gazoz_çeşitleri": {},
+    "limonata": {},
+    "soda_(sade_/_limonlu)": {},
+    "su_(pet_/_cam)": {},
+    "chees_cake": {},
+    "karaorman_pastasi_(almanya)": {},
+    "browni": {},
+    "karpatka_(rus_pastasi)": {},
+    "medovik": {},
+    "san_sebastian": {},
+    "kek": {},
+    "kurabiye": {},
+    "tiramisu": {},
+    "käsesahne": {},
+    "donauwelle_dalga": {},
+    "çilekli_pasta": {},
+    "vasp_pastalar": {},
+    "tortlar": {},
+    "meyve_salatasi": {},
+    "bowl": {},
+    "mochi": {},
+    "hamsiköy_sütlaci": {},
+    "damla_sakizli_muhallebi": {},
+    "asure": {},
+    "kaymak_(ilave)": {},
+    "1_top_dondurma_(ilave)": {},
+    "2_top_dondurma_(ilave)": {},
+    "ayran": {},
+    "gazozlar": {},
+    "cappy": {},
+    "damla": {},
+    "naren": {}
+}

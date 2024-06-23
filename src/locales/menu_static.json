@@ -1,0 +1,315 @@
+{
+    "hot_drinks": {},
+    "hot_coffees": {},
+    "hot_teas": {},
+    "ronnefeldt_world_tea": {},
+    "other_hot_drinks": {},
+    "cold_coffees": {},
+    "softdrinks": {},
+    "espresso": {
+        "small_price": 60,
+        "large_price": 65,
+        "picture": "menu_pics/espresso.webp"
+    },
+    "espresso_con_panna": {
+        "large_price": 65
+    },
+    "americano": {
+        "large_price": 75
+    },
+    "dark_americano": {
+        "large_price": 85
+    },
+    "cortado": {
+        "large_price": 75
+    },
+    "cappuccino": {
+        "large_price": 75
+    },
+    "flat_white": {
+        "large_price": 85
+    },
+    "latte_macchiato": {
+        "large_price": 85
+    },
+    "mocha_/_w._chocolate_mocha": {
+        "large_price": 95
+    },
+    "latte": {
+        "large_price": 85,
+        "picture": "menu_pics/latte.webp"
+    },
+    "filtre_kahve": {
+        "large_price": 75
+    },
+    "türk_kahvesi": {
+        "small_price": 55,
+        "large_price": 65
+    },
+    "kafeinsiz_t._kahvesi": {
+        "small_price": 65,
+        "large_price": 70
+    },
+    "dibek_kahvesi_-_harput": {
+        "small_price": 65,
+        "large_price": 70
+    },
+    "demleme_çay_/_black_tea": {
+        "small_price": 30,
+        "large_price": 40
+    },
+    "ihlamur_/_linden": {
+        "large_price": 65
+    },
+    "adaçayı_/_sage": {
+        "large_price": 65
+    },
+    "nane_limon_/_mint_+_lemon": {
+        "large_price": 65
+    },
+    "yeşil_çay_/_green_tea": {
+        "small_price": 65,
+        "large_price": 65
+    },
+    "naneli_yeşil_çay_/_mint_green_tea": {
+        "large_price": 65
+    },
+    "detoks_çay_/_detox_tea": {
+        "large_price": 75
+    },
+    "rüya_çay_/_dream_tea": {
+        "large_price": 75
+    },
+    "mavi_kelebek_çayı_/_blue_butterfly_tea": {
+        "large_price": 75
+    },
+    "chai_tea_latte": {
+        "large_price": 75
+    },
+    "benefi_yeşili_/_benefi_green_tea": {
+        "large_price": 75
+    },
+    "vanilla_rooibos": {
+        "large_price": 75
+    },
+    "rooibos_cream_orange": {
+        "large_price": 75
+    },
+    "ayurveda_herbs_&_ginger": {
+        "large_price": 75
+    },
+    "tropical_sun": {
+        "large_price": 75
+    },
+    "fruity_camomile": {
+        "large_price": 75
+    },
+    "black_tea": {
+        "large_price": 75
+    },
+    "beyaz_çay_/_white_tea": {
+        "large_price": 75
+    },
+    "morgentau": {
+        "large_price": 75
+    },
+    "lychee_&_goji": {
+        "large_price": 75
+    },
+    "jasmine_pearls": {
+        "large_price": 75
+    },
+    "sıcak_çikolata": {
+        "large_price": 85
+    },
+    "sahlep": {
+        "large_price": 85
+    },
+    "matcha_latte": {
+        "large_price": 85
+    },
+    "iced_americano": {
+        "small_price": 80,
+        "large_price": 90
+    },
+    "iced_cappuccino": {
+        "small_price": 85,
+        "large_price": 95
+    },
+    "iced_flat_white": {
+        "small_price": 85,
+        "large_price": 95
+    },
+    "iced_mocha": {
+        "small_price": 95,
+        "large_price": 105
+    },
+    "iced_white_chocolate_mocha": {
+        "small_price": 95,
+        "large_price": 105
+    },
+    "iced_latte": {
+        "small_price": 85,
+        "large_price": 95,
+        "picture": "menu_pics/iced_latte.webp"
+    },
+    "iced_matcha_latte": {
+        "large_price": 95
+    },
+    "iced_green_benefi": {
+        "large_price": 75
+    },
+    "iced_blue_lagoon": {
+        "large_price": 75
+    },
+    "iced_chocolate": {
+        "small_price": 80,
+        "large_price": 90
+    },
+    "island_rush_cooler": {
+        "large_price": 75
+    },
+    "affagato": {
+        "large_price": 80
+    },
+    "milkshake": {
+        "large_price": 110
+    },
+    "smoothie": {
+        "large_price": 110
+    },
+    "frappe": {
+        "large_price": 110
+    },
+    "frozen": {
+        "large_price": 110
+    },
+    "i̇talyan_sodası": {
+        "large_price": 75
+    },
+    "buzlu_çay_/_iced_tea": {
+        "large_price": 75
+    },
+    "yeşil_çaylı_mojito_/_green_tea_mojito": {
+        "large_price": 75
+    },
+    "churchill": {
+        "large_price": 75
+    },
+    "bubble_tea": {
+        "large_price": 85,
+        "picture": "menu_pics/bubble_tea.webp"
+    },
+    "limonata_/_lemonade_(homemade)": {
+        "large_price": 75
+    },
+    "cola,_fanta,_sprite": {
+        "large_price": 45
+    },
+    "schweppes_(bitter_limon)": {
+        "large_price": 50
+    },
+    "naren_(katkısız_meyve_suları)": {},
+    "naren_fruizy_(katkısız_meyve_suları)": {
+        "large_price": 50
+    },
+    "gazoz_çeşitleri": {
+        "large_price": 50
+    },
+    "limonata": {
+        "large_price": 40
+    },
+    "soda_(sade_/_limonlu)": {
+        "small_price": 30,
+        "large_price": 35
+    },
+    "su_(pet_/_cam)": {
+        "small_price": 15,
+        "large_price": 20
+    },
+    "chees_cake": {
+        "large_price": 145
+    },
+    "karaorman_pastasi_(almanya)": {
+        "large_price": 135
+    },
+    "browni": {
+        "large_price": 135
+    },
+    "karpatka_(rus_pastasi)": {
+        "large_price": 145
+    },
+    "medovik": {
+        "large_price": 145
+    },
+    "san_sebastian": {
+        "large_price": 145,
+        "picture": "menu_pics/san_sebastian.webp"
+    },
+    "kek": {
+        "large_price": 115
+    },
+    "kurabiye": {
+        "large_price": 65
+    },
+    "tiramisu": {
+        "large_price": 145
+    },
+    "käsesahne": {
+        "large_price": 145
+    },
+    "donauwelle_dalga": {
+        "large_price": 145
+    },
+    "çilekli_pasta": {},
+    "vasp_pastalar": {
+        "large_price": 145
+    },
+    "tortlar": {
+        "large_price": 145
+    },
+    "meyve_salatasi": {
+        "large_price": 115
+    },
+    "bowl": {
+        "large_price": 115,
+        "picture": "menu_pics/bowl.webp"
+    },
+    "mochi": {
+        "large_price": 75,
+        "picture": "menu_pics/mochi.webp"
+    },
+    "hamsiköy_sütlaci": {
+        "large_price": 135
+    },
+    "damla_sakizli_muhallebi": {
+        "large_price": 135
+    },
+    "asure": {
+        "large_price": 135
+    },
+    "kaymak_(ilave)": {
+        "large_price": 30
+    },
+    "1_top_dondurma_(ilave)": {
+        "large_price": 25
+    },
+    "2_top_dondurma_(ilave)": {
+        "large_price": 50
+    },
+    "ayran": {
+        "large_price": 30
+    },
+    "gazozlar": {
+        "large_price": 50
+    },
+    "cappy": {
+        "large_price": 50
+    },
+    "damla": {
+        "large_price": 30
+    },
+    "naren": {
+        "large_price": 60
+    }
+}

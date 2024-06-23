@@ -1,8 +1,8 @@
 <template>
   <div class="content">
-    <h1 class="text-h4 q-mb-lg text-center">Menü</h1>
+    <h1 class="text-h4 q-mb-lg text-center">Menu</h1>
     <q-list bordered padding>
-      <my-expansion-item :items="menu" level="0"></my-expansion-item>
+      <my-expansion-item :items="menu" :level="Number(0)"></my-expansion-item>
     </q-list>
   </div>
 </template>

@@ -1,0 +1,346 @@
+{
+    "hot_drinks": {
+        "name": "HOT DRINKS"
+    },
+    "hot_coffees": {
+        "name": "HOT COFFEES"
+    },
+    "hot_teas": {
+        "name": "HOT TEAS"
+    },
+    "ronnefeldt_world_tea": {
+        "name": "RONNEFELDT WORLD TEA"
+    },
+    "other_hot_drinks": {
+        "name": "OTHER HOT DRINKS"
+    },
+    "cold_coffees": {
+        "name": "COLD COFFEES"
+    },
+    "softdrinks": {
+        "name": "SOFTDRINKS"
+    },
+    "espresso": {
+        "name": "Espresso"
+    },
+    "espresso_con_panna": {
+        "name": "Espresso con Panna"
+    },
+    "americano": {
+        "name": "Americano"
+    },
+    "dark_americano": {
+        "name": "Dark Americano"
+    },
+    "cortado": {
+        "name": "Cortado"
+    },
+    "cappuccino": {
+        "name": "Cappuccino"
+    },
+    "flat_white": {
+        "name": "Flat White"
+    },
+    "latte_macchiato": {
+        "name": "Latte Macchiato"
+    },
+    "mocha_/_w._chocolate_mocha": {
+        "name": "Mocha / W. Chocolate Mocha"
+    },
+    "latte": {
+        "name": "Latte",
+        "description": "Extra Sirup + 10"
+    },
+    "filtre_kahve": {
+        "name": "Filtre Kahve"
+    },
+    "türk_kahvesi": {
+        "name": "Türk Kahvesi"
+    },
+    "kafeinsiz_t._kahvesi": {
+        "name": "Kafeinsiz T. Kahvesi"
+    },
+    "dibek_kahvesi_-_harput": {
+        "name": "Dibek Kahvesi - Harput"
+    },
+    "demleme_çay_/_black_tea": {
+        "name": "Demleme Çay / Black Tea"
+    },
+    "ihlamur_/_linden": {
+        "name": "Ihlamur / Linden"
+    },
+    "adaçayı_/_sage": {
+        "name": "Adaçayı / Sage"
+    },
+    "nane_limon_/_mint_+_lemon": {
+        "name": "Nane Limon / Mint + Lemon"
+    },
+    "yeşil_çay_/_green_tea": {
+        "name": "Yeşil Çay / Green Tea"
+    },
+    "naneli_yeşil_çay_/_mint_green_tea": {
+        "name": "Naneli Yeşil Çay / Mint Green Tea"
+    },
+    "detoks_çay_/_detox_tea": {
+        "name": "Detoks Çay / Detox Tea"
+    },
+    "rüya_çay_/_dream_tea": {
+        "name": "Rüya Çay / Dream Tea"
+    },
+    "mavi_kelebek_çayı_/_blue_butterfly_tea": {
+        "name": "Mavi Kelebek Çayı / Blue Butterfly Tea"
+    },
+    "chai_tea_latte": {
+        "name": "Chai Tea Latte"
+    },
+    "benefi_yeşili_/_benefi_green_tea": {
+        "name": "BENEFI Yeşili / BENEFI Green Tea",
+        "description": "Süt, Nane şurubu / Milk, Mint Syrup"
+    },
+    "vanilla_rooibos": {
+        "name": "Vanilla Rooibos",
+        "description": "Güney Afrika / rooibos, vanilya"
+    },
+    "rooibos_cream_orange": {
+        "name": "Rooibos Cream Orange",
+        "description": "Güney Afrika / rooibos, portakal kabuğu"
+    },
+    "ayurveda_herbs_&_ginger": {
+        "name": "Ayurveda Herbs & Ginger",
+        "description": "Nijerya / zencefil, anason, rezene, limon otu, tarçın, karabiber, papatya, melisa, gül"
+    },
+    "tropical_sun": {
+        "name": "Tropical Sun",
+        "description": "Almanya / ananas, elma, papatya, mango, portakal, gül yaprakları"
+    },
+    "fruity_camomile": {
+        "name": "Fruity Camomile",
+        "description": "Hırvatistan / papatya, portakal çiçeği"
+    },
+    "black_tea": {
+        "name": "Black Tea",
+        "description": "Masalai Chai: Hindistan / siyah çay, tarçın, rezene, zencefil"
+    },
+    "beyaz_çay_/_white_tea": {
+        "name": "Beyaz Çay / White Tea",
+        "description": "White Ling Yong"
+    },
+    "morgentau": {
+        "name": "Morgentau",
+        "description": "Çin / yeşil çay, gül ve ayçiçeği yaprakları, doğal mango aroması"
+    },
+    "lychee_&_goji": {
+        "name": "Lychee & Goji",
+        "description": "Çin / yeşil çay, kiraz parçacıkları, nar, kızılcık, goji meyveleri, liçi aroması"
+    },
+    "jasmine_pearls": {
+        "name": "Jasmine Pearls",
+        "description": "Çin / yeşil çay, yasemin çiçekleri"
+    },
+    "sıcak_çikolata": {
+        "name": "Sıcak Çikolata",
+        "description": "hot chocolate"
+    },
+    "sahlep": {
+        "name": "Sahlep",
+        "description": "sweet hot creamy milk with cinnamon with herbal thickener (Sahlep plant)"
+    },
+    "matcha_latte": {
+        "name": "Matcha Latte"
+    },
+    "iced_americano": {
+        "name": "Iced Americano"
+    },
+    "iced_cappuccino": {
+        "name": "Iced Cappuccino"
+    },
+    "iced_flat_white": {
+        "name": "Iced Flat White"
+    },
+    "iced_mocha": {
+        "name": "Iced Mocha"
+    },
+    "iced_white_chocolate_mocha": {
+        "name": "Iced White Chocolate Mocha"
+    },
+    "iced_latte": {
+        "name": "Iced Latte",
+        "description": "Extra Surup + 10 / Extra Syrup + 10"
+    },
+    "iced_matcha_latte": {
+        "name": "Iced Matcha Latte"
+    },
+    "iced_green_benefi": {
+        "name": "Iced Green BENEFI"
+    },
+    "iced_blue_lagoon": {
+        "name": "Iced Blue Lagoon"
+    },
+    "iced_chocolate": {
+        "name": "Iced Chocolate"
+    },
+    "island_rush_cooler": {
+        "name": "Island Rush Cooler"
+    },
+    "affagato": {
+        "name": "Affagato",
+        "description": "Bir top dondurma / One scoop of ice cream"
+    },
+    "milkshake": {
+        "name": "Milkshake",
+        "description": "Vanilya / Çikolata / Muz / Çilek"
+    },
+    "smoothie": {
+        "name": "Smoothie",
+        "description": "Muz / Çilek"
+    },
+    "frappe": {
+        "name": "Frappe",
+        "description": "Vanilya / Çikolata / Muz / Çilek / Karamel"
+    },
+    "frozen": {
+        "name": "Frozen",
+        "description": "Muz / Çilek / Yaban Mersini"
+    },
+    "i̇talyan_sodası": {
+        "name": "İtalyan Sodası",
+        "description": "Mavi / Yeşil / Kırmızı"
+    },
+    "buzlu_çay_/_iced_tea": {
+        "name": "Buzlu Çay / Iced Tea",
+        "description": "Limonlu ve Tarçınlı"
+    },
+    "yeşil_çaylı_mojito_/_green_tea_mojito": {
+        "name": "Yeşil Çaylı Mojito / Green Tea Mojito",
+        "description": "Green tea mojito"
+    },
+    "churchill": {
+        "name": "Churchill",
+        "description": "Soda, Limon, Tuz / Soda, Lemon, Salt"
+    },
+    "bubble_tea": {
+        "name": "Bubble Tea",
+        "description": "Caramel / Strawberry / Blueberry"
+    },
+    "limonata_/_lemonade_(homemade)": {
+        "name": "Limonata / Lemonade (HOMEMADE)",
+        "description": "Extra Aroma + 10"
+    },
+    "cola,_fanta,_sprite": {
+        "name": "Cola, Fanta, Sprite"
+    },
+    "schweppes_(bitter_limon)": {
+        "name": "Schweppes (Bitter Limon)"
+    },
+    "naren_(katkısız_meyve_suları)": {
+        "name": "Naren (Katkısız Meyve Suları)"
+    },
+    "naren_fruizy_(katkısız_meyve_suları)": {
+        "name": "Naren Fruizy (Katkısız Meyve Suları)"
+    },
+    "gazoz_çeşitleri": {
+        "name": "Gazoz Çeşitleri"
+    },
+    "limonata": {
+        "name": "Limonata",
+        "description": "lemonade"
+    },
+    "soda_(sade_/_limonlu)": {
+        "name": "Soda (Sade / Limonlu)"
+    },
+    "su_(pet_/_cam)": {
+        "name": "Su (Pet / Cam)",
+        "description": "Water (plastic / glas bottle)"
+    },
+    "chees_cake": {
+        "name": "Chees Cake"
+    },
+    "karaorman_pastasi_(almanya)": {
+        "name": "Karaorman Pastasi (Almanya)"
+    },
+    "browni": {
+        "name": "Browni"
+    },
+    "karpatka_(rus_pastasi)": {
+        "name": "Karpatka (Rus Pastasi)"
+    },
+    "medovik": {
+        "name": "Medovik",
+        "description": "Rus Pastasi"
+    },
+    "san_sebastian": {
+        "name": "San Sebastian"
+    },
+    "kek": {
+        "name": "Kek",
+        "description": "Limonlu / Havuçlu / Çikolatali"
+    },
+    "kurabiye": {
+        "name": "Kurabiye"
+    },
+    "tiramisu": {
+        "name": "Tiramisu"
+    },
+    "käsesahne": {
+        "name": "Käsesahne"
+    },
+    "donauwelle_dalga": {
+        "name": "Donauwelle Dalga"
+    },
+    "çilekli_pasta": {
+        "name": "Çilekli Pasta"
+    },
+    "vasp_pastalar": {
+        "name": "Vasp Pastalar",
+        "description": "Çilekli / Y. Mersini / Orman Meyveli "
+    },
+    "tortlar": {
+        "name": "Tortlar",
+        "description": "Çilekli / Visneli / Elmaali / Karaorman"
+    },
+    "meyve_salatasi": {
+        "name": "Meyve Salatasi",
+        "description": "Granola + Mewsim Mey + Keten ??"
+    },
+    "bowl": {
+        "name": "Bowl",
+        "description": "Süzme Yogurt + Yulaf, Badem/Findik???"
+    },
+    "mochi": {
+        "name": "Mochi"
+    },
+    "hamsiköy_sütlaci": {
+        "name": "Hamsiköy Sütlaci"
+    },
+    "damla_sakizli_muhallebi": {
+        "name": "Damla Sakizli Muhallebi"
+    },
+    "asure": {
+        "name": "Asure"
+    },
+    "kaymak_(ilave)": {
+        "name": "Kaymak (Ilave)"
+    },
+    "1_top_dondurma_(ilave)": {
+        "name": "1 Top Dondurma (Ilave)"
+    },
+    "2_top_dondurma_(ilave)": {
+        "name": "2 Top Dondurma (Ilave)"
+    },
+    "ayran": {
+        "name": "Ayran"
+    },
+    "gazozlar": {
+        "name": "Gazozlar"
+    },
+    "cappy": {
+        "name": "Cappy"
+    },
+    "damla": {
+        "name": "Damla",
+        "description": "Limonlu +5 "
+    },
+    "naren": {
+        "name": "Naren"
+    }
+}
