@@ -33,13 +33,13 @@
         </q-item-label>
       </q-item-section>
       <q-item-section side>
-        <q-item-label v-if="getStaticValues(item, 'smallPrice')"
-          >{{ getStaticValues(item, 'smallPrice') }} /
-          {{ getStaticValues(item, 'largePrice') }}
+        <q-item-label v-if="getStaticValues(item, 'small_price')"
+          >{{ getStaticValues(item, 'small_price') }} /
+          {{ getStaticValues(item, 'large_price') }}
         </q-item-label>
 
-        <q-item-label v-if="!getStaticValues(item, 'smallPrice')">
-          {{ getStaticValues(item, 'largePrice') }}
+        <q-item-label v-if="!getStaticValues(item, 'small_price')">
+          {{ getStaticValues(item, 'large_price') }}
         </q-item-label>
       </q-item-section>
     </q-item>
