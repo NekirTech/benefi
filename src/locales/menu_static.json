@@ -1,315 +1,478 @@
 {
     "hot_drinks": {},
+    "cold_drinks": {},
     "hot_coffees": {},
     "hot_teas": {},
     "ronnefeldt_world_tea": {},
     "other_hot_drinks": {},
     "cold_coffees": {},
+    "other_cold_drinks": {},
     "softdrinks": {},
+    "sweet_foods": {},
+    "savory_foods": {},
+    "world_of_sweets": {},
+    "homemade_sweets_(please_ask_for_daily_cakes)": {},
+    "savory_world": {},
+    "homemade_savory_food_(please_ask_for_daily_made_foods)": {},
+    "breakfast_world": {},
+    "fit_world": {},
+    "extras_(selection_will_be_added_to_the_price)": {},
     "espresso": {
-        "small_price": 60,
-        "large_price": 65,
+        "small_price": 65,
+        "medium_price": 70,
         "picture": "menu_pics/espresso.webp"
     },
-    "espresso_con_panna": {
-        "large_price": 65
-    },
-    "americano": {
-        "large_price": 75
-    },
-    "dark_americano": {
-        "large_price": 85
-    },
-    "cortado": {
-        "large_price": 75
-    },
-    "cappuccino": {
-        "large_price": 75
-    },
-    "flat_white": {
-        "large_price": 85
-    },
-    "latte_macchiato": {
-        "large_price": 85
-    },
-    "mocha_/_w._chocolate_mocha": {
-        "large_price": 95
-    },
-    "latte": {
-        "large_price": 85,
-        "picture": "menu_pics/latte.webp"
-    },
-    "filtre_kahve": {
-        "large_price": 75
-    },
-    "türk_kahvesi": {
-        "small_price": 55,
-        "large_price": 65
-    },
-    "kafeinsiz_t._kahvesi": {
-        "small_price": 65,
-        "large_price": 70
-    },
-    "dibek_kahvesi_-_harput": {
-        "small_price": 65,
-        "large_price": 70
-    },
-    "demleme_çay_/_black_tea": {
-        "small_price": 30,
-        "large_price": 40
-    },
-    "ihlamur_/_linden": {
-        "large_price": 65
-    },
-    "adaçayı_/_sage": {
-        "large_price": 65
-    },
-    "nane_limon_/_mint_+_lemon": {
-        "large_price": 65
-    },
-    "yeşil_çay_/_green_tea": {
-        "small_price": 65,
-        "large_price": 65
-    },
-    "naneli_yeşil_çay_/_mint_green_tea": {
-        "large_price": 65
-    },
-    "detoks_çay_/_detox_tea": {
-        "large_price": 75
-    },
-    "rüya_çay_/_dream_tea": {
-        "large_price": 75
-    },
-    "mavi_kelebek_çayı_/_blue_butterfly_tea": {
-        "large_price": 75
-    },
-    "chai_tea_latte": {
-        "large_price": 75
-    },
-    "benefi_yeşili_/_benefi_green_tea": {
-        "large_price": 75
-    },
-    "vanilla_rooibos": {
-        "large_price": 75
-    },
-    "rooibos_cream_orange": {
-        "large_price": 75
-    },
-    "ayurveda_herbs_&_ginger": {
-        "large_price": 75
-    },
-    "tropical_sun": {
-        "large_price": 75
-    },
-    "fruity_camomile": {
-        "large_price": 75
-    },
-    "black_tea": {
-        "large_price": 75
-    },
-    "beyaz_çay_/_white_tea": {
-        "large_price": 75
-    },
-    "morgentau": {
-        "large_price": 75
-    },
-    "lychee_&_goji": {
-        "large_price": 75
-    },
-    "jasmine_pearls": {
-        "large_price": 75
-    },
-    "sıcak_çikolata": {
-        "large_price": 85
-    },
-    "sahlep": {
-        "large_price": 85
-    },
-    "matcha_latte": {
-        "large_price": 85
-    },
-    "iced_americano": {
-        "small_price": 80,
+    "lungo": {
+        "medium_price": 75,
         "large_price": 90
     },
+    "espresso_con_panna": {
+        "medium_price": 65
+    },
+    "americano": {
+        "medium_price": 85,
+        "large_price": 100
+    },
+    "dark_americano": {
+        "medium_price": 90,
+        "large_price": 105
+    },
+    "cortado": {
+        "medium_price": 75,
+        "large_price": 90
+    },
+    "red_eye": {
+        "medium_price": 85,
+        "large_price": 100
+    },
+    "black_eye": {
+        "medium_price": 95,
+        "large_price": 110
+    },
+    "cappuccino": {
+        "medium_price": 90,
+        "large_price": 105
+    },
+    "flat_white": {
+        "medium_price": 90,
+        "large_price": 105
+    },
+    "latte_macchiato": {
+        "medium_price": 90,
+        "large_price": 105
+    },
+    "mocha": {
+        "medium_price": 100,
+        "large_price": 115
+    },
+    "white_chocolate_mocha": {
+        "medium_price": 100,
+        "large_price": 115
+    },
+    "latte": {
+        "medium_price": 90,
+        "large_price": 105,
+        "picture": "menu_pics/latte.webp"
+    },
+    "filter_coffee": {
+        "medium_price": 85,
+        "large_price": 100,
+        "picture": "menu_pics/filter_coffee.webp"
+    },
+    "turkish_coffee": {
+        "small_price": 55,
+        "medium_price": 65
+    },
+    "decaffeinated_turkish_coffee": {
+        "small_price": 65,
+        "medium_price": 70
+    },
+    "dibek_turkish_coffee__(harput_coffee)": {
+        "small_price": 65,
+        "medium_price": 70
+    },
+    "black_tea": {
+        "small_price": 30,
+        "medium_price": 40,
+        "large_price": 60
+    },
+    "linden": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "sage": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "mint_lemon_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "green_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "mint_green_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "detox_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "dream_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "blue_butterfly_tea": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "rooibos_cream_orange": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "ayurveda_herbs_&_ginger": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "tropical_sun": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "irish_whsiky-cream": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "masalia_chai": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "white_yin_long": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "morgentau": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "lychee_&_goji": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "jasmine_pearls": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "huckleberry_find": {
+        "medium_price": 75,
+        "large_price": 85
+    },
+    "hot_chocolate": {
+        "medium_price": 90
+    },
+    "sahlep": {
+        "medium_price": 90
+    },
+    "matcha_latte": {
+        "medium_price": 90
+    },
+    "chai_tea_latte": {
+        "medium_price": 90
+    },
+    "benefi_green_tea": {
+        "medium_price": 90
+    },
+    "affagato": {
+        "medium_price": 90
+    },
+    "iced_filter_coffee": {
+        "medium_price": 90,
+        "large_price": 105
+    },
+    "iced_americano": {
+        "medium_price": 90,
+        "large_price": 105
+    },
     "iced_cappuccino": {
-        "small_price": 85,
-        "large_price": 95
+        "medium_price": 95,
+        "large_price": 105
     },
     "iced_flat_white": {
-        "small_price": 85,
-        "large_price": 95
+        "medium_price": 100,
+        "large_price": 115
     },
     "iced_mocha": {
-        "small_price": 95,
-        "large_price": 105
+        "medium_price": 110,
+        "large_price": 125
     },
     "iced_white_chocolate_mocha": {
-        "small_price": 95,
-        "large_price": 105
+        "medium_price": 110,
+        "large_price": 125
     },
     "iced_latte": {
-        "small_price": 85,
-        "large_price": 95,
+        "medium_price": 95,
+        "large_price": 105,
         "picture": "menu_pics/iced_latte.webp"
     },
+    "iced_red_eye": {
+        "medium_price": 120,
+        "large_price": 135
+    },
+    "milkshake": {
+        "large_price": 120
+    },
+    "smoothie": {
+        "large_price": 120
+    },
+    "frappe": {
+        "large_price": 120
+    },
+    "frozen": {
+        "large_price": 120
+    },
+    "i̇talyan_sodası": {
+        "large_price": 80
+    },
     "iced_matcha_latte": {
-        "large_price": 95
+        "large_price": 90
     },
     "iced_green_benefi": {
-        "large_price": 75
+        "large_price": 90
     },
     "iced_blue_lagoon": {
-        "large_price": 75
+        "large_price": 90
     },
     "iced_chocolate": {
-        "small_price": 80,
+        "large_price": 90
+    },
+    "iced_tea": {
+        "large_price": 90
+    },
+    "iced_green_tea_mojito": {
         "large_price": 90
     },
     "island_rush_cooler": {
-        "large_price": 75
+        "large_price": 90
     },
-    "affagato": {
-        "large_price": 80
-    },
-    "milkshake": {
-        "large_price": 110
-    },
-    "smoothie": {
-        "large_price": 110
-    },
-    "frappe": {
-        "large_price": 110
-    },
-    "frozen": {
-        "large_price": 110
-    },
-    "i̇talyan_sodası": {
-        "large_price": 75
-    },
-    "buzlu_çay_/_iced_tea": {
-        "large_price": 75
-    },
-    "yeşil_çaylı_mojito_/_green_tea_mojito": {
-        "large_price": 75
+    "pina_colada": {
+        "large_price": 90
     },
     "churchill": {
-        "large_price": 75
+        "medium_price": 75
     },
     "bubble_tea": {
-        "large_price": 85,
+        "medium_price": 90,
         "picture": "menu_pics/bubble_tea.webp"
     },
-    "limonata_/_lemonade_(homemade)": {
-        "large_price": 75
+    "lemonade_(homemade)": {
+        "large_price": 95
     },
-    "cola,_fanta,_sprite": {
-        "large_price": 45
+    "black_mulberry__(homemade)": {
+        "large_price": 95
     },
-    "schweppes_(bitter_limon)": {
-        "large_price": 50
+    "cool_lime": {
+        "large_price": 95
     },
-    "naren_(katkısız_meyve_suları)": {},
+    "coca_cola,_zero,_pepsi,fanta,_sprite": {
+        "medium_price": 60
+    },
+    "naren_(katkısız_meyve_suları)": {
+        "medium_price": 60
+    },
     "naren_fruizy_(katkısız_meyve_suları)": {
-        "large_price": 50
+        "medium_price": 75
     },
-    "gazoz_çeşitleri": {
-        "large_price": 50
+    "soda_types": {
+        "medium_price": 60
     },
-    "limonata": {
-        "large_price": 40
+    "plain_soda_": {
+        "medium_price": 35
     },
-    "soda_(sade_/_limonlu)": {
-        "small_price": 30,
-        "large_price": 35
-    },
-    "su_(pet_/_cam)": {
-        "small_price": 15,
-        "large_price": 20
-    },
-    "chees_cake": {
-        "large_price": 145
-    },
-    "karaorman_pastasi_(almanya)": {
-        "large_price": 135
-    },
-    "browni": {
-        "large_price": 135
-    },
-    "karpatka_(rus_pastasi)": {
-        "large_price": 145
-    },
-    "medovik": {
-        "large_price": 145
-    },
-    "san_sebastian": {
-        "large_price": 145,
-        "picture": "menu_pics/san_sebastian.webp"
-    },
-    "kek": {
-        "large_price": 115
-    },
-    "kurabiye": {
-        "large_price": 65
-    },
-    "tiramisu": {
-        "large_price": 145
-    },
-    "käsesahne": {
-        "large_price": 145
-    },
-    "donauwelle_dalga": {
-        "large_price": 145
-    },
-    "çilekli_pasta": {},
-    "vasp_pastalar": {
-        "large_price": 145
-    },
-    "tortlar": {
-        "large_price": 145
-    },
-    "meyve_salatasi": {
-        "large_price": 115
-    },
-    "bowl": {
-        "large_price": 115,
-        "picture": "menu_pics/bowl.webp"
-    },
-    "mochi": {
-        "large_price": 75,
-        "picture": "menu_pics/mochi.webp"
-    },
-    "hamsiköy_sütlaci": {
-        "large_price": 135
-    },
-    "damla_sakizli_muhallebi": {
-        "large_price": 135
-    },
-    "asure": {
-        "large_price": 135
-    },
-    "kaymak_(ilave)": {
-        "large_price": 30
-    },
-    "1_top_dondurma_(ilave)": {
-        "large_price": 25
-    },
-    "2_top_dondurma_(ilave)": {
-        "large_price": 50
+    "lemon_soda": {
+        "medium_price": 40
     },
     "ayran": {
-        "large_price": 30
+        "medium_price": 30
     },
-    "gazozlar": {
-        "large_price": 50
+    "water_(glas_bottle)": {
+        "medium_price": 20
     },
-    "cappy": {
-        "large_price": 50
+    "cheescake": {
+        "medium_price": 125
     },
-    "damla": {
-        "large_price": 30
+    "mosaic_cake": {
+        "medium_price": 125
     },
-    "naren": {
-        "large_price": 60
+    "latte_mono": {
+        "medium_price": 125
+    },
+    "my_heart": {
+        "medium_price": 125
+    },
+    "red_velvet": {
+        "medium_price": 125
+    },
+    "peanut_dream": {
+        "medium_price": 125
+    },
+    "devil's_cake": {
+        "medium_price": 125
+    },
+    "profitol_cake": {
+        "medium_price": 125
+    },
+    "donut": {
+        "medium_price": 70
+    },
+    "berliner": {
+        "medium_price": 70
+    },
+    "chees_cake": {
+        "medium_price": 155
+    },
+    "browni": {
+        "medium_price": 155
+    },
+    "magnolia_cake": {
+        "medium_price": 155
+    },
+    "san_sebastian_(spain)": {
+        "medium_price": 175
+    },
+    "karpatka_(polonya)_": {
+        "medium_price": 155
+    },
+    "medovik_(_rusya)": {
+        "medium_price": 155
+    },
+    "schwarzwälder_kirschtorte_(germany)": {
+        "medium_price": 155
+    },
+    "käsesahne_torte_(germany)": {
+        "medium_price": 155
+    },
+    "bienenstich_cake_(germany)": {
+        "medium_price": 155
+    },
+    "linzer_torte_(germany)": {
+        "medium_price": 155
+    },
+    "trifle_(england)": {
+        "medium_price": 155
+    },
+    "mochi_(japan)": {
+        "medium_price": 75
+    },
+    "pastel_de_nata_(portugal)": {
+        "medium_price": 55
+    },
+    "fruit_cakes": {
+        "medium_price": 155
+    },
+    "cake_world": {
+        "medium_price": 115
+    },
+    "cookies": {
+        "medium_price": 65
+    },
+    "tiramisu": {
+        "medium_price": 155
+    },
+    "types_of_pies_(slice)": {
+        "medium_price": 155
+    },
+    "fruit_tartlets": {
+        "medium_price": 175
+    },
+    "magnolia_(abd)": {
+        "medium_price": 145
+    },
+    "hamsiköy_sütlaci": {
+        "medium_price": 135
+    },
+    "pudding_world": {
+        "medium_price": 135
+    },
+    "ashura": {
+        "medium_price": 135
+    },
+    "croissant_(planin)": {
+        "medium_price": 80
+    },
+    "croissant_(chocolate)": {
+        "medium_price": 100
+    },
+    "croissant_big_(planin)_": {
+        "medium_price": 100
+    },
+    "croissant_three_cheese": {
+        "medium_price": 150
+    },
+    "croissant_with_veal_ham": {
+        "medium_price": 150
+    },
+    "world_of_roll_pastry": {
+        "medium_price": 80
+    },
+    "herb_cheese_pastry": {
+        "medium_price": 80
+    },
+    "breakfast_plate": {
+        "medium_price": 195
+    },
+    "toast_-1": {
+        "medium_price": 120
+    },
+    "toast-_2": {
+        "medium_price": 130
+    },
+    "sandwich_-1": {
+        "medium_price": 130
+    },
+    "sandwich_-2": {
+        "medium_price": 130
+    },
+    "fruit_salad": {
+        "medium_price": 115,
+        "picture": "menu_pics/fruit_salad.webp"
+    },
+    "bowl": {
+        "medium_price": 125,
+        "picture": "menu_pics/bowl.webp"
+    },
+    "decaffeinated_coffee": {
+        "medium_price": 20
+    },
+    "cream": {
+        "medium_price": 25
+    },
+    "plant_milk_difference_(glass)": {
+        "medium_price": 50
+    },
+    "difference_between_lactose_free_milk_(glass)": {
+        "medium_price": 20
+    },
+    "added_milk_difference_(glass)": {
+        "medium_price": 20
+    },
+    "additional_coffee": {
+        "medium_price": 20
+    },
+    "additional_syrup": {
+        "medium_price": 20
+    },
+    "1_scoop_of_ice_cream": {
+        "medium_price": 25
+    },
+    "2_scoop_of_ice_cream": {
+        "medium_price": 50
+    },
+    "honey_": {
+        "medium_price": 15
+    },
+    "glass_and_ice": {
+        "medium_price": 10,
+        "large_price": 20
     }
 }

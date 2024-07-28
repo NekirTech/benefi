@@ -2,6 +2,9 @@
     "hot_drinks": {
         "name": "HOT DRINKS"
     },
+    "cold_drinks": {
+        "name": "COLD DRINKS"
+    },
     "hot_coffees": {
         "name": "HOT COFFEES"
     },
@@ -17,14 +20,47 @@
     "cold_coffees": {
         "name": "COLD COFFEES"
     },
+    "other_cold_drinks": {
+        "name": "OTHER COLD DRINKS"
+    },
     "softdrinks": {
         "name": "SOFTDRINKS"
+    },
+    "sweet_foods": {
+        "name": "SWEET FOODS"
+    },
+    "savory_foods": {
+        "name": "SAVORY FOODS"
+    },
+    "world_of_sweets": {
+        "name": "WORLD OF SWEETS"
+    },
+    "homemade_sweets_(please_ask_for_daily_cakes)": {
+        "name": "HOMEMADE SWEETS (please ask for daily cakes)"
+    },
+    "savory_world": {
+        "name": "SAVORY WORLD"
+    },
+    "homemade_savory_food_(please_ask_for_daily_made_foods)": {
+        "name": "HOMEMADE SAVORY FOOD (please ask for daily made foods)"
+    },
+    "breakfast_world": {
+        "name": "BREAKFAST WORLD"
+    },
+    "fit_world": {
+        "name": "FIT WORLD"
+    },
+    "extras_(selection_will_be_added_to_the_price)": {
+        "name": "EXTRAS (selection will be added to the price)"
     },
     "espresso": {
         "name": "Espresso"
     },
+    "lungo": {
+        "name": "Lungo"
+    },
     "espresso_con_panna": {
-        "name": "Espresso con Panna"
+        "name": "Espresso Con Panna"
     },
     "americano": {
         "name": "Americano"
@@ -35,6 +71,12 @@
     "cortado": {
         "name": "Cortado"
     },
+    "red_eye": {
+        "name": "RED Eye"
+    },
+    "black_eye": {
+        "name": "BLACK Eye"
+    },
     "cappuccino": {
         "name": "Cappuccino"
     },
@@ -44,109 +86,104 @@
     "latte_macchiato": {
         "name": "Latte Macchiato"
     },
-    "mocha_/_w._chocolate_mocha": {
-        "name": "Mocha / W. Chocolate Mocha"
+    "mocha": {
+        "name": "Mocha"
+    },
+    "white_chocolate_mocha": {
+        "name": "White Chocolate Mocha"
     },
     "latte": {
-        "name": "Latte",
-        "description": "Extra Sirup + 10"
+        "name": "Latte"
     },
-    "filtre_kahve": {
-        "name": "Filtre Kahve"
+    "filter_coffee": {
+        "name": "Filter Coffee"
     },
-    "türk_kahvesi": {
-        "name": "Türk Kahvesi"
+    "turkish_coffee": {
+        "name": "Turkish Coffee"
     },
-    "kafeinsiz_t._kahvesi": {
-        "name": "Kafeinsiz T. Kahvesi"
+    "decaffeinated_turkish_coffee": {
+        "name": "Decaffeinated Turkish Coffee"
     },
-    "dibek_kahvesi_-_harput": {
-        "name": "Dibek Kahvesi - Harput"
+    "dibek_turkish_coffee__(harput_coffee)": {
+        "name": "Dibek Turkish Coffee  (Harput Coffee)"
     },
-    "demleme_çay_/_black_tea": {
-        "name": "Demleme Çay / Black Tea"
+    "black_tea": {
+        "name": "Black Tea"
     },
-    "ihlamur_/_linden": {
-        "name": "Ihlamur / Linden"
+    "linden": {
+        "name": "Linden"
     },
-    "adaçayı_/_sage": {
-        "name": "Adaçayı / Sage"
+    "sage": {
+        "name": "Sage"
     },
-    "nane_limon_/_mint_+_lemon": {
-        "name": "Nane Limon / Mint + Lemon"
+    "mint_lemon_tea": {
+        "name": "Mint Lemon Tea"
     },
-    "yeşil_çay_/_green_tea": {
-        "name": "Yeşil Çay / Green Tea"
+    "green_tea": {
+        "name": "Green Tea"
     },
-    "naneli_yeşil_çay_/_mint_green_tea": {
-        "name": "Naneli Yeşil Çay / Mint Green Tea"
+    "mint_green_tea": {
+        "name": "Mint Green Tea"
     },
-    "detoks_çay_/_detox_tea": {
-        "name": "Detoks Çay / Detox Tea"
+    "detox_tea": {
+        "name": "Detox Tea"
     },
-    "rüya_çay_/_dream_tea": {
-        "name": "Rüya Çay / Dream Tea"
+    "dream_tea": {
+        "name": "Dream Tea"
     },
-    "mavi_kelebek_çayı_/_blue_butterfly_tea": {
-        "name": "Mavi Kelebek Çayı / Blue Butterfly Tea"
+    "blue_butterfly_tea": {
+        "name": "Blue Butterfly Tea"
+    },
+    "rooibos_cream_orange": {
+        "name": "Rooibos Cream Orange"
+    },
+    "ayurveda_herbs_&_ginger": {
+        "name": "Ayurveda Herbs & Ginger"
+    },
+    "tropical_sun": {
+        "name": "Tropical Sun"
+    },
+    "irish_whsiky-cream": {
+        "name": "Irish Whsiky-Cream"
+    },
+    "masalia_chai": {
+        "name": "Masalia Chai"
+    },
+    "white_yin_long": {
+        "name": "White Yin Long"
+    },
+    "morgentau": {
+        "name": "Morgentau"
+    },
+    "lychee_&_goji": {
+        "name": "Lychee & Goji"
+    },
+    "jasmine_pearls": {
+        "name": "Jasmine Pearls"
+    },
+    "huckleberry_find": {
+        "name": "Huckleberry Find"
+    },
+    "hot_chocolate": {
+        "name": "Hot Chocolate"
+    },
+    "sahlep": {
+        "name": "Sahlep"
+    },
+    "matcha_latte": {
+        "name": "Matcha Latte"
     },
     "chai_tea_latte": {
         "name": "Chai Tea Latte"
     },
-    "benefi_yeşili_/_benefi_green_tea": {
-        "name": "BENEFI Yeşili / BENEFI Green Tea",
-        "description": "Süt, Nane şurubu / Milk, Mint Syrup"
+    "benefi_green_tea": {
+        "name": "BENEFI Green Tea"
     },
-    "vanilla_rooibos": {
-        "name": "Vanilla Rooibos",
-        "description": "Güney Afrika / rooibos, vanilya"
+    "affagato": {
+        "name": "Affagato"
     },
-    "rooibos_cream_orange": {
-        "name": "Rooibos Cream Orange",
-        "description": "Güney Afrika / rooibos, portakal kabuğu"
-    },
-    "ayurveda_herbs_&_ginger": {
-        "name": "Ayurveda Herbs & Ginger",
-        "description": "Nijerya / zencefil, anason, rezene, limon otu, tarçın, karabiber, papatya, melisa, gül"
-    },
-    "tropical_sun": {
-        "name": "Tropical Sun",
-        "description": "Almanya / ananas, elma, papatya, mango, portakal, gül yaprakları"
-    },
-    "fruity_camomile": {
-        "name": "Fruity Camomile",
-        "description": "Hırvatistan / papatya, portakal çiçeği"
-    },
-    "black_tea": {
-        "name": "Black Tea",
-        "description": "Masalai Chai: Hindistan / siyah çay, tarçın, rezene, zencefil"
-    },
-    "beyaz_çay_/_white_tea": {
-        "name": "Beyaz Çay / White Tea",
-        "description": "White Ling Yong"
-    },
-    "morgentau": {
-        "name": "Morgentau",
-        "description": "Çin / yeşil çay, gül ve ayçiçeği yaprakları, doğal mango aroması"
-    },
-    "lychee_&_goji": {
-        "name": "Lychee & Goji",
-        "description": "Çin / yeşil çay, kiraz parçacıkları, nar, kızılcık, goji meyveleri, liçi aroması"
-    },
-    "jasmine_pearls": {
-        "name": "Jasmine Pearls",
-        "description": "Çin / yeşil çay, yasemin çiçekleri"
-    },
-    "sıcak_çikolata": {
-        "name": "Sıcak Çikolata",
-        "description": "hot chocolate"
-    },
-    "sahlep": {
-        "name": "Sahlep",
-        "description": "sweet hot creamy milk with cinnamon with herbal thickener (Sahlep plant)"
-    },
-    "matcha_latte": {
-        "name": "Matcha Latte"
+    "iced_filter_coffee": {
+        "name": "Iced Filter Coffee"
     },
     "iced_americano": {
         "name": "Iced Americano"
@@ -164,8 +201,25 @@
         "name": "Iced White Chocolate Mocha"
     },
     "iced_latte": {
-        "name": "Iced Latte",
-        "description": "Extra Surup + 10 / Extra Syrup + 10"
+        "name": "Iced Latte"
+    },
+    "iced_red_eye": {
+        "name": "Iced Red Eye"
+    },
+    "milkshake": {
+        "name": "Milkshake"
+    },
+    "smoothie": {
+        "name": "Smoothie"
+    },
+    "frappe": {
+        "name": "Frappe"
+    },
+    "frozen": {
+        "name": "Frozen"
+    },
+    "i̇talyan_sodası": {
+        "name": "İtalyan Sodası"
     },
     "iced_matcha_latte": {
         "name": "Iced Matcha Latte"
@@ -179,58 +233,35 @@
     "iced_chocolate": {
         "name": "Iced Chocolate"
     },
+    "iced_tea": {
+        "name": "Iced Tea"
+    },
+    "iced_green_tea_mojito": {
+        "name": "Iced Green Tea Mojito"
+    },
     "island_rush_cooler": {
         "name": "Island Rush Cooler"
     },
-    "affagato": {
-        "name": "Affagato",
-        "description": "Bir top dondurma / One scoop of ice cream"
-    },
-    "milkshake": {
-        "name": "Milkshake",
-        "description": "Vanilya / Çikolata / Muz / Çilek"
-    },
-    "smoothie": {
-        "name": "Smoothie",
-        "description": "Muz / Çilek"
-    },
-    "frappe": {
-        "name": "Frappe",
-        "description": "Vanilya / Çikolata / Muz / Çilek / Karamel"
-    },
-    "frozen": {
-        "name": "Frozen",
-        "description": "Muz / Çilek / Yaban Mersini"
-    },
-    "i̇talyan_sodası": {
-        "name": "İtalyan Sodası",
-        "description": "Mavi / Yeşil / Kırmızı"
-    },
-    "buzlu_çay_/_iced_tea": {
-        "name": "Buzlu Çay / Iced Tea",
-        "description": "Limonlu ve Tarçınlı"
-    },
-    "yeşil_çaylı_mojito_/_green_tea_mojito": {
-        "name": "Yeşil Çaylı Mojito / Green Tea Mojito",
-        "description": "Green tea mojito"
+    "pina_colada": {
+        "name": "Pina Colada"
     },
     "churchill": {
-        "name": "Churchill",
-        "description": "Soda, Limon, Tuz / Soda, Lemon, Salt"
+        "name": "Churchill"
     },
     "bubble_tea": {
-        "name": "Bubble Tea",
-        "description": "Caramel / Strawberry / Blueberry"
+        "name": "Bubble Tea"
     },
-    "limonata_/_lemonade_(homemade)": {
-        "name": "Limonata / Lemonade (HOMEMADE)",
-        "description": "Extra Aroma + 10"
+    "lemonade_(homemade)": {
+        "name": "Lemonade (HOMEMADE)"
     },
-    "cola,_fanta,_sprite": {
-        "name": "Cola, Fanta, Sprite"
+    "black_mulberry__(homemade)": {
+        "name": "Black Mulberry  (HOMEMADE)"
     },
-    "schweppes_(bitter_limon)": {
-        "name": "Schweppes (Bitter Limon)"
+    "cool_lime": {
+        "name": "Cool Lime"
+    },
+    "coca_cola,_zero,_pepsi,fanta,_sprite": {
+        "name": "Coca Cola, Zero, Pepsi,Fanta, Sprite"
     },
     "naren_(katkısız_meyve_suları)": {
         "name": "Naren (Katkısız Meyve Suları)"
@@ -238,109 +269,193 @@
     "naren_fruizy_(katkısız_meyve_suları)": {
         "name": "Naren Fruizy (Katkısız Meyve Suları)"
     },
-    "gazoz_çeşitleri": {
-        "name": "Gazoz Çeşitleri"
+    "soda_types": {
+        "name": "Soda Types"
     },
-    "limonata": {
-        "name": "Limonata",
-        "description": "lemonade"
+    "plain_soda_": {
+        "name": "Plain Soda "
     },
-    "soda_(sade_/_limonlu)": {
-        "name": "Soda (Sade / Limonlu)"
-    },
-    "su_(pet_/_cam)": {
-        "name": "Su (Pet / Cam)",
-        "description": "Water (plastic / glas bottle)"
-    },
-    "chees_cake": {
-        "name": "Chees Cake"
-    },
-    "karaorman_pastasi_(almanya)": {
-        "name": "Karaorman Pastasi (Almanya)"
-    },
-    "browni": {
-        "name": "Browni"
-    },
-    "karpatka_(rus_pastasi)": {
-        "name": "Karpatka (Rus Pastasi)"
-    },
-    "medovik": {
-        "name": "Medovik",
-        "description": "Rus Pastasi"
-    },
-    "san_sebastian": {
-        "name": "San Sebastian"
-    },
-    "kek": {
-        "name": "Kek",
-        "description": "Limonlu / Havuçlu / Çikolatali"
-    },
-    "kurabiye": {
-        "name": "Kurabiye"
-    },
-    "tiramisu": {
-        "name": "Tiramisu"
-    },
-    "käsesahne": {
-        "name": "Käsesahne"
-    },
-    "donauwelle_dalga": {
-        "name": "Donauwelle Dalga"
-    },
-    "çilekli_pasta": {
-        "name": "Çilekli Pasta"
-    },
-    "vasp_pastalar": {
-        "name": "Vasp Pastalar",
-        "description": "Çilekli / Y. Mersini / Orman Meyveli "
-    },
-    "tortlar": {
-        "name": "Tortlar",
-        "description": "Çilekli / Visneli / Elmaali / Karaorman"
-    },
-    "meyve_salatasi": {
-        "name": "Meyve Salatasi",
-        "description": "Granola + Mewsim Mey + Keten ??"
-    },
-    "bowl": {
-        "name": "Bowl",
-        "description": "Süzme Yogurt + Yulaf, Badem/Findik???"
-    },
-    "mochi": {
-        "name": "Mochi"
-    },
-    "hamsiköy_sütlaci": {
-        "name": "Hamsiköy Sütlaci"
-    },
-    "damla_sakizli_muhallebi": {
-        "name": "Damla Sakizli Muhallebi"
-    },
-    "asure": {
-        "name": "Asure"
-    },
-    "kaymak_(ilave)": {
-        "name": "Kaymak (Ilave)"
-    },
-    "1_top_dondurma_(ilave)": {
-        "name": "1 Top Dondurma (Ilave)"
-    },
-    "2_top_dondurma_(ilave)": {
-        "name": "2 Top Dondurma (Ilave)"
+    "lemon_soda": {
+        "name": "Lemon Soda"
     },
     "ayran": {
         "name": "Ayran"
     },
-    "gazozlar": {
-        "name": "Gazozlar"
+    "water_(glas_bottle)": {
+        "name": "Water (Glas Bottle)"
     },
-    "cappy": {
-        "name": "Cappy"
+    "cheescake": {
+        "name": "Cheescake"
     },
-    "damla": {
-        "name": "Damla",
-        "description": "Limonlu +5 "
+    "mosaic_cake": {
+        "name": "Mosaic Cake"
     },
-    "naren": {
-        "name": "Naren"
+    "latte_mono": {
+        "name": "Latte Mono"
+    },
+    "my_heart": {
+        "name": "My Heart"
+    },
+    "red_velvet": {
+        "name": "Red Velvet"
+    },
+    "peanut_dream": {
+        "name": "Peanut Dream"
+    },
+    "devil's_cake": {
+        "name": "Devil's Cake"
+    },
+    "profitol_cake": {
+        "name": "Profitol Cake"
+    },
+    "donut": {
+        "name": "Donut"
+    },
+    "berliner": {
+        "name": "Berliner"
+    },
+    "chees_cake": {
+        "name": "Chees Cake"
+    },
+    "browni": {
+        "name": "Browni"
+    },
+    "magnolia_cake": {
+        "name": "Magnolia Cake"
+    },
+    "san_sebastian_(spain)": {
+        "name": "San Sebastian (Spain)"
+    },
+    "karpatka_(polonya)_": {
+        "name": "Karpatka (Polonya) "
+    },
+    "medovik_(_rusya)": {
+        "name": "Medovik ( Rusya)"
+    },
+    "schwarzwälder_kirschtorte_(germany)": {
+        "name": "Schwarzwälder Kirschtorte (Germany)"
+    },
+    "käsesahne_torte_(germany)": {
+        "name": "Käsesahne Torte (Germany)"
+    },
+    "bienenstich_cake_(germany)": {
+        "name": "Bienenstich Cake (Germany)"
+    },
+    "linzer_torte_(germany)": {
+        "name": "Linzer Torte (Germany)"
+    },
+    "trifle_(england)": {
+        "name": "Trifle (England)"
+    },
+    "mochi_(japan)": {
+        "name": "Mochi (Japan)"
+    },
+    "pastel_de_nata_(portugal)": {
+        "name": "Pastel de Nata (Portugal)"
+    },
+    "fruit_cakes": {
+        "name": "Fruit Cakes"
+    },
+    "cake_world": {
+        "name": "Cake World"
+    },
+    "cookies": {
+        "name": "Cookies"
+    },
+    "tiramisu": {
+        "name": "Tiramisu"
+    },
+    "types_of_pies_(slice)": {
+        "name": "Types of pies (slice)"
+    },
+    "fruit_tartlets": {
+        "name": "Fruit Tartlets"
+    },
+    "magnolia_(abd)": {
+        "name": "Magnolia (ABD)"
+    },
+    "hamsiköy_sütlaci": {
+        "name": "Hamsiköy Sütlaci"
+    },
+    "pudding_world": {
+        "name": "Pudding World"
+    },
+    "ashura": {
+        "name": "Ashura"
+    },
+    "croissant_(planin)": {
+        "name": "Croissant (Planin)"
+    },
+    "croissant_(chocolate)": {
+        "name": "Croissant (chocolate)"
+    },
+    "croissant_big_(planin)_": {
+        "name": "Croissant BIG (Planin) "
+    },
+    "croissant_three_cheese": {
+        "name": "Croissant three cheese"
+    },
+    "croissant_with_veal_ham": {
+        "name": "Croissant with veal ham"
+    },
+    "world_of_roll_pastry": {
+        "name": "World of Roll Pastry"
+    },
+    "herb_cheese_pastry": {
+        "name": "Herb Cheese Pastry"
+    },
+    "breakfast_plate": {
+        "name": "Breakfast Plate"
+    },
+    "toast_-1": {
+        "name": "Toast -1"
+    },
+    "toast-_2": {
+        "name": "Toast- 2"
+    },
+    "sandwich_-1": {
+        "name": "Sandwich -1"
+    },
+    "sandwich_-2": {
+        "name": "Sandwich -2"
+    },
+    "fruit_salad": {
+        "name": "Fruit Salad"
+    },
+    "bowl": {
+        "name": "Bowl"
+    },
+    "decaffeinated_coffee": {
+        "name": "Decaffeinated Coffee"
+    },
+    "cream": {
+        "name": "Cream"
+    },
+    "plant_milk_difference_(glass)": {
+        "name": "Plant Milk Difference (glass)"
+    },
+    "difference_between_lactose_free_milk_(glass)": {
+        "name": "Difference between lactose free milk (glass)"
+    },
+    "added_milk_difference_(glass)": {
+        "name": "Added Milk Difference (glass)"
+    },
+    "additional_coffee": {
+        "name": "Additional Coffee"
+    },
+    "additional_syrup": {
+        "name": "Additional Syrup"
+    },
+    "1_scoop_of_ice_cream": {
+        "name": "1 scoop of ice cream"
+    },
+    "2_scoop_of_ice_cream": {
+        "name": "2 scoop of ice cream"
+    },
+    "honey_": {
+        "name": "Honey "
+    },
+    "glass_and_ice": {
+        "name": "Glass and ice"
     }
 }

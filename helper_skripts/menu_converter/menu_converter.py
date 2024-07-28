@@ -3,8 +3,8 @@ import json
 import os
 
 # Beispielaufruf der Funktion
-locales="../../src/locales/"
-excel_file = 'menu.xlsx'
+locales="/Users/felix/Local/benefi/src/locales/"
+excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2024.07.22.xlsx'
 sheet1 = 'menu'
 sheet2 = 'categories'
 menu_en_json = locales+'menu_en.json'
@@ -24,10 +24,14 @@ def excel_to_json(excel_file, sheet1, sheet2):
     menu_content={}
     for index, row in df2.iterrows():
         category=row["category"].lower().replace(" ","_")
-        sub_category=row["sub_category"].lower().replace(" ","_")
         if category not in menu_content:
           menu_content[category]={}
-        menu_content[category][sub_category]=[]
+        sub_category_row=row["sub_category"]
+        if not pd.isnull(sub_category_row):
+          sub_category=row["sub_category"].lower().replace(" ","_")
+          menu_content[category][sub_category]=[]
+        else:
+           menu_content[category]=[]
 
     menu_en_content={}
     menu_tr_content={}
@@ -54,15 +58,18 @@ def excel_to_json(excel_file, sheet1, sheet2):
           menu_tr_content[key_name]["description"]=turkish_description
 
         #static menu
-        small_price=row['small_price']
-        large_price=row['large_price']
+        small_price=row['(X)  Size']
+        medium_price=row['(XX) Size']
+        large_price=row[' (XXX) Size']
         menu_static_content[key_name]={}
         if not pd.isnull(small_price):
           menu_static_content[key_name]["small_price"]=int(small_price)
+        if not pd.isnull(medium_price):
+          menu_static_content[key_name]["medium_price"]=int(medium_price)
         if not pd.isnull(large_price):
           menu_static_content[key_name]["large_price"]=int(large_price)
         picture_name=key_name+".webp"
-        picture_path="../../public/menu_pics/"
+        picture_path="/Users/felix/Local/benefi/public/menu_pics/"
         if os.path.exists(picture_path+picture_name):
           menu_static_content[key_name]["picture"]="menu_pics/"+picture_name
           print("pic found: "+picture_name)
@@ -73,6 +80,8 @@ def excel_to_json(excel_file, sheet1, sheet2):
 
           product_category_key=product_category.lower().replace(" ","_")
           for categories in menu_content:
+            if product_category_key==categories:
+                  menu_content[categories].append(key_name)
             for subcategory in menu_content[categories]:
                 if product_category_key==subcategory:
                   menu_content[categories][subcategory].append(key_name)

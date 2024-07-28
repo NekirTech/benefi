@@ -2,48 +2,172 @@
     "hot_drinks": {
         "hot_coffees": [
             "espresso",
+            "lungo",
             "espresso_con_panna",
             "americano",
             "dark_americano",
             "cortado",
+            "red_eye",
+            "black_eye",
             "cappuccino",
             "flat_white",
             "latte_macchiato",
-            "mocha_/_w._chocolate_mocha",
+            "mocha",
+            "white_chocolate_mocha",
             "latte",
-            "filtre_kahve",
-            "türk_kahvesi",
-            "kafeinsiz_t._kahvesi",
-            "dibek_kahvesi_-_harput"
+            "filter_coffee",
+            "turkish_coffee",
+            "decaffeinated_turkish_coffee",
+            "dibek_turkish_coffee__(harput_coffee)"
         ],
         "hot_teas": [
-            "demleme_çay_/_black_tea",
-            "ihlamur_/_linden",
-            "adaçayı_/_sage",
-            "nane_limon_/_mint_+_lemon",
-            "yeşil_çay_/_green_tea",
-            "naneli_yeşil_çay_/_mint_green_tea",
-            "detoks_çay_/_detox_tea",
-            "rüya_çay_/_dream_tea",
-            "mavi_kelebek_çayı_/_blue_butterfly_tea",
-            "chai_tea_latte",
-            "benefi_yeşili_/_benefi_green_tea"
+            "black_tea",
+            "linden",
+            "sage",
+            "mint_lemon_tea",
+            "green_tea",
+            "mint_green_tea",
+            "detox_tea",
+            "dream_tea",
+            "blue_butterfly_tea"
+        ],
+        "ronnefeldt_world_tea": [
+            "rooibos_cream_orange",
+            "ayurveda_herbs_&_ginger",
+            "tropical_sun",
+            "irish_whsiky-cream",
+            "masalia_chai",
+            "white_yin_long",
+            "morgentau",
+            "lychee_&_goji",
+            "jasmine_pearls",
+            "huckleberry_find"
         ],
         "other_hot_drinks": [
-            "sıcak_çikolata",
+            "hot_chocolate",
             "sahlep",
-            "matcha_latte"
+            "matcha_latte",
+            "chai_tea_latte",
+            "benefi_green_tea"
         ]
     },
     "cold_drinks": {
         "cold_coffees": [
+            "affagato",
+            "iced_filter_coffee",
             "iced_americano",
             "iced_cappuccino",
             "iced_flat_white",
             "iced_mocha",
             "iced_white_chocolate_mocha",
             "iced_latte",
-            "iced_matcha_latte"
+            "iced_red_eye"
+        ],
+        "other_cold_drinks": [
+            "milkshake",
+            "smoothie",
+            "frappe",
+            "frozen",
+            "i̇talyan_sodası",
+            "iced_matcha_latte",
+            "iced_green_benefi",
+            "iced_blue_lagoon",
+            "iced_chocolate",
+            "iced_tea",
+            "iced_green_tea_mojito",
+            "island_rush_cooler",
+            "pina_colada",
+            "churchill",
+            "bubble_tea",
+            "lemonade_(homemade)",
+            "black_mulberry__(homemade)",
+            "cool_lime"
+        ],
+        "softdrinks": [
+            "coca_cola,_zero,_pepsi,fanta,_sprite",
+            "naren_(katkısız_meyve_suları)",
+            "naren_fruizy_(katkısız_meyve_suları)",
+            "soda_types",
+            "plain_soda_",
+            "lemon_soda",
+            "ayran",
+            "water_(glas_bottle)"
         ]
-    }
+    },
+    "sweet_foods": {
+        "world_of_sweets": [
+            "cheescake",
+            "mosaic_cake",
+            "latte_mono",
+            "my_heart",
+            "red_velvet",
+            "peanut_dream",
+            "devil's_cake",
+            "profitol_cake",
+            "donut",
+            "berliner"
+        ],
+        "homemade_sweets_(please_ask_for_daily_cakes)": [
+            "chees_cake",
+            "browni",
+            "magnolia_cake",
+            "san_sebastian_(spain)",
+            "karpatka_(polonya)_",
+            "medovik_(_rusya)",
+            "schwarzwälder_kirschtorte_(germany)",
+            "käsesahne_torte_(germany)",
+            "bienenstich_cake_(germany)",
+            "linzer_torte_(germany)",
+            "trifle_(england)",
+            "mochi_(japan)",
+            "pastel_de_nata_(portugal)",
+            "fruit_cakes",
+            "cake_world",
+            "cookies",
+            "tiramisu",
+            "types_of_pies_(slice)",
+            "fruit_tartlets",
+            "magnolia_(abd)",
+            "hamsiköy_sütlaci",
+            "pudding_world",
+            "ashura"
+        ]
+    },
+    "savory_foods": {
+        "savory_world": [
+            "croissant_(planin)",
+            "croissant_(chocolate)",
+            "croissant_big_(planin)_",
+            "croissant_three_cheese",
+            "croissant_with_veal_ham"
+        ],
+        "homemade_savory_food_(please_ask_for_daily_made_foods)": [
+            "world_of_roll_pastry",
+            "herb_cheese_pastry"
+        ],
+        "breakfast_world": [
+            "breakfast_plate",
+            "toast_-1",
+            "toast-_2",
+            "sandwich_-1",
+            "sandwich_-2"
+        ],
+        "fit_world": [
+            "fruit_salad",
+            "bowl"
+        ]
+    },
+    "extras_(selection_will_be_added_to_the_price)": [
+        "decaffeinated_coffee",
+        "cream",
+        "plant_milk_difference_(glass)",
+        "difference_between_lactose_free_milk_(glass)",
+        "added_milk_difference_(glass)",
+        "additional_coffee",
+        "additional_syrup",
+        "1_scoop_of_ice_cream",
+        "2_scoop_of_ice_cream",
+        "honey_",
+        "glass_and_ice"
+    ]
 }
