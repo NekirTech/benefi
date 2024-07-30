@@ -68,7 +68,7 @@
             "smoothie",
             "frappe",
             "frozen",
-            "i̇talyan_sodası",
+            "italyan_sodas",
             "iced_matcha_latte",
             "iced_green_benefi",
             "iced_blue_lagoon",
@@ -96,7 +96,7 @@
     },
     "sweet_foods": {
         "world_of_sweets": [
-            "cheescake",
+            "cheesecake",
             "mosaic_cake",
             "latte_mono",
             "my_heart",
@@ -108,7 +108,7 @@
             "berliner"
         ],
         "homemade_sweets_(please_ask_for_daily_cakes)": [
-            "chees_cake",
+            "cheesecake",
             "browni",
             "magnolia_cake",
             "san_sebastian_(spain)",
@@ -135,9 +135,9 @@
     },
     "savory_foods": {
         "savory_world": [
-            "croissant_(planin)",
+            "croissant_(plain)",
             "croissant_(chocolate)",
-            "croissant_big_(planin)_",
+            "croissant_big_(plain)_",
             "croissant_three_cheese",
             "croissant_with_veal_ham"
         ],
@@ -147,10 +147,10 @@
         ],
         "breakfast_world": [
             "breakfast_plate",
-            "toast_-1",
-            "toast-_2",
-            "sandwich_-1",
-            "sandwich_-2"
+            "toast-1",
+            "toast-2",
+            "sandwich-1",
+            "sandwich-2"
         ],
         "fit_world": [
             "fruit_salad",

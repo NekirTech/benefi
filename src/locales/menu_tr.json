@@ -218,7 +218,7 @@
     "frozen": {
         "name": "Frozen"
     },
-    "i̇talyan_sodası": {
+    "italyan_sodas": {
         "name": "İtalyan Sodası"
     },
     "iced_matcha_latte": {
@@ -284,8 +284,8 @@
     "water_(glas_bottle)": {
         "name": "Su (Cam Şişe)"
     },
-    "cheescake": {
-        "name": "Cheescake"
+    "cheesecake": {
+        "name": "Chees Cake"
     },
     "mosaic_cake": {
         "name": "Mozaik Pastası"
@@ -313,9 +313,6 @@
     },
     "berliner": {
         "name": "Berliner"
-    },
-    "chees_cake": {
-        "name": "Chess Cake"
     },
     "browni": {
         "name": "Browni"
@@ -383,13 +380,13 @@
     "ashura": {
         "name": "Aşure"
     },
-    "croissant_(planin)": {
+    "croissant_(plain)": {
         "name": "Kruvasan (sade)"
     },
     "croissant_(chocolate)": {
         "name": "Kruvasan  (çikolatalı)"
     },
-    "croissant_big_(planin)_": {
+    "croissant_big_(plain)_": {
         "name": "Kruvasan Büyük (sade)"
     },
     "croissant_three_cheese": {
@@ -407,17 +404,17 @@
     "breakfast_plate": {
         "name": "Kahvaltı Tabağı"
     },
-    "toast_-1": {
+    "toast-1": {
         "name": "Tost Kaşarlı"
     },
-    "toast-_2": {
+    "toast-2": {
         "name": "Tost Karışık"
     },
-    "sandwich_-1": {
-        "name": "Sandeviç -1"
+    "sandwich-1": {
+        "name": "Sandeviç-1"
     },
-    "sandwich_-2": {
-        "name": "Sandeviç -2"
+    "sandwich-2": {
+        "name": "Sandeviç-2"
     },
     "fruit_salad": {
         "name": "Meyve Salatası"

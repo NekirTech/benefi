@@ -218,8 +218,8 @@
     "frozen": {
         "name": "Frozen"
     },
-    "i̇talyan_sodası": {
-        "name": "İtalyan Sodası"
+    "italyan_sodas": {
+        "name": "Italyan Sodas"
     },
     "iced_matcha_latte": {
         "name": "Iced Matcha Latte"
@@ -284,8 +284,8 @@
     "water_(glas_bottle)": {
         "name": "Water (Glas Bottle)"
     },
-    "cheescake": {
-        "name": "Cheescake"
+    "cheesecake": {
+        "name": "Cheesecake"
     },
     "mosaic_cake": {
         "name": "Mosaic Cake"
@@ -313,9 +313,6 @@
     },
     "berliner": {
         "name": "Berliner"
-    },
-    "chees_cake": {
-        "name": "Chees Cake"
     },
     "browni": {
         "name": "Browni"
@@ -383,14 +380,14 @@
     "ashura": {
         "name": "Ashura"
     },
-    "croissant_(planin)": {
-        "name": "Croissant (Planin)"
+    "croissant_(plain)": {
+        "name": "Croissant (Plain)"
     },
     "croissant_(chocolate)": {
         "name": "Croissant (chocolate)"
     },
-    "croissant_big_(planin)_": {
-        "name": "Croissant BIG (Planin) "
+    "croissant_big_(plain)_": {
+        "name": "Croissant BIG (Plain) "
     },
     "croissant_three_cheese": {
         "name": "Croissant three cheese"
@@ -407,17 +404,17 @@
     "breakfast_plate": {
         "name": "Breakfast Plate"
     },
-    "toast_-1": {
-        "name": "Toast -1"
+    "toast-1": {
+        "name": "Toast-1"
     },
-    "toast-_2": {
-        "name": "Toast- 2"
+    "toast-2": {
+        "name": "Toast-2"
     },
-    "sandwich_-1": {
-        "name": "Sandwich -1"
+    "sandwich-1": {
+        "name": "Sandwich-1"
     },
-    "sandwich_-2": {
-        "name": "Sandwich -2"
+    "sandwich-2": {
+        "name": "Sandwich-2"
     },
     "fruit_salad": {
         "name": "Fruit Salad"

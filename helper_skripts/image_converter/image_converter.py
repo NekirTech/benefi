@@ -32,6 +32,6 @@ def convert_directory(input_dir, output_dir, ppi=72):
             print(f"Converted {filename} to {output_path}")
 
 # Example usage
-input_directory = "./input"
-output_directory = locales="../../public/menu_pics"
+input_directory = "/Users/felix/Local/benefi/helper_skripts/image_converter/input"
+output_directory = locales="/Users/felix/Local/benefi/public/menu_pics"
 convert_directory(input_directory, output_directory)

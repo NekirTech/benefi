@@ -68,8 +68,14 @@ def excel_to_json(excel_file, sheet1, sheet2):
           menu_static_content[key_name]["medium_price"]=int(medium_price)
         if not pd.isnull(large_price):
           menu_static_content[key_name]["large_price"]=int(large_price)
-        picture_name=key_name+".webp"
         picture_path="/Users/felix/Local/benefi/public/menu_pics/"
+        picture_name=key_name+".webp"
+        category_name=row["category"]
+        if not pd.isnull(category_name):
+          category_picture_name=category_name.lower().replace(" ","_")+".webp"
+          if os.path.exists(picture_path+category_picture_name):
+            menu_static_content[key_name]["picture"]="menu_pics/"+category_picture_name
+            print("pic found: "+category_picture_name)
         if os.path.exists(picture_path+picture_name):
           menu_static_content[key_name]["picture"]="menu_pics/"+picture_name
           print("pic found: "+picture_name)
