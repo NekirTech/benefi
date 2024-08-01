@@ -35,3 +35,4 @@ yarn-error.log*
 
 # local .env files
 .env.local*
+helper_skripts/menu_converter/analyse.xlsx

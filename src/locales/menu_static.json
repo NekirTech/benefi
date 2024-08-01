@@ -358,13 +358,15 @@
         "medium_price": 125
     },
     "red_velvet": {
-        "medium_price": 125
+        "medium_price": 125,
+        "picture": "menu_pics/red_velvet.webp"
     },
     "peanut_dream": {
         "medium_price": 125
     },
     "devil's_cake": {
-        "medium_price": 125
+        "medium_price": 125,
+        "picture": "menu_pics/devil's_cake.webp"
     },
     "profitol_cake": {
         "medium_price": 125
@@ -386,11 +388,12 @@
         "medium_price": 175,
         "picture": "menu_pics/san_sebastian_(spain).webp"
     },
-    "karpatka_(polonya)_": {
+    "karpatka_(poland)": {
         "medium_price": 155
     },
-    "medovik_(_rusya)": {
-        "medium_price": 155
+    "medovik_(russia)": {
+        "medium_price": 155,
+        "picture": "menu_pics/medovik_(russia).webp"
     },
     "schwarzwälder_kirschtorte_(germany)": {
         "medium_price": 155
@@ -432,7 +435,8 @@
         "medium_price": 155
     },
     "fruit_tartlets": {
-        "medium_price": 175
+        "medium_price": 175,
+        "picture": "menu_pics/fruit_tartlets.webp"
     },
     "magnolia_(abd)": {
         "medium_price": 145
@@ -451,13 +455,15 @@
         "medium_price": 80
     },
     "croissant_(chocolate)": {
-        "medium_price": 100
+        "medium_price": 100,
+        "picture": "menu_pics/croissant_(chocolate).webp"
     },
     "croissant_big_(plain)_": {
         "medium_price": 100
     },
     "croissant_three_cheese": {
-        "medium_price": 150
+        "medium_price": 150,
+        "picture": "menu_pics/croissant_three_cheese.webp"
     },
     "croissant_with_veal_ham": {
         "medium_price": 150,

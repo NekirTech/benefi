@@ -20,7 +20,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
     # Excel-Datei lesen
     df1 = pd.read_excel(excel_file, sheet_name=sheet1)
     df2 = pd.read_excel(excel_file, sheet_name=sheet2)
-
+    df1['picture_found']=''
     menu_content={}
     for index, row in df2.iterrows():
         category=row["category"].lower().replace(" ","_")
@@ -79,6 +79,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
         if os.path.exists(picture_path+picture_name):
           menu_static_content[key_name]["picture"]="menu_pics/"+picture_name
           print("pic found: "+picture_name)
+          df1.at[index, 'picture_found']='x'
 
         #menu
         product_category=row['category']
@@ -91,6 +92,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
             for subcategory in menu_content[categories]:
                 if product_category_key==subcategory:
                   menu_content[categories][subcategory].append(key_name)
+    df1.to_excel('/Users/felix/Local/benefi/helper_skripts/menu_converter/analyse.xlsx',index=False)
     #data1 = menu_en_content.to_dict(orient='records')
     # Daten als JSON-Datei speichern
     write_json(menu_en_json,menu_en_content)
