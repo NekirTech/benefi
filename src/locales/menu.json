@@ -7,8 +7,6 @@
             "americano",
             "dark_americano",
             "cortado",
-            "red_eye",
-            "black_eye",
             "cappuccino",
             "flat_white",
             "latte_macchiato",
@@ -61,7 +59,8 @@
             "iced_mocha",
             "iced_white_chocolate_mocha",
             "iced_latte",
-            "iced_red_eye"
+            "iced_red_eye",
+            "iced_black_eye"
         ],
         "other_cold_drinks": [
             "milkshake",
@@ -168,6 +167,7 @@
         "1_scoop_of_ice_cream",
         "2_scoop_of_ice_cream",
         "honey_",
-        "glass_and_ice"
+        "glass_and_ice",
+        "extra_bread"
     ]
 }

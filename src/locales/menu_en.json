@@ -69,13 +69,8 @@
         "name": "Dark Americano"
     },
     "cortado": {
-        "name": "Cortado"
-    },
-    "red_eye": {
-        "name": "RED Eye"
-    },
-    "black_eye": {
-        "name": "BLACK Eye"
+        "name": "Cortado",
+        "description": 9.0
     },
     "cappuccino": {
         "name": "Cappuccino"
@@ -205,6 +200,9 @@
     },
     "iced_red_eye": {
         "name": "Iced Red Eye"
+    },
+    "iced_black_eye": {
+        "name": "Iced Black Eye"
     },
     "milkshake": {
         "name": "Milkshake"
@@ -454,5 +452,8 @@
     },
     "glass_and_ice": {
         "name": "Glass and ice"
+    },
+    "extra_bread": {
+        "name": "Extra Bread"
     }
 }

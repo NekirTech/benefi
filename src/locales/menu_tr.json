@@ -60,7 +60,7 @@
         "name": "Lungo"
     },
     "espresso_con_panna": {
-        "name": "Con Panna"
+        "name": "Espresso Con Panna"
     },
     "americano": {
         "name": "Americano"
@@ -70,12 +70,6 @@
     },
     "cortado": {
         "name": "Cortado"
-    },
-    "red_eye": {
-        "name": "RED Eye"
-    },
-    "black_eye": {
-        "name": "BLACK Eye"
     },
     "cappuccino": {
         "name": "Cappuccino"
@@ -205,6 +199,9 @@
     },
     "iced_red_eye": {
         "name": "Iced Red Eye"
+    },
+    "iced_black_eye": {
+        "name": "Iced Black Eye"
     },
     "milkshake": {
         "name": "Milkshake"
@@ -387,13 +384,13 @@
         "name": "Kruvasan  (çikolatalı)"
     },
     "croissant_big_(plain)_": {
-        "name": "Kruvasan Büyük (sade)"
+        "name": "Kruvasan Jumbo (sade)"
     },
     "croissant_three_cheese": {
-        "name": "Kruvasan Üç Peynirli"
+        "name": "Kruvasan Jumbo Üç Peynirli"
     },
     "croissant_with_veal_ham": {
-        "name": "Kruvasan  Dana Jambonlu"
+        "name": "Kruvasan  Peynir ve Dana Jambonlu"
     },
     "world_of_roll_pastry": {
         "name": "Rulo Börek Dünyası"
@@ -411,10 +408,10 @@
         "name": "Tost Karışık"
     },
     "sandwich-1": {
-        "name": "Sandeviç-1"
+        "name": "Sandeviç Peynirli"
     },
     "sandwich-2": {
-        "name": "Sandeviç-2"
+        "name": "Sandevi Full Karışık"
     },
     "fruit_salad": {
         "name": "Meyve Salatası"
@@ -454,5 +451,8 @@
     },
     "glass_and_ice": {
         "name": "Bardak ve Buz"
+    },
+    "extra_bread": {
+        "name": "Ekmek Sepeti"
     }
 }
