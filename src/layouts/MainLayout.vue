@@ -13,7 +13,7 @@
         <q-separator vertical inset></q-separator>
       </div>
       <div class="flags">
-        <country-flag country="us" size="big" @click="changeLanguage('en')" />
+        <country-flag country="gb" size="big" @click="changeLanguage('en')" />
         <country-flag country="tr" size="big" @click="changeLanguage('tr')" />
       </div>
     </div>
