@@ -348,6 +348,9 @@
         "medium_price": 70,
         "picture": "menu_pics/berliner.webp"
     },
+    "lotus_cheescake": {
+        "medium_price": 165
+    },
     "browni": {
         "medium_price": 150
     },
