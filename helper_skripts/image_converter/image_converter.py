@@ -25,6 +25,9 @@ def convert_directory(input_dir, output_dir, ppi=72):
 
     # Iterate over files in the input directory
     for filename in os.listdir(input_dir):
+        if filename == ".DS_Store":
+            print("skipped DS_Store")
+            continue
         if True: #filename.lower().endswith(".heic"):
             input_path = os.path.join(input_dir, filename)
             output_path = os.path.join(output_dir, os.path.splitext(filename)[0] + '.webp')

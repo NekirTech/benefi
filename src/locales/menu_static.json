@@ -66,7 +66,7 @@
     "latte_macchiato": {
         "medium_price": 100,
         "large_price": 110,
-        "picture": "menu_pics/hot_coffees.webp"
+        "picture": "menu_pics/latte_macchiato.webp"
     },
     "mocha": {
         "medium_price": 115,
@@ -182,7 +182,8 @@
         "picture": "menu_pics/ronnefeldt_world_tea.webp"
     },
     "hot_chocolate": {
-        "large_price": 115
+        "large_price": 115,
+        "picture": "menu_pics/hot_chocolate.webp"
     },
     "sahlep": {
         "large_price": 115
@@ -348,8 +349,9 @@
         "medium_price": 70,
         "picture": "menu_pics/berliner.webp"
     },
-    "lotus_cheescake": {
-        "medium_price": 165
+    "lotus_cheesecake": {
+        "medium_price": 165,
+        "picture": "menu_pics/lotus_cheesecake.webp"
     },
     "browni": {
         "medium_price": 150
@@ -372,7 +374,8 @@
         "medium_price": 150
     },
     "käsesahne_torte_(germany)": {
-        "medium_price": 150
+        "medium_price": 150,
+        "picture": "menu_pics/käsesahne_torte_(germany).webp"
     },
     "bienenstich_cake_(germany)": {
         "medium_price": 150
@@ -422,7 +425,8 @@
         "picture": "menu_pics/pudding_world.webp"
     },
     "ashura": {
-        "medium_price": 135
+        "medium_price": 135,
+        "picture": "menu_pics/ashura.webp"
     },
     "croissant_(plain)": {
         "medium_price": 75
