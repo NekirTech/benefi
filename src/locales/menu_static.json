@@ -213,7 +213,8 @@
         "large_price": 110
     },
     "iced_flat_white": {
-        "large_price": 120
+        "large_price": 120,
+        "picture": "menu_pics/iced_flat_white.webp"
     },
     "iced_mocha": {
         "large_price": 130
@@ -231,8 +232,13 @@
     "iced_black_eye": {
         "large_price": 150
     },
+    "cold_brew": {
+        "medium_price": 50,
+        "picture": "menu_pics/cold_brew.webp"
+    },
     "milkshake": {
-        "large_price": 135
+        "large_price": 135,
+        "picture": "menu_pics/milkshake.webp"
     },
     "smoothie": {
         "large_price": 135
@@ -263,10 +269,12 @@
         "large_price": 90
     },
     "iced_green_tea_mojito": {
-        "large_price": 90
+        "large_price": 90,
+        "picture": "menu_pics/iced_green_tea_mojito.webp"
     },
     "island_rush_cooler": {
-        "large_price": 110
+        "large_price": 110,
+        "picture": "menu_pics/island_rush_cooler.webp"
     },
     "pina_colada": {
         "large_price": 90
