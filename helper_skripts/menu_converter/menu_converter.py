@@ -69,15 +69,19 @@ def excel_to_json(excel_file, sheet1, sheet2):
         if not pd.isnull(large_price):
           menu_static_content[key_name]["large_price"]=int(large_price)
         picture_path="/Users/felix/Local/benefi/public/menu_pics/"
-        picture_name=key_name+".webp"
+        picture_name=key_name+"_small.webp"
+        picture_name_large=key_name+"_large.webp"
         category_name=row["category"]
         if not pd.isnull(category_name):
-          category_picture_name=category_name.lower().replace(" ","_")+".webp"
+          category_picture_name=category_name.lower().replace(" ","_")+"_small.webp"
+          category_picture_name_large=category_name.lower().replace(" ","_")+"_large.webp"
           if os.path.exists(picture_path+category_picture_name):
-            menu_static_content[key_name]["picture"]="menu_pics/"+category_picture_name
+            menu_static_content[key_name]["picture_small"]="menu_pics/"+category_picture_name
+            menu_static_content[key_name]["picture_large"]="menu_pics/"+category_picture_name_large
             print("pic found: "+category_picture_name)
         if os.path.exists(picture_path+picture_name):
-          menu_static_content[key_name]["picture"]="menu_pics/"+picture_name
+          menu_static_content[key_name]["picture_small"]="menu_pics/"+picture_name
+          menu_static_content[key_name]["picture_large"]="menu_pics/"+picture_name_large
           print("pic found: "+picture_name)
           df1.at[index, 'picture_found']='x'
 

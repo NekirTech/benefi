@@ -25,9 +25,13 @@
       :key="item"
       class="q-px-md q-py-sm"
     >
-      <q-item-section avatar v-if="getStaticValues(item, 'picture')">
-        <q-avatar rounded size="xl">
-          <img :src="getStaticValues(item, 'picture')" />
+      <q-item-section avatar v-if="getStaticValues(item, 'picture_small')">
+        <q-avatar
+          rounded
+          size="xl"
+          @click="showPopUp(getStaticValues(item, 'picture_large'))"
+        >
+          <img :src="getStaticValues(item, 'picture_small')" />
         </q-avatar>
       </q-item-section>
       <q-item-section>
@@ -47,6 +51,9 @@
       </q-item-section>
     </q-item>
   </q-expansion-item>
+  <q-dialog v-model="showAvatar">
+    <q-img :src="current_pop_up_image" spinner-color="white" />
+  </q-dialog>
 </template>
 <script setup>
 import { ref } from 'vue';
@@ -57,7 +64,12 @@ import menu_en from 'src/locales/menu_en.json';
 import menu_tr from 'src/locales/menu_tr.json';
 import menu_static from 'src/locales/menu_static.json';
 let menu_dynamic = ref(menu_en);
-
+let showAvatar = ref(false);
+let current_pop_up_image = ref('menu_pics/iced_americano_large.webp');
+function showPopUp(image) {
+  current_pop_up_image.value = image;
+  showAvatar.value = true;
+}
 function getTranslation(key, value_name) {
   let translation = 'No Translation';
   if (!menu_dynamic.value.hasOwnProperty(key)) {
