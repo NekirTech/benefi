@@ -250,7 +250,9 @@
         "picture_large": "menu_pics/iced_americano_large.webp"
     },
     "iced_cappuccino": {
-        "large_price": 110
+        "large_price": 110,
+        "picture_small": "menu_pics/iced_cappuccino_small.webp",
+        "picture_large": "menu_pics/iced_cappuccino_large.webp"
     },
     "iced_flat_white": {
         "large_price": 120,
@@ -269,7 +271,9 @@
         "picture_large": "menu_pics/iced_latte_large.webp"
     },
     "iced_red_eye": {
-        "large_price": 150
+        "large_price": 150,
+        "picture_small": "menu_pics/iced_red_eye_small.webp",
+        "picture_large": "menu_pics/iced_red_eye_large.webp"
     },
     "iced_black_eye": {
         "large_price": 150
@@ -299,7 +303,9 @@
         "picture_large": "menu_pics/italyan_sodas_large.webp"
     },
     "iced_matcha_latte": {
-        "large_price": 125
+        "large_price": 125,
+        "picture_small": "menu_pics/iced_matcha_latte_small.webp",
+        "picture_large": "menu_pics/iced_matcha_latte_large.webp"
     },
     "iced_green_benefi": {
         "large_price": 110
