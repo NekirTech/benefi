@@ -295,7 +295,9 @@
         "large_price": 135
     },
     "frozen": {
-        "large_price": 135
+        "large_price": 135,
+        "picture_small": "menu_pics/frozen_small.webp",
+        "picture_large": "menu_pics/frozen_large.webp"
     },
     "italyan_sodas": {
         "large_price": 90,
@@ -346,6 +348,9 @@
         "picture_large": "menu_pics/lemonade_(homemade)_large.webp"
     },
     "black_mulberry__(homemade)": {
+        "large_price": 90
+    },
+    "fresh_squeezed_orange_juice": {
         "large_price": 90
     },
     "cool_lime": {
@@ -509,7 +514,9 @@
         "picture_large": "menu_pics/ashura_large.webp"
     },
     "croissant_(plain)": {
-        "medium_price": 75
+        "medium_price": 75,
+        "picture_small": "menu_pics/croissant_(plain)_small.webp",
+        "picture_large": "menu_pics/croissant_(plain)_large.webp"
     },
     "croissant_(chocolate)": {
         "medium_price": 80,
@@ -535,7 +542,9 @@
         "picture_large": "menu_pics/world_of_roll_pastry_large.webp"
     },
     "herb_cheese_pastry": {
-        "medium_price": 75
+        "medium_price": 75,
+        "picture_small": "menu_pics/herb_cheese_pastry_small.webp",
+        "picture_large": "menu_pics/herb_cheese_pastry_large.webp"
     },
     "breakfast_plate": {
         "medium_price": 195,
