@@ -34,8 +34,8 @@
     },
     "espresso_bombom": {
         "medium_price": 85,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
+        "picture_small": "menu_pics/espresso_bombom_small.webp",
+        "picture_large": "menu_pics/espresso_bombom_large.webp"
     },
     "lungo": {
         "medium_price": 75,
@@ -247,7 +247,9 @@
         "picture_large": "menu_pics/hot_chocolate_large.webp"
     },
     "sahlep": {
-        "medium_price": 115
+        "medium_price": 115,
+        "picture_small": "menu_pics/sahlep_small.webp",
+        "picture_large": "menu_pics/sahlep_large.webp"
     },
     "matcha_latte": {
         "medium_price": 115
@@ -308,7 +310,9 @@
         "picture_large": "menu_pics/milkshake_large.webp"
     },
     "smoothie": {
-        "large_price": 135
+        "large_price": 135,
+        "picture_small": "menu_pics/smoothie_small.webp",
+        "picture_large": "menu_pics/smoothie_large.webp"
     },
     "frappe": {
         "large_price": 135
@@ -354,7 +358,9 @@
         "large_price": 130
     },
     "color_mix": {
-        "large_price": 150
+        "large_price": 150,
+        "picture_small": "menu_pics/color_mix_small.webp",
+        "picture_large": "menu_pics/color_mix_large.webp"
     },
     "churchill": {
         "medium_price": 75,
@@ -398,10 +404,14 @@
         "medium_price": 35
     },
     "lemon_soda": {
-        "medium_price": 40
+        "medium_price": 40,
+        "picture_small": "menu_pics/lemon_soda_small.webp",
+        "picture_large": "menu_pics/lemon_soda_large.webp"
     },
     "ayran": {
-        "medium_price": 30
+        "medium_price": 30,
+        "picture_small": "menu_pics/ayran_small.webp",
+        "picture_large": "menu_pics/ayran_large.webp"
     },
     "water_(glas_bottle)": {
         "medium_price": 25
@@ -435,7 +445,9 @@
         "medium_price": 75
     },
     "cheesecake_lotus": {
-        "medium_price": 200
+        "medium_price": 200,
+        "picture_small": "menu_pics/cheesecake_lotus_small.webp",
+        "picture_large": "menu_pics/cheesecake_lotus_large.webp"
     },
     "cheesecake_whit_baklava": {
         "medium_price": 200
@@ -529,7 +541,9 @@
         "picture_large": "menu_pics/ashura_large.webp"
     },
     "dubai_dessert_(in_jar)": {
-        "medium_price": 185
+        "medium_price": 185,
+        "picture_small": "menu_pics/dubai_dessert_(in_jar)_small.webp",
+        "picture_large": "menu_pics/dubai_dessert_(in_jar)_large.webp"
     },
     "cream_latte_": {
         "medium_price": 155
@@ -595,7 +609,9 @@
         "picture_large": "menu_pics/toast-2_large.webp"
     },
     "sandwich": {
-        "medium_price": 135
+        "medium_price": 135,
+        "picture_small": "menu_pics/sandwich_small.webp",
+        "picture_large": "menu_pics/sandwich_large.webp"
     },
     "fruit_salad": {
         "medium_price": 135,
