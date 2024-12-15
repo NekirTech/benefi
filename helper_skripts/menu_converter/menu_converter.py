@@ -1,16 +1,49 @@
 import pandas as pd
 import json
 import os
+import requests
 
 # Beispielaufruf der Funktion
 locales="/Users/felix/Local/benefi/src/locales/"
-excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2024.12.14.xlsx'
+excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/google_menu.xlsx'
+file_id = '1flY3HRzpq3KqbrecIHkeTef7JGA-TeUx'
 sheet1 = 'menu'
 sheet2 = 'categories'
 menu_en_json = locales+'menu_en.json'
 menu_tr_json = locales+'menu_tr.json'
 menu_json = locales+'menu.json'
 menu_static_json = locales+'menu_static.json'
+
+
+def download_file_from_google_drive(id, destination):
+    URL = "https://docs.google.com/uc?export=download"
+
+    session = requests.Session()
+
+    response = session.get(URL, params = { 'id' : id , 'confirm': 1 }, stream = True)
+    token = get_confirm_token(response)
+
+    if token:
+        params = { 'id' : id, 'confirm' : token }
+        response = session.get(URL, params = params, stream = True)
+
+    save_response_content(response, destination)
+
+def get_confirm_token(response):
+    for key, value in response.cookies.items():
+        if key.startswith('download_warning'):
+            return value
+
+    return None
+
+def save_response_content(response, destination):
+    CHUNK_SIZE = 32768
+
+    with open(destination, "wb") as f:
+        for chunk in response.iter_content(CHUNK_SIZE):
+            if chunk: # filter out keep-alive new chunks
+                f.write(chunk)
+
 
 def write_json(name, content):
      with open(name, 'w', encoding='utf-8') as json_file:
@@ -104,4 +137,6 @@ def excel_to_json(excel_file, sheet1, sheet2):
     write_json(menu_static_json,menu_static_content)
     write_json(menu_json,menu_content)
 
+
+download_file_from_google_drive(file_id, excel_file)
 excel_to_json(excel_file, sheet1, sheet2)
