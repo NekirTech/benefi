@@ -402,8 +402,10 @@
         "picture_small": "menu_pics/soda_types_small.webp",
         "picture_large": "menu_pics/soda_types_large.webp"
     },
-    "plain_soda_": {
-        "medium_price": 35
+    "plain_soda": {
+        "medium_price": 35,
+        "picture_small": "menu_pics/plain_soda_small.webp",
+        "picture_large": "menu_pics/plain_soda_large.webp"
     },
     "lemon_soda": {
         "medium_price": 40,
