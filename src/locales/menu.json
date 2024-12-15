@@ -2,6 +2,7 @@
     "hot_drinks": {
         "hot_coffees": [
             "espresso",
+            "espresso_bombom",
             "lungo",
             "espresso_con_panna",
             "americano",
@@ -14,6 +15,8 @@
             "white_chocolate_mocha",
             "latte",
             "filter_coffee",
+            "red_eye",
+            "black_eye",
             "turkish_coffee",
             "decaffeinated_turkish_coffee",
             "dibek_turkish_coffee__(harput_coffee)"
@@ -21,6 +24,7 @@
         "hot_teas": [
             "black_tea",
             "linden",
+            "winter_tea",
             "sage",
             "mint_lemon_tea",
             "green_tea",
@@ -60,8 +64,7 @@
             "iced_white_chocolate_mocha",
             "iced_latte",
             "iced_red_eye",
-            "iced_black_eye",
-            "cold_brew"
+            "iced_black_eye"
         ],
         "other_cold_drinks": [
             "milkshake",
@@ -77,11 +80,11 @@
             "iced_green_tea_mojito",
             "island_rush_cooler",
             "pina_colada",
+            "color_mix",
             "churchill",
             "bubble_tea",
             "lemonade_(homemade)",
             "black_mulberry__(homemade)",
-            "fresh_squeezed_orange_juice",
             "cool_lime"
         ],
         "softdrinks": [
@@ -101,16 +104,16 @@
             "mosaic_cake",
             "latte_mono",
             "my_heart",
-            "red_velvet",
             "peanut_dream",
             "devil's_cake",
             "profitol_cake",
-            "donut",
-            "berliner"
+            "donut_world"
         ],
         "homemade_sweets_(please_ask_for_daily_cakes)": [
             "cheesecake",
-            "lotus_cheesecake",
+            "cheesecake_lotus",
+            "cheesecake_whit_baklava",
+            "kardelen_cake_",
             "browni",
             "magnolia_cake",
             "san_sebastian_(spain)",
@@ -119,9 +122,10 @@
             "schwarzwälder_kirschtorte_(germany)",
             "käsesahne_torte_(germany)",
             "bienenstich_cake_(germany)",
+            "strawberry_and_chocolate__cake",
+            "snickers_cake",
             "linzer_torte_(germany)",
             "trifle_(england)",
-            "mochi_(japan)",
             "pastel_de_nata_(portugal)",
             "fruit_cakes",
             "cake_world",
@@ -132,7 +136,10 @@
             "magnolia_(abd)",
             "hamsiköy_sütlaci",
             "pudding_world",
-            "ashura"
+            "ashura",
+            "dubai_dessert_(in_jar)",
+            "cream_latte_",
+            "mochi_(japan)"
         ]
     },
     "savory_foods": {
@@ -140,19 +147,21 @@
             "croissant_(plain)",
             "croissant_(chocolate)",
             "croissant_big_(plain)_",
+            "croissant_big_(chocolate)",
             "croissant_three_cheese",
-            "croissant_with_veal_ham"
+            "croissant_with_veal_ham",
+            "cheese__pastry__(piece)"
         ],
         "homemade_savory_food_(please_ask_for_daily_made_foods)": [
             "world_of_roll_pastry",
-            "herb_cheese_pastry"
+            "meat_and_pea_pastry",
+            "cheese_and_dill_pastry_(piece)"
         ],
         "breakfast_world": [
             "breakfast_plate",
             "toast-1",
             "toast-2",
-            "sandwich-1",
-            "sandwich-2"
+            "sandwich"
         ],
         "fit_world": [
             "fruit_salad",
@@ -161,6 +170,7 @@
     },
     "extras_(selection_will_be_added_to_the_price)": [
         "decaffeinated_coffee",
+        "extra_espresso",
         "cream",
         "plant_milk_difference_(glass)",
         "difference_between_lactose_free_milk_(glass)",

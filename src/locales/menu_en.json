@@ -56,6 +56,9 @@
     "espresso": {
         "name": "Espresso"
     },
+    "espresso_bombom": {
+        "name": "Espresso Bombom"
+    },
     "lungo": {
         "name": "Lungo"
     },
@@ -69,8 +72,7 @@
         "name": "Dark Americano"
     },
     "cortado": {
-        "name": "Cortado",
-        "description": 9.0
+        "name": "Cortado"
     },
     "cappuccino": {
         "name": "Cappuccino"
@@ -93,6 +95,12 @@
     "filter_coffee": {
         "name": "Filter Coffee"
     },
+    "red_eye": {
+        "name": "Red Eye"
+    },
+    "black_eye": {
+        "name": "Black Eye"
+    },
     "turkish_coffee": {
         "name": "Turkish Coffee"
     },
@@ -107,6 +115,9 @@
     },
     "linden": {
         "name": "Linden"
+    },
+    "winter_tea": {
+        "name": "Winter Tea"
     },
     "sage": {
         "name": "Sage"
@@ -204,9 +215,6 @@
     "iced_black_eye": {
         "name": "Iced Black Eye"
     },
-    "cold_brew": {
-        "name": "Cold Brew"
-    },
     "milkshake": {
         "name": "Milkshake"
     },
@@ -246,6 +254,9 @@
     "pina_colada": {
         "name": "Pina Colada"
     },
+    "color_mix": {
+        "name": "Color Mix"
+    },
     "churchill": {
         "name": "Churchill"
     },
@@ -257,9 +268,6 @@
     },
     "black_mulberry__(homemade)": {
         "name": "Black Mulberry  (HOMEMADE)"
-    },
-    "fresh_squeezed_orange_juice": {
-        "name": "Fresh squeezed orange juice"
     },
     "cool_lime": {
         "name": "Cool Lime"
@@ -300,9 +308,6 @@
     "my_heart": {
         "name": "My Heart"
     },
-    "red_velvet": {
-        "name": "Red Velvet"
-    },
     "peanut_dream": {
         "name": "Peanut Dream"
     },
@@ -312,14 +317,17 @@
     "profitol_cake": {
         "name": "Profitol Cake"
     },
-    "donut": {
-        "name": "Donut"
+    "donut_world": {
+        "name": "Donut World"
     },
-    "berliner": {
-        "name": "Berliner"
+    "cheesecake_lotus": {
+        "name": "Cheesecake Lotus"
     },
-    "lotus_cheesecake": {
-        "name": "Lotus Cheesecake"
+    "cheesecake_whit_baklava": {
+        "name": "Cheesecake whit baklava"
+    },
+    "kardelen_cake_": {
+        "name": "Kardelen Cake "
     },
     "browni": {
         "name": "Browni"
@@ -345,14 +353,17 @@
     "bienenstich_cake_(germany)": {
         "name": "Bienenstich Cake (Germany)"
     },
+    "strawberry_and_chocolate__cake": {
+        "name": "Strawberry and Chocolate  Cake"
+    },
+    "snickers_cake": {
+        "name": "Snickers Cake"
+    },
     "linzer_torte_(germany)": {
         "name": "Linzer Torte (Germany)"
     },
     "trifle_(england)": {
         "name": "Trifle (England)"
-    },
-    "mochi_(japan)": {
-        "name": "Mochi (Japan)"
     },
     "pastel_de_nata_(portugal)": {
         "name": "Pastel de Nata (Portugal)"
@@ -387,6 +398,15 @@
     "ashura": {
         "name": "Ashura"
     },
+    "dubai_dessert_(in_jar)": {
+        "name": "Dubai Dessert (in Jar)"
+    },
+    "cream_latte_": {
+        "name": "Cream Latte "
+    },
+    "mochi_(japan)": {
+        "name": "Mochi (Japan)"
+    },
     "croissant_(plain)": {
         "name": "Croissant (Plain)"
     },
@@ -396,17 +416,26 @@
     "croissant_big_(plain)_": {
         "name": "Croissant BIG (Plain) "
     },
+    "croissant_big_(chocolate)": {
+        "name": "Croissant BIG (chocolate)"
+    },
     "croissant_three_cheese": {
         "name": "Croissant three cheese"
     },
     "croissant_with_veal_ham": {
         "name": "Croissant with veal ham"
     },
+    "cheese__pastry__(piece)": {
+        "name": "Cheese  Pastry  (piece)"
+    },
     "world_of_roll_pastry": {
         "name": "World of Roll Pastry"
     },
-    "herb_cheese_pastry": {
-        "name": "Herb Cheese Pastry"
+    "meat_and_pea_pastry": {
+        "name": "Meat and Pea Pastry"
+    },
+    "cheese_and_dill_pastry_(piece)": {
+        "name": "Cheese and Dill Pastry (piece)"
     },
     "breakfast_plate": {
         "name": "Breakfast Plate"
@@ -417,11 +446,8 @@
     "toast-2": {
         "name": "Toast-2"
     },
-    "sandwich-1": {
-        "name": "Sandwich-1"
-    },
-    "sandwich-2": {
-        "name": "Sandwich-2"
+    "sandwich": {
+        "name": "Sandwich"
     },
     "fruit_salad": {
         "name": "Fruit Salad"
@@ -431,6 +457,9 @@
     },
     "decaffeinated_coffee": {
         "name": "Decaffeinated Coffee"
+    },
+    "extra_espresso": {
+        "name": "Extra Espresso"
     },
     "cream": {
         "name": "Cream"

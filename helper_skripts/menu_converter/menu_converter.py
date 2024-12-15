@@ -4,7 +4,7 @@ import os
 
 # Beispielaufruf der Funktion
 locales="/Users/felix/Local/benefi/src/locales/"
-excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2024.08.09.xlsx'
+excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2024.12.14.xlsx'
 sheet1 = 'menu'
 sheet2 = 'categories'
 menu_en_json = locales+'menu_en.json'

@@ -56,6 +56,9 @@
     "espresso": {
         "name": "Espresso"
     },
+    "espresso_bombom": {
+        "name": "Espresso Bombom"
+    },
     "lungo": {
         "name": "Lungo"
     },
@@ -92,6 +95,12 @@
     "filter_coffee": {
         "name": "Filtre Kahve (sade)"
     },
+    "red_eye": {
+        "name": "Red Eye"
+    },
+    "black_eye": {
+        "name": "Black Eye"
+    },
     "turkish_coffee": {
         "name": "Türk Kahvesi"
     },
@@ -106,6 +115,9 @@
     },
     "linden": {
         "name": "Ihlamur"
+    },
+    "winter_tea": {
+        "name": "Kış Çayı"
     },
     "sage": {
         "name": "Adaçayı"
@@ -203,9 +215,6 @@
     "iced_black_eye": {
         "name": "Iced Black Eye"
     },
-    "cold_brew": {
-        "name": "Cold Brew"
-    },
     "milkshake": {
         "name": "Milkshake"
     },
@@ -245,6 +254,9 @@
     "pina_colada": {
         "name": "Pina Colada"
     },
+    "color_mix": {
+        "name": "Color Mix"
+    },
     "churchill": {
         "name": "Churchill"
     },
@@ -256,9 +268,6 @@
     },
     "black_mulberry__(homemade)": {
         "name": "Karadut (EV YAPIMI)"
-    },
-    "fresh_squeezed_orange_juice": {
-        "name": "Sıkma Portakal suyu"
     },
     "cool_lime": {
         "name": "Cool Lime"
@@ -288,7 +297,7 @@
         "name": "Su (Cam Şişe)"
     },
     "cheesecake": {
-        "name": "Chees Cake"
+        "name": "Cheescake"
     },
     "mosaic_cake": {
         "name": "Mozaik Pastası"
@@ -299,9 +308,6 @@
     "my_heart": {
         "name": "Kalbim"
     },
-    "red_velvet": {
-        "name": "Red Velvet"
-    },
     "peanut_dream": {
         "name": "Fıstık Rüyası"
     },
@@ -311,14 +317,17 @@
     "profitol_cake": {
         "name": "Profitollu Pasta"
     },
-    "donut": {
-        "name": "Donut "
+    "donut_world": {
+        "name": "Çörek Dünyası"
     },
-    "berliner": {
-        "name": "Berliner"
+    "cheesecake_lotus": {
+        "name": "Cheesecake Lotuslu"
     },
-    "lotus_cheesecake": {
-        "name": "Lotuslu Chees Cake"
+    "cheesecake_whit_baklava": {
+        "name": "Baklavalı Cheesecake"
+    },
+    "kardelen_cake_": {
+        "name": "Kardelen Pasta"
     },
     "browni": {
         "name": "Browni"
@@ -344,14 +353,17 @@
     "bienenstich_cake_(germany)": {
         "name": "Arı Sokması Pastası (Almanya)"
     },
+    "strawberry_and_chocolate__cake": {
+        "name": "Çilekli Çikolatalı Pasta (Rusya)"
+    },
+    "snickers_cake": {
+        "name": "Snickers Fıstıklı Pasta "
+    },
     "linzer_torte_(germany)": {
         "name": "Linzer Turtası (Almanya)"
     },
     "trifle_(england)": {
         "name": "Trifle (İngiltere)"
-    },
-    "mochi_(japan)": {
-        "name": "Mochi (Japonya)"
     },
     "pastel_de_nata_(portugal)": {
         "name": "Pastel de Nata (Portekiz)"
@@ -386,6 +398,15 @@
     "ashura": {
         "name": "Aşure"
     },
+    "dubai_dessert_(in_jar)": {
+        "name": "Dubai Tatlısı"
+    },
+    "cream_latte_": {
+        "name": "Krem Latte"
+    },
+    "mochi_(japan)": {
+        "name": "Mochi (Japonya)"
+    },
     "croissant_(plain)": {
         "name": "Kruvasan (sade)"
     },
@@ -395,17 +416,26 @@
     "croissant_big_(plain)_": {
         "name": "Kruvasan Jumbo (sade)"
     },
+    "croissant_big_(chocolate)": {
+        "name": "Kruvasan Jumbo (Çikolatalı)"
+    },
     "croissant_three_cheese": {
         "name": "Kruvasan Jumbo Üç Peynirli"
     },
     "croissant_with_veal_ham": {
         "name": "Kruvasan  Peynir ve Dana Jambonlu"
     },
+    "cheese__pastry__(piece)": {
+        "name": "Peynirli Börek (adet)"
+    },
     "world_of_roll_pastry": {
         "name": "Rulo Börek Dünyası"
     },
-    "herb_cheese_pastry": {
-        "name": "Otlu Peynirli Börek"
+    "meat_and_pea_pastry": {
+        "name": "Talaş  Böreği "
+    },
+    "cheese_and_dill_pastry_(piece)": {
+        "name": "Peynirli Dereotlu Poğaça (adet)"
     },
     "breakfast_plate": {
         "name": "Kahvaltı Tabağı"
@@ -416,11 +446,8 @@
     "toast-2": {
         "name": "Tost Karışık"
     },
-    "sandwich-1": {
-        "name": "Sandeviç Peynirli"
-    },
-    "sandwich-2": {
-        "name": "Sandevi Full Karışık"
+    "sandwich": {
+        "name": "Sandeviç Karışık"
     },
     "fruit_salad": {
         "name": "Meyve Salatası"
@@ -430,6 +457,9 @@
     },
     "decaffeinated_coffee": {
         "name": "Kafeinsiz  Kahve  Seçimi"
+    },
+    "extra_espresso": {
+        "name": "Ekstra Espresso Shot"
     },
     "cream": {
         "name": "Krema"
