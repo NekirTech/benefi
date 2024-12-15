@@ -107,8 +107,8 @@
     "decaffeinated_turkish_coffee": {
         "name": "Decaffeinated Turkish Coffee"
     },
-    "dibek_turkish_coffee__(harput_coffee)": {
-        "name": "Dibek Turkish Coffee  (Harput Coffee)"
+    "dibek_turkish_coffee_(harput_coffee)": {
+        "name": "Dibek Turkish Coffee (Harput Coffee)"
     },
     "black_tea": {
         "name": "Black Tea"
@@ -272,8 +272,8 @@
     "cool_lime": {
         "name": "Cool Lime"
     },
-    "coca_cola,_zero,_pepsi,fanta,_sprite": {
-        "name": "Coca Cola, Zero, Pepsi,Fanta, Sprite"
+    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
+        "name": "Coca Cola, Zero, Pepsi, Fanta, Sprite"
     },
     "naren_(katkısız_meyve_suları)": {
         "name": "Naren (Katkısız Meyve Suları)"
@@ -323,8 +323,8 @@
     "cheesecake_lotus": {
         "name": "Cheesecake Lotus"
     },
-    "cheesecake_whit_baklava": {
-        "name": "Cheesecake whit baklava"
+    "cheesecake_with_baklava": {
+        "name": "Cheesecake with baklava"
     },
     "kardelen_cake_": {
         "name": "Kardelen Cake "
@@ -425,8 +425,8 @@
     "croissant_with_veal_ham": {
         "name": "Croissant with veal ham"
     },
-    "cheese__pastry__(piece)": {
-        "name": "Cheese  Pastry  (piece)"
+    "cheese_pastry_(piece)": {
+        "name": "Cheese Pastry (piece)"
     },
     "world_of_roll_pastry": {
         "name": "World of Roll Pastry"

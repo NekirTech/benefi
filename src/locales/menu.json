@@ -19,7 +19,7 @@
             "black_eye",
             "turkish_coffee",
             "decaffeinated_turkish_coffee",
-            "dibek_turkish_coffee__(harput_coffee)"
+            "dibek_turkish_coffee_(harput_coffee)"
         ],
         "hot_teas": [
             "black_tea",
@@ -88,7 +88,7 @@
             "cool_lime"
         ],
         "softdrinks": [
-            "coca_cola,_zero,_pepsi,fanta,_sprite",
+            "coca_cola,_zero,_pepsi,_fanta,_sprite",
             "naren_(katkısız_meyve_suları)",
             "naren_fruizy_(katkısız_meyve_suları)",
             "soda_types",
@@ -112,7 +112,7 @@
         "homemade_sweets_(please_ask_for_daily_cakes)": [
             "cheesecake",
             "cheesecake_lotus",
-            "cheesecake_whit_baklava",
+            "cheesecake_with_baklava",
             "kardelen_cake_",
             "browni",
             "magnolia_cake",
@@ -150,7 +150,7 @@
             "croissant_big_(chocolate)",
             "croissant_three_cheese",
             "croissant_with_veal_ham",
-            "cheese__pastry__(piece)"
+            "cheese_pastry_(piece)"
         ],
         "homemade_savory_food_(please_ask_for_daily_made_foods)": [
             "world_of_roll_pastry",

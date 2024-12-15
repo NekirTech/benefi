@@ -124,20 +124,20 @@
     "turkish_coffee": {
         "small_price": 65,
         "medium_price": 75,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
+        "picture_small": "menu_pics/turkish_coffee_small.webp",
+        "picture_large": "menu_pics/turkish_coffee_large.webp"
     },
     "decaffeinated_turkish_coffee": {
         "small_price": 75,
         "medium_price": 80,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
+        "picture_small": "menu_pics/decaffeinated_turkish_coffee_small.webp",
+        "picture_large": "menu_pics/decaffeinated_turkish_coffee_large.webp"
     },
-    "dibek_turkish_coffee__(harput_coffee)": {
+    "dibek_turkish_coffee_(harput_coffee)": {
         "small_price": 75,
         "medium_price": 80,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
+        "picture_small": "menu_pics/dibek_turkish_coffee_(harput_coffee)_small.webp",
+        "picture_large": "menu_pics/dibek_turkish_coffee_(harput_coffee)_large.webp"
     },
     "black_tea": {
         "small_price": 30,
@@ -382,8 +382,10 @@
     "cool_lime": {
         "medium_price": 75
     },
-    "coca_cola,_zero,_pepsi,fanta,_sprite": {
-        "medium_price": 50
+    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
+        "medium_price": 50,
+        "picture_small": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_small.webp",
+        "picture_large": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_large.webp"
     },
     "naren_(katkısız_meyve_suları)": {
         "medium_price": 60,
@@ -449,8 +451,10 @@
         "picture_small": "menu_pics/cheesecake_lotus_small.webp",
         "picture_large": "menu_pics/cheesecake_lotus_large.webp"
     },
-    "cheesecake_whit_baklava": {
-        "medium_price": 200
+    "cheesecake_with_baklava": {
+        "medium_price": 200,
+        "picture_small": "menu_pics/cheesecake_with_baklava_small.webp",
+        "picture_large": "menu_pics/cheesecake_with_baklava_large.webp"
     },
     "kardelen_cake_": {
         "medium_price": 180
@@ -579,7 +583,7 @@
         "picture_small": "menu_pics/croissant_with_veal_ham_small.webp",
         "picture_large": "menu_pics/croissant_with_veal_ham_large.webp"
     },
-    "cheese__pastry__(piece)": {
+    "cheese_pastry_(piece)": {
         "medium_price": 50
     },
     "world_of_roll_pastry": {

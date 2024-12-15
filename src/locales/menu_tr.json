@@ -107,7 +107,7 @@
     "decaffeinated_turkish_coffee": {
         "name": "Kafeinsiz Türk Kahvesi"
     },
-    "dibek_turkish_coffee__(harput_coffee)": {
+    "dibek_turkish_coffee_(harput_coffee)": {
         "name": "Dibek Kahvesi  (Harput Kahvesi)"
     },
     "black_tea": {
@@ -272,7 +272,7 @@
     "cool_lime": {
         "name": "Cool Lime"
     },
-    "coca_cola,_zero,_pepsi,fanta,_sprite": {
+    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
         "name": "Coca Kola, Zero, Pepsi, Fanta, Sprite"
     },
     "naren_(katkısız_meyve_suları)": {
@@ -323,7 +323,7 @@
     "cheesecake_lotus": {
         "name": "Cheesecake Lotuslu"
     },
-    "cheesecake_whit_baklava": {
+    "cheesecake_with_baklava": {
         "name": "Baklavalı Cheesecake"
     },
     "kardelen_cake_": {
@@ -425,7 +425,7 @@
     "croissant_with_veal_ham": {
         "name": "Kruvasan  Peynir ve Dana Jambonlu"
     },
-    "cheese__pastry__(piece)": {
+    "cheese_pastry_(piece)": {
         "name": "Peynirli Börek (adet)"
     },
     "world_of_roll_pastry": {
