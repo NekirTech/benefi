@@ -138,5 +138,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
     write_json(menu_json,menu_content)
 
 
-download_file_from_google_drive(file_id, excel_file)
-excel_to_json(excel_file, sheet1, sheet2)
+#download_file_from_google_drive(file_id, excel_file)
+#excel_to_json(excel_file, sheet1, sheet2)
+
+excel_to_json('/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2025.01.14.xlsx', sheet1, sheet2)

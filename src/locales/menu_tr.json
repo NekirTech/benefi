@@ -215,8 +215,11 @@
     "iced_black_eye": {
         "name": "Iced Black Eye"
     },
-    "milkshake": {
-        "name": "Milkshake"
+    "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
+        "name": "Milkshake ( Vanilya / Çikolata / Çilek / Muz )"
+    },
+    "milkshake_(oreo)": {
+        "name": "Milkshake (Oreo)"
     },
     "smoothie": {
         "name": "Smoothie"
@@ -296,29 +299,23 @@
     "water_(glas_bottle)": {
         "name": "Su (Cam Şişe)"
     },
-    "cheesecake": {
-        "name": "Cheescake"
-    },
-    "mosaic_cake": {
-        "name": "Mozaik Pastası"
+    "cheesecake_(lemon_/_raspberry)": {
+        "name": "Cheesecake (limonlu / frambuazlı)"
     },
     "latte_mono": {
         "name": "Latte Mono"
     },
-    "my_heart": {
-        "name": "Kalbim"
-    },
-    "peanut_dream": {
-        "name": "Fıstık Rüyası"
-    },
-    "devil's_cake": {
-        "name": "Devil's Pasta"
+    "tiramisu_mono": {
+        "name": "Tiramisu Mono"
     },
     "profitol_cake": {
         "name": "Profitollu Pasta"
     },
-    "donut_world": {
-        "name": "Çörek Dünyası"
+    "nutella_cake": {
+        "name": "Nutellalı Pasta"
+    },
+    "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
+        "name": "Cheescake ( Her gün farklı bir çeşit pişiyor. Lütfen bilgi alınız)"
     },
     "cheesecake_lotus": {
         "name": "Cheesecake Lotuslu"
@@ -428,8 +425,8 @@
     "cheese_pastry_(piece)": {
         "name": "Peynirli Börek (adet)"
     },
-    "world_of_roll_pastry": {
-        "name": "Rulo Börek Dünyası"
+    "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
+        "name": "Rulo Börek Dünyası (Ispanaklı+3 Peynirli / 3 Peynirli / Patatesli)"
     },
     "meat_and_pea_pastry": {
         "name": "Talaş  Böreği "
@@ -440,14 +437,14 @@
     "breakfast_plate": {
         "name": "Kahvaltı Tabağı"
     },
-    "toast-1": {
+    "toast_with_cheddar": {
         "name": "Tost Kaşarlı"
     },
-    "toast-2": {
+    "toast_with_cheddar+salami": {
         "name": "Tost Karışık"
     },
-    "sandwich": {
-        "name": "Sandeviç Karışık"
+    "sandwich_(cheese_+cheddar+salami)": {
+        "name": "Sandeviç (Kaşar Peyniri+Chedar+Salam)"
     },
     "fruit_salad": {
         "name": "Meyve Salatası"
@@ -455,8 +452,8 @@
     "bowl": {
         "name": "Bowl"
     },
-    "decaffeinated_coffee": {
-        "name": "Kafeinsiz  Kahve  Seçimi"
+    "decaffeinated_coffee_price_difference_": {
+        "name": "Kafeinsiz  Kahve  Seçimi fiyat farkı"
     },
     "extra_espresso": {
         "name": "Ekstra Espresso Shot"

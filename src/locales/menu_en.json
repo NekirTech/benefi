@@ -215,8 +215,11 @@
     "iced_black_eye": {
         "name": "Iced Black Eye"
     },
-    "milkshake": {
-        "name": "Milkshake"
+    "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
+        "name": "Milkshake ( Vanilla / Chocolate / Strawberry / Banana )"
+    },
+    "milkshake_(oreo)": {
+        "name": "Milkshake (Oreo)"
     },
     "smoothie": {
         "name": "Smoothie"
@@ -296,35 +299,29 @@
     "water_(glas_bottle)": {
         "name": "Water (Glas Bottle)"
     },
-    "cheesecake": {
-        "name": "Cheesecake"
-    },
-    "mosaic_cake": {
-        "name": "Mosaic Cake"
+    "cheesecake_(lemon_/_raspberry)": {
+        "name": "Cheesecake (lemon / raspberry)"
     },
     "latte_mono": {
         "name": "Latte Mono"
     },
-    "my_heart": {
-        "name": "My Heart"
-    },
-    "peanut_dream": {
-        "name": "Peanut Dream"
-    },
-    "devil's_cake": {
-        "name": "Devil's Cake"
+    "tiramisu_mono": {
+        "name": "Tiramisu Mono"
     },
     "profitol_cake": {
         "name": "Profitol Cake"
     },
-    "donut_world": {
-        "name": "Donut World"
+    "nutella_cake": {
+        "name": "Nutella Cake"
+    },
+    "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
+        "name": "Cheesecake (A diffenrent variety is cooked every day. Please get information)"
     },
     "cheesecake_lotus": {
         "name": "Cheesecake Lotus"
     },
     "cheesecake_with_baklava": {
-        "name": "Cheesecake with baklava"
+        "name": "Cheesecake with Baklava"
     },
     "kardelen_cake_": {
         "name": "Kardelen Cake "
@@ -428,8 +425,8 @@
     "cheese_pastry_(piece)": {
         "name": "Cheese Pastry (piece)"
     },
-    "world_of_roll_pastry": {
-        "name": "World of Roll Pastry"
+    "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
+        "name": "World of Roll Pastry (spinach+cheese / Three cheese / patato)"
     },
     "meat_and_pea_pastry": {
         "name": "Meat and Pea Pastry"
@@ -440,14 +437,14 @@
     "breakfast_plate": {
         "name": "Breakfast Plate"
     },
-    "toast-1": {
-        "name": "Toast-1"
+    "toast_with_cheddar": {
+        "name": "Toast with Cheddar"
     },
-    "toast-2": {
-        "name": "Toast-2"
+    "toast_with_cheddar+salami": {
+        "name": "Toast with Cheddar+Salami"
     },
-    "sandwich": {
-        "name": "Sandwich"
+    "sandwich_(cheese_+cheddar+salami)": {
+        "name": "Sandwich (Cheese +Cheddar+Salami)"
     },
     "fruit_salad": {
         "name": "Fruit Salad"
@@ -455,8 +452,8 @@
     "bowl": {
         "name": "Bowl"
     },
-    "decaffeinated_coffee": {
-        "name": "Decaffeinated Coffee"
+    "decaffeinated_coffee_price_difference_": {
+        "name": "Decaffeinated Coffee price difference "
     },
     "extra_espresso": {
         "name": "Extra Espresso"

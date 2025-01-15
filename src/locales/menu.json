@@ -67,7 +67,8 @@
             "iced_black_eye"
         ],
         "other_cold_drinks": [
-            "milkshake",
+            "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)",
+            "milkshake_(oreo)",
             "smoothie",
             "frappe",
             "frozen",
@@ -100,17 +101,14 @@
     },
     "sweet_foods": {
         "world_of_sweets": [
-            "cheesecake",
-            "mosaic_cake",
+            "cheesecake_(lemon_/_raspberry)",
             "latte_mono",
-            "my_heart",
-            "peanut_dream",
-            "devil's_cake",
+            "tiramisu_mono",
             "profitol_cake",
-            "donut_world"
+            "nutella_cake"
         ],
         "homemade_sweets_(please_ask_for_daily_cakes)": [
-            "cheesecake",
+            "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)",
             "cheesecake_lotus",
             "cheesecake_with_baklava",
             "kardelen_cake_",
@@ -153,15 +151,15 @@
             "cheese_pastry_(piece)"
         ],
         "homemade_savory_food_(please_ask_for_daily_made_foods)": [
-            "world_of_roll_pastry",
+            "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)",
             "meat_and_pea_pastry",
             "cheese_and_dill_pastry_(piece)"
         ],
         "breakfast_world": [
             "breakfast_plate",
-            "toast-1",
-            "toast-2",
-            "sandwich"
+            "toast_with_cheddar",
+            "toast_with_cheddar+salami",
+            "sandwich_(cheese_+cheddar+salami)"
         ],
         "fit_world": [
             "fruit_salad",
@@ -169,7 +167,7 @@
         ]
     },
     "extras_(selection_will_be_added_to_the_price)": [
-        "decaffeinated_coffee",
+        "decaffeinated_coffee_price_difference_",
         "extra_espresso",
         "cream",
         "plant_milk_difference_(glass)",

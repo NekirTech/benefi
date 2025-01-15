@@ -27,13 +27,13 @@
     "fit_world": {},
     "extras_(selection_will_be_added_to_the_price)": {},
     "espresso": {
-        "small_price": 70,
-        "medium_price": 75,
+        "small_price": 100,
+        "medium_price": 110,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "espresso_bombom": {
-        "medium_price": 85,
+        "medium_price": 90,
         "picture_small": "menu_pics/espresso_bombom_small.webp",
         "picture_large": "menu_pics/espresso_bombom_large.webp"
     },
@@ -86,14 +86,14 @@
         "picture_large": "menu_pics/latte_macchiato_large.webp"
     },
     "mocha": {
-        "medium_price": 115,
-        "large_price": 125,
+        "medium_price": 150,
+        "large_price": 160,
         "picture_small": "menu_pics/mocha_small.webp",
         "picture_large": "menu_pics/mocha_large.webp"
     },
     "white_chocolate_mocha": {
-        "medium_price": 115,
-        "large_price": 125,
+        "medium_price": 150,
+        "large_price": 160,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
@@ -122,20 +122,20 @@
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "turkish_coffee": {
-        "small_price": 65,
-        "medium_price": 75,
+        "small_price": 85,
+        "medium_price": 95,
         "picture_small": "menu_pics/turkish_coffee_small.webp",
         "picture_large": "menu_pics/turkish_coffee_large.webp"
     },
     "decaffeinated_turkish_coffee": {
-        "small_price": 75,
-        "medium_price": 80,
+        "small_price": 95,
+        "medium_price": 105,
         "picture_small": "menu_pics/decaffeinated_turkish_coffee_small.webp",
         "picture_large": "menu_pics/decaffeinated_turkish_coffee_large.webp"
     },
     "dibek_turkish_coffee_(harput_coffee)": {
-        "small_price": 75,
-        "medium_price": 80,
+        "small_price": 95,
+        "medium_price": 105,
         "picture_small": "menu_pics/dibek_turkish_coffee_(harput_coffee)_small.webp",
         "picture_large": "menu_pics/dibek_turkish_coffee_(harput_coffee)_large.webp"
     },
@@ -252,7 +252,8 @@
         "picture_large": "menu_pics/sahlep_large.webp"
     },
     "matcha_latte": {
-        "medium_price": 115
+        "medium_price": 115,
+        "large_price": 125
     },
     "chai_tea_latte": {
         "medium_price": 115
@@ -286,10 +287,10 @@
         "picture_large": "menu_pics/iced_flat_white_large.webp"
     },
     "iced_mocha": {
-        "large_price": 130
+        "large_price": 160
     },
     "iced_white_chocolate_mocha": {
-        "large_price": 130
+        "large_price": 160
     },
     "iced_latte": {
         "large_price": 110,
@@ -304,10 +305,11 @@
     "iced_black_eye": {
         "large_price": 150
     },
-    "milkshake": {
-        "large_price": 135,
-        "picture_small": "menu_pics/milkshake_small.webp",
-        "picture_large": "menu_pics/milkshake_large.webp"
+    "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
+        "large_price": 135
+    },
+    "milkshake_(oreo)": {
+        "large_price": 165
     },
     "smoothie": {
         "large_price": 135,
@@ -420,33 +422,23 @@
     "water_(glas_bottle)": {
         "medium_price": 25
     },
-    "cheesecake": {
-        "medium_price": 180,
-        "picture_small": "menu_pics/cheesecake_small.webp",
-        "picture_large": "menu_pics/cheesecake_large.webp"
-    },
-    "mosaic_cake": {
+    "cheesecake_(lemon_/_raspberry)": {
         "medium_price": 130
     },
     "latte_mono": {
         "medium_price": 130
     },
-    "my_heart": {
+    "tiramisu_mono": {
         "medium_price": 130
-    },
-    "peanut_dream": {
-        "medium_price": 130
-    },
-    "devil's_cake": {
-        "medium_price": 130,
-        "picture_small": "menu_pics/devil's_cake_small.webp",
-        "picture_large": "menu_pics/devil's_cake_large.webp"
     },
     "profitol_cake": {
         "medium_price": 130
     },
-    "donut_world": {
-        "medium_price": 75
+    "nutella_cake": {
+        "medium_price": 130
+    },
+    "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
+        "medium_price": 180
     },
     "cheesecake_lotus": {
         "medium_price": 200,
@@ -588,10 +580,8 @@
     "cheese_pastry_(piece)": {
         "medium_price": 50
     },
-    "world_of_roll_pastry": {
-        "medium_price": 80,
-        "picture_small": "menu_pics/world_of_roll_pastry_small.webp",
-        "picture_large": "menu_pics/world_of_roll_pastry_large.webp"
+    "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
+        "medium_price": 80
     },
     "meat_and_pea_pastry": {
         "medium_price": 95
@@ -604,32 +594,26 @@
         "picture_small": "menu_pics/breakfast_plate_small.webp",
         "picture_large": "menu_pics/breakfast_plate_large.webp"
     },
-    "toast-1": {
-        "medium_price": 120,
-        "picture_small": "menu_pics/toast-1_small.webp",
-        "picture_large": "menu_pics/toast-1_large.webp"
+    "toast_with_cheddar": {
+        "medium_price": 120
     },
-    "toast-2": {
-        "medium_price": 135,
-        "picture_small": "menu_pics/toast-2_small.webp",
-        "picture_large": "menu_pics/toast-2_large.webp"
+    "toast_with_cheddar+salami": {
+        "medium_price": 135
     },
-    "sandwich": {
-        "medium_price": 135,
-        "picture_small": "menu_pics/sandwich_small.webp",
-        "picture_large": "menu_pics/sandwich_large.webp"
+    "sandwich_(cheese_+cheddar+salami)": {
+        "medium_price": 135
     },
     "fruit_salad": {
-        "medium_price": 135,
+        "medium_price": 155,
         "picture_small": "menu_pics/fruit_salad_small.webp",
         "picture_large": "menu_pics/fruit_salad_large.webp"
     },
     "bowl": {
-        "medium_price": 135,
+        "medium_price": 155,
         "picture_small": "menu_pics/bowl_small.webp",
         "picture_large": "menu_pics/bowl_large.webp"
     },
-    "decaffeinated_coffee": {
+    "decaffeinated_coffee_price_difference_": {
         "medium_price": 20
     },
     "extra_espresso": {
