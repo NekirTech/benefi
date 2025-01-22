@@ -4,8 +4,10 @@ import os
 import requests
 
 # Beispielaufruf der Funktion
-locales="/Users/felix/Local/benefi/src/locales/"
-excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/google_menu.xlsx'
+#path = "/Users/felix/Local/benefi"
+path = "."
+locales=path + "/src/locales/"
+excel_file = path + '/helper_skripts/menu_converter/google_menu.xlsx'
 file_id = '1OoninbaYY8wpVwbi-vCQtSfWzp0n1FxC'
 sheet1 = 'menu'
 sheet2 = 'categories'
@@ -101,7 +103,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
           menu_static_content[key_name]["medium_price"]=int(medium_price)
         if not pd.isnull(large_price):
           menu_static_content[key_name]["large_price"]=int(large_price)
-        picture_path="/Users/felix/Local/benefi/public/menu_pics/"
+        picture_path= path + "/public/menu_pics/"
         picture_name=key_name+"_small.webp"
         picture_name_large=key_name+"_large.webp"
         category_name=row["category"]
@@ -129,7 +131,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
             for subcategory in menu_content[categories]:
                 if product_category_key==subcategory:
                   menu_content[categories][subcategory].append(key_name)
-    df1.to_excel('/Users/felix/Local/benefi/helper_skripts/menu_converter/analyse.xlsx',index=False)
+    df1.to_excel(path + '/helper_skripts/menu_converter/analyse.xlsx',index=False)
     #data1 = menu_en_content.to_dict(orient='records')
     # Daten als JSON-Datei speichern
     write_json(menu_en_json,menu_en_content)
@@ -142,4 +144,3 @@ download_file_from_google_drive(file_id, excel_file)
 excel_to_json(excel_file, sheet1, sheet2)
 
 #excel_to_json('/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2025.01.14.xlsx', sheet1, sheet2)
-#test
