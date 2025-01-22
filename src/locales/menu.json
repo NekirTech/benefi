@@ -2,18 +2,18 @@
     "hot_drinks": {
         "hot_coffees": [
             "espresso",
-            "espresso_bombom",
             "lungo",
-            "espresso_con_panna",
+            "macchiato",
+            "con_panne",
             "americano",
             "dark_americano",
             "cortado",
             "cappuccino",
-            "flat_white",
+            "latte",
             "latte_macchiato",
             "mocha",
-            "white_chocolate_mocha",
-            "latte",
+            "white_mocha",
+            "cafe_bombom",
             "filter_coffee",
             "red_eye",
             "black_eye",
@@ -31,7 +31,8 @@
             "mint_green_tea",
             "detox_tea",
             "dream_tea",
-            "blue_butterfly_tea"
+            "blue_butterfly_tea",
+            "chai_tea_latte"
         ],
         "ronnefeldt_world_tea": [
             "rooibos_cream_orange",
@@ -49,7 +50,6 @@
             "hot_chocolate",
             "sahlep",
             "matcha_latte",
-            "chai_tea_latte",
             "benefi_green_tea"
         ]
     },
@@ -64,7 +64,8 @@
             "iced_white_chocolate_mocha",
             "iced_latte",
             "iced_red_eye",
-            "iced_black_eye"
+            "iced_black_eye",
+            "cold_brew"
         ],
         "other_cold_drinks": [
             "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)",
@@ -169,16 +170,16 @@
     "extras_(selection_will_be_added_to_the_price)": [
         "decaffeinated_coffee_price_difference_",
         "extra_espresso",
+        "large_paper_cup_difference",
         "cream",
         "plant_milk_difference_(glass)",
         "difference_between_lactose_free_milk_(glass)",
         "added_milk_difference_(glass)",
-        "additional_coffee",
         "additional_syrup",
         "1_scoop_of_ice_cream",
         "2_scoop_of_ice_cream",
         "honey_",
-        "glass_and_ice",
+        "extra_glass_and_ice",
         "extra_bread"
     ]
 }

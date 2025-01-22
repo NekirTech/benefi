@@ -56,14 +56,14 @@
     "espresso": {
         "name": "Espresso"
     },
-    "espresso_bombom": {
-        "name": "Espresso Bombom"
-    },
     "lungo": {
         "name": "Lungo"
     },
-    "espresso_con_panna": {
-        "name": "Espresso Con Panna"
+    "macchiato": {
+        "name": "Macchiato"
+    },
+    "con_panne": {
+        "name": "Con Panne"
     },
     "americano": {
         "name": "Americano"
@@ -80,17 +80,20 @@
     "flat_white": {
         "name": "Flat White"
     },
+    "latte": {
+        "name": "Latte"
+    },
     "latte_macchiato": {
         "name": "Latte Macchiato"
     },
     "mocha": {
         "name": "Mocha"
     },
-    "white_chocolate_mocha": {
-        "name": "White Chocolate Mocha"
+    "white_mocha": {
+        "name": "White Mocha"
     },
-    "latte": {
-        "name": "Latte"
+    "cafe_bombom": {
+        "name": "Cafe Bombom"
     },
     "filter_coffee": {
         "name": "Filter Coffee"
@@ -140,6 +143,9 @@
     "blue_butterfly_tea": {
         "name": "Blue Butterfly Tea"
     },
+    "chai_tea_latte": {
+        "name": "Chai Tea Latte"
+    },
     "rooibos_cream_orange": {
         "name": "Rooibos Cream Orange"
     },
@@ -179,9 +185,6 @@
     "matcha_latte": {
         "name": "Matcha Latte"
     },
-    "chai_tea_latte": {
-        "name": "Chai Tea Latte"
-    },
     "benefi_green_tea": {
         "name": "BENEFI Green Tea"
     },
@@ -214,6 +217,9 @@
     },
     "iced_black_eye": {
         "name": "Iced Black Eye"
+    },
+    "cold_brew": {
+        "name": "Cold Brew"
     },
     "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
         "name": "Milkshake ( Vanilla / Chocolate / Strawberry / Banana )"
@@ -458,6 +464,9 @@
     "extra_espresso": {
         "name": "Extra Espresso"
     },
+    "large_paper_cup_difference": {
+        "name": "Large Paper Cup Difference"
+    },
     "cream": {
         "name": "Cream"
     },
@@ -469,9 +478,6 @@
     },
     "added_milk_difference_(glass)": {
         "name": "Added Milk Difference (glass)"
-    },
-    "additional_coffee": {
-        "name": "Additional Coffee"
     },
     "additional_syrup": {
         "name": "Additional Syrup"
@@ -485,8 +491,8 @@
     "honey_": {
         "name": "Honey "
     },
-    "glass_and_ice": {
-        "name": "Glass and ice"
+    "extra_glass_and_ice": {
+        "name": "Extra Glass and ice"
     },
     "extra_bread": {
         "name": "Extra Bread"

@@ -6,7 +6,7 @@ import requests
 # Beispielaufruf der Funktion
 locales="/Users/felix/Local/benefi/src/locales/"
 excel_file = '/Users/felix/Local/benefi/helper_skripts/menu_converter/google_menu.xlsx'
-file_id = '1flY3HRzpq3KqbrecIHkeTef7JGA-TeUx'
+file_id = '1OoninbaYY8wpVwbi-vCQtSfWzp0n1FxC'
 sheet1 = 'menu'
 sheet2 = 'categories'
 menu_en_json = locales+'menu_en.json'
@@ -91,9 +91,9 @@ def excel_to_json(excel_file, sheet1, sheet2):
           menu_tr_content[key_name]["description"]=turkish_description
 
         #static menu
-        small_price=row['(X)  Size']
-        medium_price=row['(XX) Size']
-        large_price=row[' (XXX) Size']
+        small_price=row[6]
+        medium_price=row[7]
+        large_price=row[8]
         menu_static_content[key_name]={}
         if not pd.isnull(small_price):
           menu_static_content[key_name]["small_price"]=int(small_price)
@@ -138,7 +138,7 @@ def excel_to_json(excel_file, sheet1, sheet2):
     write_json(menu_json,menu_content)
 
 
-#download_file_from_google_drive(file_id, excel_file)
-#excel_to_json(excel_file, sheet1, sheet2)
+download_file_from_google_drive(file_id, excel_file)
+excel_to_json(excel_file, sheet1, sheet2)
 
-excel_to_json('/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2025.01.14.xlsx', sheet1, sheet2)
+#excel_to_json('/Users/felix/Local/benefi/helper_skripts/menu_converter/menu-2025.01.14.xlsx', sheet1, sheet2)
