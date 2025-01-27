@@ -14,12 +14,7 @@
       :items="categories"
       :level="Number(level) + 1"
     ></my-expansion-item>
-    <q-item v-if="Array.isArray(categories)" class="q-px-md q-py-sm">
-      <q-item-section> </q-item-section>
-      <q-item-section side>
-        <q-item-label>S / M / L </q-item-label>
-      </q-item-section>
-    </q-item>
+
     <q-item
       v-for="item in Array.isArray(categories) ? categories : []"
       :key="item"
@@ -44,9 +39,29 @@
       </q-item-section>
       <q-item-section side>
         <q-item-label
-          >{{ getStaticValues(item, 'small_price') || '-' }} /
-          {{ getStaticValues(item, 'medium_price') || '-' }} /
-          {{ getStaticValues(item, 'large_price') || '-' }}
+          v-if="
+            hasStaticValues(item, 'small_price') ||
+            hasStaticValues(item, 'medium_price')
+          "
+          >{{ hasStaticValues(item, 'small_price') ? 'S / ' : '' }}
+          {{ hasStaticValues(item, 'medium_price') ? 'M / ' : '' }} L
+        </q-item-label>
+        <q-item-label
+          >{{
+            hasStaticValues(item, 'small_price')
+              ? getStaticValues(item, 'small_price') + ' /'
+              : ''
+          }}
+          {{
+            hasStaticValues(item, 'medium_price')
+              ? getStaticValues(item, 'medium_price') + ' /'
+              : ''
+          }}
+          {{
+            hasStaticValues(item, 'large_price')
+              ? getStaticValues(item, 'large_price') + ''
+              : ''
+          }}
         </q-item-label>
       </q-item-section>
     </q-item>
@@ -89,6 +104,15 @@ function getStaticValues(key, value_name) {
     static_value = menu_static[key][value_name];
   }
   return static_value;
+}
+function hasStaticValues(key, value_name) {
+  if (!menu_static.hasOwnProperty(key)) {
+    return false;
+  }
+  if (menu_static[key].hasOwnProperty(value_name)) {
+    return true;
+  }
+  return false;
 }
 const bus = inject('bus');
 
