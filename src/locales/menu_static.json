@@ -27,7 +27,7 @@
     "fit_world": {},
     "extras_(selection_will_be_added_to_the_price)": {},
     "espresso": {
-        "medium_price": 10000,
+        "medium_price": 90,
         "large_price": 100,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
