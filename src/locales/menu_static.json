@@ -412,25 +412,25 @@
         "large_price": 30
     },
     "cheesecake_(lemon_/_raspberry)": {
-        "large_price": 130
+        "large_price": 160
     },
     "latte_mono": {
-        "large_price": 130
+        "large_price": 160
     },
     "tiramisu_mono": {
-        "large_price": 130
+        "large_price": 160
     },
     "profitol_cake": {
-        "large_price": 130
+        "large_price": 160
     },
     "nutella_cake": {
-        "large_price": 130
+        "large_price": 160
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
-        "large_price": 200
+        "large_price": 210
     },
     "cheesecake_lotus": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/cheesecake_lotus_small.webp",
         "picture_large": "menu_pics/cheesecake_lotus_large.webp"
     },
@@ -440,60 +440,60 @@
         "picture_large": "menu_pics/cheesecake_with_baklava_large.webp"
     },
     "kardelen_cake_": {
-        "large_price": 200
+        "large_price": 210
     },
     "browni": {
-        "large_price": 200
+        "large_price": 210
     },
     "magnolia_cake": {
-        "large_price": 200
+        "large_price": 210
     },
     "san_sebastian_(spain)": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/san_sebastian_(spain)_small.webp",
         "picture_large": "menu_pics/san_sebastian_(spain)_large.webp"
     },
     "karpatka_(poland)": {
-        "large_price": 220
+        "large_price": 230
     },
     "medovik_(russia)": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/medovik_(russia)_small.webp",
         "picture_large": "menu_pics/medovik_(russia)_large.webp"
     },
     "schwarzwälder_kirschtorte_(germany)": {
-        "large_price": 220
+        "large_price": 230
     },
     "käsesahne_torte_(germany)": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/käsesahne_torte_(germany)_small.webp",
         "picture_large": "menu_pics/käsesahne_torte_(germany)_large.webp"
     },
     "bienenstich_cake_(germany)": {
-        "large_price": 220
+        "large_price": 230
     },
     "strawberry_and_chocolate__cake": {
-        "large_price": 200
+        "large_price": 210
     },
     "snickers_cake": {
-        "large_price": 200
+        "large_price": 210
     },
     "linzer_torte_(germany)": {
-        "large_price": 200
+        "large_price": 210
     },
     "trifle_(england)": {
-        "large_price": 200
+        "large_price": 210
     },
     "pastel_de_nata_(portugal)": {
         "large_price": 80
     },
     "fruit_cakes": {
-        "large_price": 200,
+        "large_price": 210,
         "picture_small": "menu_pics/fruit_cakes_small.webp",
         "picture_large": "menu_pics/fruit_cakes_large.webp"
     },
     "cake_world": {
-        "large_price": 200
+        "large_price": 180
     },
     "cookies": {
         "large_price": 75
@@ -504,10 +504,10 @@
         "picture_large": "menu_pics/tiramisu_large.webp"
     },
     "types_of_pies_(slice)": {
-        "large_price": 200
+        "large_price": 210
     },
     "fruit_tartlets": {
-        "large_price": 200,
+        "large_price": 210,
         "picture_small": "menu_pics/fruit_tartlets_small.webp",
         "picture_large": "menu_pics/fruit_tartlets_large.webp"
     },
@@ -518,12 +518,12 @@
         "large_price": 185
     },
     "pudding_world": {
-        "large_price": 175,
+        "large_price": 185,
         "picture_small": "menu_pics/pudding_world_small.webp",
         "picture_large": "menu_pics/pudding_world_large.webp"
     },
     "ashura": {
-        "large_price": 175,
+        "large_price": 185,
         "picture_small": "menu_pics/ashura_small.webp",
         "picture_large": "menu_pics/ashura_large.webp"
     },
