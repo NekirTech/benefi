@@ -429,7 +429,7 @@
         "name": "Kruvasan  Peynir ve Dana Jambonlu"
     },
     "cheese_pastry_(piece)": {
-        "name": "Peynirli Börek (adet)"
+        "name": "Peynirli Börek (uzun-adet)"
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
         "name": "Rulo Börek Dünyası (Ispanaklı+3 Peynirli / 3 Peynirli / Patatesli)"
@@ -441,7 +441,7 @@
         "name": "Peynirli Dereotlu Poğaça (adet)"
     },
     "breakfast_plate": {
-        "name": "Kahvaltı Tabağı"
+        "name": "Kahvaltı Tabağı (2 adet bardakta çay ilave)"
     },
     "toast_with_cheddar": {
         "name": "Tost Kaşarlı"

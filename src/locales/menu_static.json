@@ -528,25 +528,25 @@
         "picture_large": "menu_pics/ashura_large.webp"
     },
     "dubai_dessert_(in_jar)": {
-        "large_price": 185,
+        "large_price": 200,
         "picture_small": "menu_pics/dubai_dessert_(in_jar)_small.webp",
         "picture_large": "menu_pics/dubai_dessert_(in_jar)_large.webp"
     },
     "cream_latte_": {
-        "large_price": 155
+        "large_price": 185
     },
     "mochi_(japan)": {
-        "large_price": 75,
+        "large_price": 80,
         "picture_small": "menu_pics/mochi_(japan)_small.webp",
         "picture_large": "menu_pics/mochi_(japan)_large.webp"
     },
     "croissant_(plain)": {
-        "large_price": 75,
+        "large_price": 85,
         "picture_small": "menu_pics/croissant_(plain)_small.webp",
         "picture_large": "menu_pics/croissant_(plain)_large.webp"
     },
     "croissant_(chocolate)": {
-        "large_price": 80,
+        "large_price": 90,
         "picture_small": "menu_pics/croissant_(chocolate)_small.webp",
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
@@ -562,43 +562,43 @@
         "picture_large": "menu_pics/croissant_three_cheese_large.webp"
     },
     "croissant_with_veal_ham": {
-        "large_price": 165,
+        "large_price": 175,
         "picture_small": "menu_pics/croissant_with_veal_ham_small.webp",
         "picture_large": "menu_pics/croissant_with_veal_ham_large.webp"
     },
     "cheese_pastry_(piece)": {
-        "large_price": 50
+        "large_price": 90
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
-        "large_price": 80
+        "large_price": 90
     },
     "meat_and_pea_pastry": {
-        "large_price": 95
+        "large_price": 100
     },
     "cheese_and_dill_pastry_(piece)": {
-        "large_price": 55
+        "large_price": 70
     },
     "breakfast_plate": {
-        "large_price": 195,
+        "large_price": 225,
         "picture_small": "menu_pics/breakfast_plate_small.webp",
         "picture_large": "menu_pics/breakfast_plate_large.webp"
     },
     "toast_with_cheddar": {
-        "large_price": 120
+        "large_price": 150
     },
     "toast_with_cheddar+salami": {
-        "large_price": 135
+        "large_price": 150
     },
     "sandwich_(cheese_+cheddar+salami)": {
-        "large_price": 135
+        "large_price": 150
     },
     "fruit_salad": {
-        "large_price": 155,
+        "large_price": 170,
         "picture_small": "menu_pics/fruit_salad_small.webp",
         "picture_large": "menu_pics/fruit_salad_large.webp"
     },
     "bowl": {
-        "large_price": 155,
+        "large_price": 170,
         "picture_small": "menu_pics/bowl_small.webp",
         "picture_large": "menu_pics/bowl_large.webp"
     },
