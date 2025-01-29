@@ -499,15 +499,15 @@
         "large_price": 70
     },
     "tiramisu": {
-        "large_price": 220,
+        "large_price": 200,
         "picture_small": "menu_pics/tiramisu_small.webp",
         "picture_large": "menu_pics/tiramisu_large.webp"
     },
     "types_of_pies_(slice)": {
-        "large_price": 210
+        "large_price": 200
     },
     "fruit_tartlets": {
-        "large_price": 210,
+        "large_price": 200,
         "picture_small": "menu_pics/fruit_tartlets_small.webp",
         "picture_large": "menu_pics/fruit_tartlets_large.webp"
     },
@@ -562,7 +562,7 @@
         "picture_large": "menu_pics/croissant_three_cheese_large.webp"
     },
     "croissant_with_veal_ham": {
-        "large_price": 175,
+        "large_price": 150,
         "picture_small": "menu_pics/croissant_with_veal_ham_small.webp",
         "picture_large": "menu_pics/croissant_with_veal_ham_large.webp"
     },
