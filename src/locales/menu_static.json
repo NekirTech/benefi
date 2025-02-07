@@ -278,7 +278,7 @@
         "large_price": 155
     },
     "iced_latte": {
-        "large_price": 160,
+        "large_price": 135,
         "picture_small": "menu_pics/iced_latte_small.webp",
         "picture_large": "menu_pics/iced_latte_large.webp"
     },
@@ -320,7 +320,7 @@
         "picture_large": "menu_pics/italyan_sodas_large.webp"
     },
     "iced_matcha_latte": {
-        "large_price": 120,
+        "large_price": 160,
         "picture_small": "menu_pics/iced_matcha_latte_small.webp",
         "picture_large": "menu_pics/iced_matcha_latte_large.webp"
     },
@@ -374,12 +374,12 @@
         "large_price": 95
     },
     "coca_cola,_zero,_pepsi,_fanta,_sprite": {
-        "large_price": 60,
+        "large_price": 70,
         "picture_small": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_small.webp",
         "picture_large": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_large.webp"
     },
     "naren_(katkısız_meyve_suları)": {
-        "large_price": 60,
+        "large_price": 85,
         "picture_small": "menu_pics/naren_(katkısız_meyve_suları)_small.webp",
         "picture_large": "menu_pics/naren_(katkısız_meyve_suları)_large.webp"
     },
