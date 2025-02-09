@@ -248,10 +248,14 @@
         "large_price": 150
     },
     "benefi_green_tea": {
-        "large_price": 110
+        "large_price": 110,
+        "picture_small": "menu_pics/benefi_green_tea_small.webp",
+        "picture_large": "menu_pics/benefi_green_tea_large.webp"
     },
     "affagato": {
-        "large_price": 100
+        "large_price": 100,
+        "picture_small": "menu_pics/affagato_small.webp",
+        "picture_large": "menu_pics/affagato_large.webp"
     },
     "iced_filter_coffee": {
         "large_price": 130
@@ -307,7 +311,9 @@
         "picture_large": "menu_pics/smoothie_large.webp"
     },
     "frappe": {
-        "large_price": 165
+        "large_price": 165,
+        "picture_small": "menu_pics/frappe_small.webp",
+        "picture_large": "menu_pics/frappe_large.webp"
     },
     "frozen": {
         "large_price": 165,
@@ -325,16 +331,24 @@
         "picture_large": "menu_pics/iced_matcha_latte_large.webp"
     },
     "iced_green_benefi": {
-        "large_price": 120
+        "large_price": 120,
+        "picture_small": "menu_pics/iced_green_benefi_small.webp",
+        "picture_large": "menu_pics/iced_green_benefi_large.webp"
     },
     "iced_blue_lagoon": {
-        "large_price": 120
+        "large_price": 120,
+        "picture_small": "menu_pics/iced_blue_lagoon_small.webp",
+        "picture_large": "menu_pics/iced_blue_lagoon_large.webp"
     },
     "iced_chocolate": {
-        "large_price": 160
+        "large_price": 160,
+        "picture_small": "menu_pics/iced_chocolate_small.webp",
+        "picture_large": "menu_pics/iced_chocolate_large.webp"
     },
     "iced_tea": {
-        "large_price": 90
+        "large_price": 90,
+        "picture_small": "menu_pics/iced_tea_small.webp",
+        "picture_large": "menu_pics/iced_tea_large.webp"
     },
     "iced_green_tea_mojito": {
         "large_price": 110,
@@ -347,7 +361,9 @@
         "picture_large": "menu_pics/island_rush_cooler_large.webp"
     },
     "pina_colada": {
-        "large_price": 115
+        "large_price": 115,
+        "picture_small": "menu_pics/pina_colada_small.webp",
+        "picture_large": "menu_pics/pina_colada_large.webp"
     },
     "color_mix": {
         "large_price": 115,
