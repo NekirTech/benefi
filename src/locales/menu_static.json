@@ -390,7 +390,9 @@
         "picture_large": "menu_pics/lemonade_(homemade)_large.webp"
     },
     "black_mulberry__(homemade)": {
-        "large_price": 110
+        "large_price": 110,
+        "picture_small": "menu_pics/black_mulberry__(homemade)_small.webp",
+        "picture_large": "menu_pics/black_mulberry__(homemade)_large.webp"
     },
     "cool_lime": {
         "large_price": 95,
