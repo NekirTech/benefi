@@ -276,10 +276,14 @@
         "picture_large": "menu_pics/iced_flat_white_large.webp"
     },
     "iced_mocha": {
-        "large_price": 155
+        "large_price": 155,
+        "picture_small": "menu_pics/iced_mocha_small.webp",
+        "picture_large": "menu_pics/iced_mocha_large.webp"
     },
     "iced_white_chocolate_mocha": {
-        "large_price": 155
+        "large_price": 155,
+        "picture_small": "menu_pics/iced_white_chocolate_mocha_small.webp",
+        "picture_large": "menu_pics/iced_white_chocolate_mocha_large.webp"
     },
     "iced_latte": {
         "large_price": 135,
@@ -292,7 +296,9 @@
         "picture_large": "menu_pics/iced_red_eye_large.webp"
     },
     "iced_black_eye": {
-        "large_price": 165
+        "large_price": 165,
+        "picture_small": "menu_pics/iced_black_eye_small.webp",
+        "picture_large": "menu_pics/iced_black_eye_large.webp"
     },
     "cold_brew": {
         "large_price": 130,
@@ -387,7 +393,9 @@
         "large_price": 110
     },
     "cool_lime": {
-        "large_price": 95
+        "large_price": 95,
+        "picture_small": "menu_pics/cool_lime_small.webp",
+        "picture_large": "menu_pics/cool_lime_large.webp"
     },
     "coca_cola,_zero,_pepsi,_fanta,_sprite": {
         "large_price": 70,
@@ -495,7 +503,9 @@
         "large_price": 200
     },
     "linzer_torte_(germany)": {
-        "large_price": 200
+        "large_price": 200,
+        "picture_small": "menu_pics/linzer_torte_(germany)_small.webp",
+        "picture_large": "menu_pics/linzer_torte_(germany)_large.webp"
     },
     "trifle_(england)": {
         "large_price": 200
@@ -512,7 +522,9 @@
         "large_price": 160
     },
     "cookies": {
-        "large_price": 70
+        "large_price": 70,
+        "picture_small": "menu_pics/cookies_small.webp",
+        "picture_large": "menu_pics/cookies_large.webp"
     },
     "tiramisu": {
         "large_price": 200,
