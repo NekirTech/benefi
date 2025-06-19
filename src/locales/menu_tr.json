@@ -59,11 +59,8 @@
     "lungo": {
         "name": "Lungo"
     },
-    "macchiato": {
-        "name": "Macchiato"
-    },
     "con_panne": {
-        "name": "Con Panne"
+        "name": "Con Panna"
     },
     "americano": {
         "name": "Americano"
@@ -135,7 +132,7 @@
         "name": "Naneli Yeşil Çay"
     },
     "detox_tea": {
-        "name": "Detoks Çayı"
+        "name": "Detox Çayı"
     },
     "dream_tea": {
         "name": "Rüya Çayı"
@@ -154,9 +151,6 @@
     },
     "tropical_sun": {
         "name": "Tropical Sun"
-    },
-    "irish_whsiky-cream": {
-        "name": "Irish Whsiky-Cream"
     },
     "masalia_chai": {
         "name": "Masalia Chai"
@@ -184,9 +178,6 @@
     },
     "matcha_latte": {
         "name": "Matcha Latte"
-    },
-    "benefi_green_tea": {
-        "name": "BENEFI Yeşili "
     },
     "affagato": {
         "name": "Affagato"
@@ -242,9 +233,6 @@
     "iced_matcha_latte": {
         "name": "Iced Matcha Latte"
     },
-    "iced_green_benefi": {
-        "name": "Iced Green BENEFI"
-    },
     "iced_blue_lagoon": {
         "name": "Iced Blue Lagoon"
     },
@@ -253,9 +241,6 @@
     },
     "iced_tea": {
         "name": "Buzlu Çay / Iced Tea"
-    },
-    "iced_green_tea_mojito": {
-        "name": "Buzlu Yeşil Çaylı Mojito"
     },
     "island_rush_cooler": {
         "name": "Island Rush Cooler"
@@ -271,6 +256,9 @@
     },
     "bubble_tea": {
         "name": "Bubble Tea"
+    },
+    "summer_brezze": {
+        "name": "Summer Brezze"
     },
     "lemonade_(homemade)": {
         "name": "Limonata (EV YAPIMI)"
@@ -319,6 +307,12 @@
     },
     "nutella_cake": {
         "name": "Nutellalı Pasta"
+    },
+    "gluten_free_and_vegan_browni": {
+        "name": "Glutensiz ve Vegan BROWNI"
+    },
+    "gluten_free_and_vegan_cake": {
+        "name": "Glutensiz ve Vegan EKLER"
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "name": "Cheescake ( Her gün farklı bir çeşit pişiyor. Lütfen bilgi alınız)"
@@ -444,7 +438,7 @@
         "name": "Kahvaltı Tabağı ( 2 adet bardakta çay ilave)"
     },
     "toast_with_cheddar": {
-        "name": "Tost Kaşarlı (çift kaşar)"
+        "name": "Tost Kaşarlı (çift kaşar+Chedar)"
     },
     "toast_with_cheddar+salami": {
         "name": "Tost Karışık (kaşar+jambon/salam)"
@@ -482,11 +476,14 @@
     "additional_syrup": {
         "name": "İlave Şurup"
     },
-    "1_scoop_of_ice_cream": {
-        "name": "1 Top Dondurma "
+    "ice_cream_cone": {
+        "name": "Külah Dondurma"
     },
-    "2_scoop_of_ice_cream": {
-        "name": "2 Top Dondurma "
+    "ice_creamcup": {
+        "name": "Karton Bardak Dondurma"
+    },
+    "fruit_ice_cream": {
+        "name": "Meyveli Dondurma"
     },
     "honey_": {
         "name": "Bal "

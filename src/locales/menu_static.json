@@ -27,18 +27,13 @@
     "fit_world": {},
     "extras_(selection_will_be_added_to_the_price)": {},
     "espresso": {
-        "medium_price": 90,
-        "large_price": 100,
+        "medium_price": 110,
+        "large_price": 140,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "lungo": {
-        "large_price": 110,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "macchiato": {
-        "large_price": 120,
+        "large_price": 125,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
@@ -48,134 +43,136 @@
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "americano": {
-        "large_price": 120,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "dark_americano": {
         "large_price": 130,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
+    "dark_americano": {
+        "large_price": 140,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
+    },
     "cortado": {
-        "large_price": 120,
+        "large_price": 130,
         "picture_small": "menu_pics/cortado_small.webp",
         "picture_large": "menu_pics/cortado_large.webp"
     },
     "cappuccino": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/cappuccino_small.webp",
         "picture_large": "menu_pics/cappuccino_large.webp"
     },
     "flat_white": {
-        "large_price": 135
+        "large_price": 150,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "latte": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/latte_small.webp",
         "picture_large": "menu_pics/latte_large.webp"
     },
     "latte_macchiato": {
-        "large_price": 125,
+        "large_price": 140,
         "picture_small": "menu_pics/latte_macchiato_small.webp",
         "picture_large": "menu_pics/latte_macchiato_large.webp"
     },
     "mocha": {
-        "large_price": 145,
+        "large_price": 160,
         "picture_small": "menu_pics/mocha_small.webp",
         "picture_large": "menu_pics/mocha_large.webp"
     },
     "white_mocha": {
-        "large_price": 145,
+        "large_price": 160,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "cafe_bombom": {
-        "large_price": 120,
+        "large_price": 125,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "filter_coffee": {
-        "large_price": 120,
+        "large_price": 125,
         "picture_small": "menu_pics/filter_coffee_small.webp",
         "picture_large": "menu_pics/filter_coffee_large.webp"
     },
     "red_eye": {
-        "large_price": 155,
+        "large_price": 165,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "black_eye": {
-        "large_price": 155,
+        "large_price": 165,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "turkish_coffee": {
-        "medium_price": 85,
-        "large_price": 95,
+        "medium_price": 115,
+        "large_price": 125,
         "picture_small": "menu_pics/turkish_coffee_small.webp",
         "picture_large": "menu_pics/turkish_coffee_large.webp"
     },
     "decaffeinated_turkish_coffee": {
-        "medium_price": 95,
-        "large_price": 105,
+        "medium_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/decaffeinated_turkish_coffee_small.webp",
         "picture_large": "menu_pics/decaffeinated_turkish_coffee_large.webp"
     },
     "dibek_turkish_coffee_(harput_coffee)": {
-        "medium_price": 95,
-        "large_price": 105,
+        "medium_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/dibek_turkish_coffee_(harput_coffee)_small.webp",
         "picture_large": "menu_pics/dibek_turkish_coffee_(harput_coffee)_large.webp"
     },
     "black_tea": {
-        "medium_price": 30,
-        "large_price": 40,
+        "medium_price": 40,
+        "large_price": 60,
         "picture_small": "menu_pics/black_tea_small.webp",
         "picture_large": "menu_pics/black_tea_large.webp"
     },
     "linden": {
-        "large_price": 135,
+        "large_price": 140,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "winter_tea": {
-        "large_price": 135,
+        "large_price": 140,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "sage": {
-        "large_price": 125,
+        "large_price": 140,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "mint_lemon_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "green_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "mint_green_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "detox_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "dream_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "blue_butterfly_tea": {
-        "large_price": 125,
+        "large_price": 130,
         "picture_small": "menu_pics/blue_butterfly_tea_small.webp",
         "picture_large": "menu_pics/blue_butterfly_tea_large.webp"
     },
@@ -185,52 +182,47 @@
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "rooibos_cream_orange": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "ayurveda_herbs_&_ginger": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "tropical_sun": {
-        "large_price": 125,
-        "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
-        "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
-    },
-    "irish_whsiky-cream": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "masalia_chai": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "white_yin_long": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "morgentau": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "lychee_&_goji": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "jasmine_pearls": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "huckleberry_find": {
-        "large_price": 125,
+        "large_price": 135,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
@@ -245,84 +237,79 @@
         "picture_large": "menu_pics/sahlep_large.webp"
     },
     "matcha_latte": {
-        "large_price": 150
-    },
-    "benefi_green_tea": {
-        "large_price": 110,
-        "picture_small": "menu_pics/benefi_green_tea_small.webp",
-        "picture_large": "menu_pics/benefi_green_tea_large.webp"
+        "large_price": 170
     },
     "affagato": {
-        "large_price": 100,
+        "large_price": 130,
         "picture_small": "menu_pics/affagato_small.webp",
         "picture_large": "menu_pics/affagato_large.webp"
     },
     "iced_filter_coffee": {
-        "large_price": 130
+        "large_price": 135
     },
     "iced_americano": {
-        "large_price": 130,
+        "large_price": 140,
         "picture_small": "menu_pics/iced_americano_small.webp",
         "picture_large": "menu_pics/iced_americano_large.webp"
     },
     "iced_cappuccino": {
-        "large_price": 135,
+        "large_price": 145,
         "picture_small": "menu_pics/iced_cappuccino_small.webp",
         "picture_large": "menu_pics/iced_cappuccino_large.webp"
     },
     "iced_flat_white": {
-        "large_price": 145,
+        "large_price": 160,
         "picture_small": "menu_pics/iced_flat_white_small.webp",
         "picture_large": "menu_pics/iced_flat_white_large.webp"
     },
     "iced_mocha": {
-        "large_price": 155,
+        "large_price": 170,
         "picture_small": "menu_pics/iced_mocha_small.webp",
         "picture_large": "menu_pics/iced_mocha_large.webp"
     },
     "iced_white_chocolate_mocha": {
-        "large_price": 155,
+        "large_price": 170,
         "picture_small": "menu_pics/iced_white_chocolate_mocha_small.webp",
         "picture_large": "menu_pics/iced_white_chocolate_mocha_large.webp"
     },
     "iced_latte": {
-        "large_price": 135,
+        "large_price": 145,
         "picture_small": "menu_pics/iced_latte_small.webp",
         "picture_large": "menu_pics/iced_latte_large.webp"
     },
     "iced_red_eye": {
-        "large_price": 165,
+        "large_price": 180,
         "picture_small": "menu_pics/iced_red_eye_small.webp",
         "picture_large": "menu_pics/iced_red_eye_large.webp"
     },
     "iced_black_eye": {
-        "large_price": 165,
+        "large_price": 180,
         "picture_small": "menu_pics/iced_black_eye_small.webp",
         "picture_large": "menu_pics/iced_black_eye_large.webp"
     },
     "cold_brew": {
-        "large_price": 130,
+        "large_price": 140,
         "picture_small": "menu_pics/cold_brew_small.webp",
         "picture_large": "menu_pics/cold_brew_large.webp"
     },
     "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
-        "large_price": 165
+        "large_price": 180
     },
     "milkshake_(oreo)": {
-        "large_price": 185
+        "large_price": 195
     },
     "smoothie": {
-        "large_price": 165,
+        "large_price": 180,
         "picture_small": "menu_pics/smoothie_small.webp",
         "picture_large": "menu_pics/smoothie_large.webp"
     },
     "frappe": {
-        "large_price": 165,
+        "large_price": 180,
         "picture_small": "menu_pics/frappe_small.webp",
         "picture_large": "menu_pics/frappe_large.webp"
     },
     "frozen": {
-        "large_price": 165,
+        "large_price": 170,
         "picture_small": "menu_pics/frozen_small.webp",
         "picture_large": "menu_pics/frozen_large.webp"
     },
@@ -332,17 +319,12 @@
         "picture_large": "menu_pics/italyan_sodas_large.webp"
     },
     "iced_matcha_latte": {
-        "large_price": 160,
+        "large_price": 180,
         "picture_small": "menu_pics/iced_matcha_latte_small.webp",
         "picture_large": "menu_pics/iced_matcha_latte_large.webp"
     },
-    "iced_green_benefi": {
-        "large_price": 120,
-        "picture_small": "menu_pics/iced_green_benefi_small.webp",
-        "picture_large": "menu_pics/iced_green_benefi_large.webp"
-    },
     "iced_blue_lagoon": {
-        "large_price": 120,
+        "large_price": 150,
         "picture_small": "menu_pics/iced_blue_lagoon_small.webp",
         "picture_large": "menu_pics/iced_blue_lagoon_large.webp"
     },
@@ -352,14 +334,9 @@
         "picture_large": "menu_pics/iced_chocolate_large.webp"
     },
     "iced_tea": {
-        "large_price": 90,
+        "large_price": 130,
         "picture_small": "menu_pics/iced_tea_small.webp",
         "picture_large": "menu_pics/iced_tea_large.webp"
-    },
-    "iced_green_tea_mojito": {
-        "large_price": 110,
-        "picture_small": "menu_pics/iced_green_tea_mojito_small.webp",
-        "picture_large": "menu_pics/iced_green_tea_mojito_large.webp"
     },
     "island_rush_cooler": {
         "large_price": 150,
@@ -367,22 +344,25 @@
         "picture_large": "menu_pics/island_rush_cooler_large.webp"
     },
     "pina_colada": {
-        "large_price": 115,
+        "large_price": 150,
         "picture_small": "menu_pics/pina_colada_small.webp",
         "picture_large": "menu_pics/pina_colada_large.webp"
     },
     "color_mix": {
-        "large_price": 115,
+        "large_price": 150,
         "picture_small": "menu_pics/color_mix_small.webp",
         "picture_large": "menu_pics/color_mix_large.webp"
     },
     "churchill": {
-        "large_price": 90
+        "large_price": 120
     },
     "bubble_tea": {
-        "large_price": 120,
+        "large_price": 125,
         "picture_small": "menu_pics/bubble_tea_small.webp",
         "picture_large": "menu_pics/bubble_tea_large.webp"
+    },
+    "summer_brezze": {
+        "large_price": 150
     },
     "lemonade_(homemade)": {
         "large_price": 110,
@@ -395,7 +375,7 @@
         "picture_large": "menu_pics/black_mulberry__(homemade)_large.webp"
     },
     "cool_lime": {
-        "large_price": 95,
+        "large_price": 130,
         "picture_small": "menu_pics/cool_lime_small.webp",
         "picture_large": "menu_pics/cool_lime_large.webp"
     },
@@ -420,12 +400,12 @@
         "picture_large": "menu_pics/soda_types_large.webp"
     },
     "plain_soda": {
-        "large_price": 40,
+        "large_price": 65,
         "picture_small": "menu_pics/plain_soda_small.webp",
         "picture_large": "menu_pics/plain_soda_large.webp"
     },
     "lemon_soda": {
-        "large_price": 45,
+        "large_price": 65,
         "picture_small": "menu_pics/lemon_soda_small.webp",
         "picture_large": "menu_pics/lemon_soda_large.webp"
     },
@@ -435,52 +415,58 @@
         "picture_large": "menu_pics/ayran_large.webp"
     },
     "water_(glas_bottle)": {
-        "large_price": 30
+        "large_price": 50
     },
     "cheesecake_(lemon_/_raspberry)": {
-        "large_price": 150
+        "large_price": 185
     },
     "latte_mono": {
-        "large_price": 150
+        "large_price": 185
     },
     "tiramisu_mono": {
-        "large_price": 150
+        "large_price": 185
     },
     "profitol_cake": {
-        "large_price": 150
+        "large_price": 185
     },
     "nutella_cake": {
-        "large_price": 150
+        "large_price": 185
+    },
+    "gluten_free_and_vegan_browni": {
+        "large_price": 220
+    },
+    "gluten_free_and_vegan_cake": {
+        "large_price": 240
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
-        "large_price": 200
+        "large_price": 215
     },
     "cheesecake_lotus": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/cheesecake_lotus_small.webp",
         "picture_large": "menu_pics/cheesecake_lotus_large.webp"
     },
     "cheesecake_with_baklava": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/cheesecake_with_baklava_small.webp",
         "picture_large": "menu_pics/cheesecake_with_baklava_large.webp"
     },
     "kardelen_cake_": {
-        "large_price": 200
+        "large_price": 215
     },
     "browni": {
-        "large_price": 200
+        "large_price": 215
     },
     "magnolia_cake": {
-        "large_price": 200
+        "large_price": 230
     },
     "san_sebastian_(spain)": {
-        "large_price": 220,
+        "large_price": 230,
         "picture_small": "menu_pics/san_sebastian_(spain)_small.webp",
         "picture_large": "menu_pics/san_sebastian_(spain)_large.webp"
     },
     "karpatka_(poland)": {
-        "large_price": 220
+        "large_price": 230
     },
     "medovik_(russia)": {
         "large_price": 220,
@@ -496,27 +482,27 @@
         "picture_large": "menu_pics/käsesahne_torte_(germany)_large.webp"
     },
     "bienenstich_cake_(germany)": {
-        "large_price": 220
+        "large_price": 230
     },
     "strawberry_and_chocolate__cake": {
-        "large_price": 200
+        "large_price": 220
     },
     "snickers_cake": {
-        "large_price": 200
+        "large_price": 215
     },
     "linzer_torte_(germany)": {
-        "large_price": 200,
+        "large_price": 220,
         "picture_small": "menu_pics/linzer_torte_(germany)_small.webp",
         "picture_large": "menu_pics/linzer_torte_(germany)_large.webp"
     },
     "trifle_(england)": {
-        "large_price": 200
+        "large_price": 210
     },
     "pastel_de_nata_(portugal)": {
         "large_price": 80
     },
     "fruit_cakes": {
-        "large_price": 200,
+        "large_price": 220,
         "picture_small": "menu_pics/fruit_cakes_small.webp",
         "picture_large": "menu_pics/fruit_cakes_large.webp"
     },
@@ -529,15 +515,15 @@
         "picture_large": "menu_pics/cookies_large.webp"
     },
     "tiramisu": {
-        "large_price": 200,
+        "large_price": 220,
         "picture_small": "menu_pics/tiramisu_small.webp",
         "picture_large": "menu_pics/tiramisu_large.webp"
     },
     "types_of_pies_(slice)": {
-        "large_price": 200
+        "large_price": 220
     },
     "fruit_tartlets": {
-        "large_price": 200,
+        "large_price": 220,
         "picture_small": "menu_pics/fruit_tartlets_small.webp",
         "picture_large": "menu_pics/fruit_tartlets_large.webp"
     },
@@ -571,64 +557,64 @@
         "picture_large": "menu_pics/mochi_(japan)_large.webp"
     },
     "croissant_(plain)": {
-        "large_price": 85,
+        "large_price": 120,
         "picture_small": "menu_pics/croissant_(plain)_small.webp",
         "picture_large": "menu_pics/croissant_(plain)_large.webp"
     },
     "croissant_(chocolate)": {
-        "large_price": 90,
+        "large_price": 130,
         "picture_small": "menu_pics/croissant_(chocolate)_small.webp",
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
     "croissant_big_(plain)_": {
-        "large_price": 110
+        "large_price": 140
     },
     "croissant_big_(chocolate)": {
-        "large_price": 120
+        "large_price": 150
     },
     "croissant_three_cheese": {
-        "large_price": 150,
+        "large_price": 180,
         "picture_small": "menu_pics/croissant_three_cheese_small.webp",
         "picture_large": "menu_pics/croissant_three_cheese_large.webp"
     },
     "croissant_with_veal_ham": {
-        "large_price": 150,
+        "large_price": 180,
         "picture_small": "menu_pics/croissant_with_veal_ham_small.webp",
         "picture_large": "menu_pics/croissant_with_veal_ham_large.webp"
     },
     "cheese_pastry_(piece)": {
-        "large_price": 90
+        "large_price": 110
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
-        "large_price": 90
+        "large_price": 130
     },
     "meat_and_pea_pastry": {
-        "large_price": 100
+        "large_price": 140
     },
     "cheese_and_dill_pastry_(piece)": {
         "large_price": 70
     },
     "breakfast_plate": {
-        "large_price": 225,
+        "large_price": 260,
         "picture_small": "menu_pics/breakfast_plate_small.webp",
         "picture_large": "menu_pics/breakfast_plate_large.webp"
     },
     "toast_with_cheddar": {
-        "large_price": 150
+        "large_price": 210
     },
     "toast_with_cheddar+salami": {
-        "large_price": 150
+        "large_price": 210
     },
     "sandwich_(cheese_+cheddar+salami)": {
-        "large_price": 150
+        "large_price": 210
     },
     "fruit_salad": {
-        "large_price": 170,
+        "large_price": 220,
         "picture_small": "menu_pics/fruit_salad_small.webp",
         "picture_large": "menu_pics/fruit_salad_large.webp"
     },
     "bowl": {
-        "large_price": 170,
+        "large_price": 250,
         "picture_small": "menu_pics/bowl_small.webp",
         "picture_large": "menu_pics/bowl_large.webp"
     },
@@ -636,7 +622,7 @@
         "large_price": 20
     },
     "extra_espresso": {
-        "large_price": 20
+        "large_price": 40
     },
     "large_paper_cup_difference": {
         "large_price": 20
@@ -656,11 +642,14 @@
     "additional_syrup": {
         "large_price": 20
     },
-    "1_scoop_of_ice_cream": {
-        "large_price": 25
+    "ice_cream_cone": {
+        "large_price": 40
     },
-    "2_scoop_of_ice_cream": {
-        "large_price": 50
+    "ice_creamcup": {
+        "large_price": 60
+    },
+    "fruit_ice_cream": {
+        "large_price": 150
     },
     "honey_": {
         "large_price": 15

@@ -3,12 +3,12 @@
         "hot_coffees": [
             "espresso",
             "lungo",
-            "macchiato",
             "con_panne",
             "americano",
             "dark_americano",
             "cortado",
             "cappuccino",
+            "flat_white",
             "latte",
             "latte_macchiato",
             "mocha",
@@ -38,7 +38,6 @@
             "rooibos_cream_orange",
             "ayurveda_herbs_&_ginger",
             "tropical_sun",
-            "irish_whsiky-cream",
             "masalia_chai",
             "white_yin_long",
             "morgentau",
@@ -49,8 +48,7 @@
         "other_hot_drinks": [
             "hot_chocolate",
             "sahlep",
-            "matcha_latte",
-            "benefi_green_tea"
+            "matcha_latte"
         ]
     },
     "cold_drinks": {
@@ -75,16 +73,15 @@
             "frozen",
             "italyan_sodas",
             "iced_matcha_latte",
-            "iced_green_benefi",
             "iced_blue_lagoon",
             "iced_chocolate",
             "iced_tea",
-            "iced_green_tea_mojito",
             "island_rush_cooler",
             "pina_colada",
             "color_mix",
             "churchill",
             "bubble_tea",
+            "summer_brezze",
             "lemonade_(homemade)",
             "black_mulberry__(homemade)",
             "cool_lime"
@@ -106,7 +103,9 @@
             "latte_mono",
             "tiramisu_mono",
             "profitol_cake",
-            "nutella_cake"
+            "nutella_cake",
+            "gluten_free_and_vegan_browni",
+            "gluten_free_and_vegan_cake"
         ],
         "homemade_sweets_(please_ask_for_daily_cakes)": [
             "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)",
@@ -176,8 +175,9 @@
         "difference_between_lactose_free_milk_(glass)",
         "added_milk_difference_(glass)",
         "additional_syrup",
-        "1_scoop_of_ice_cream",
-        "2_scoop_of_ice_cream",
+        "ice_cream_cone",
+        "ice_creamcup",
+        "fruit_ice_cream",
         "honey_",
         "extra_glass_and_ice",
         "extra_bread"

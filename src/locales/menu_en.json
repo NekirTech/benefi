@@ -59,9 +59,6 @@
     "lungo": {
         "name": "Lungo"
     },
-    "macchiato": {
-        "name": "Macchiato"
-    },
     "con_panne": {
         "name": "Con Panne"
     },
@@ -155,9 +152,6 @@
     "tropical_sun": {
         "name": "Tropical Sun"
     },
-    "irish_whsiky-cream": {
-        "name": "Irish Whsiky-Cream"
-    },
     "masalia_chai": {
         "name": "Masalia Chai"
     },
@@ -184,9 +178,6 @@
     },
     "matcha_latte": {
         "name": "Matcha Latte"
-    },
-    "benefi_green_tea": {
-        "name": "BENEFI Green Tea"
     },
     "affagato": {
         "name": "Affagato"
@@ -242,9 +233,6 @@
     "iced_matcha_latte": {
         "name": "Iced Matcha Latte"
     },
-    "iced_green_benefi": {
-        "name": "Iced Green BENEFI"
-    },
     "iced_blue_lagoon": {
         "name": "Iced Blue Lagoon"
     },
@@ -253,9 +241,6 @@
     },
     "iced_tea": {
         "name": "Iced Tea"
-    },
-    "iced_green_tea_mojito": {
-        "name": "Iced Green Tea Mojito"
     },
     "island_rush_cooler": {
         "name": "Island Rush Cooler"
@@ -271,6 +256,9 @@
     },
     "bubble_tea": {
         "name": "Bubble Tea"
+    },
+    "summer_brezze": {
+        "name": "Summer Brezze"
     },
     "lemonade_(homemade)": {
         "name": "Lemonade (HOMEMADE)"
@@ -319,6 +307,12 @@
     },
     "nutella_cake": {
         "name": "Nutella Cake"
+    },
+    "gluten_free_and_vegan_browni": {
+        "name": "Gluten Free and Vegan BROWNI"
+    },
+    "gluten_free_and_vegan_cake": {
+        "name": "Gluten Free and Vegan CAKE"
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "name": "Cheesecake (A diffenrent variety is cooked every day. Please get information)"
@@ -482,11 +476,14 @@
     "additional_syrup": {
         "name": "Additional Syrup"
     },
-    "1_scoop_of_ice_cream": {
-        "name": "1 scoop of ice cream"
+    "ice_cream_cone": {
+        "name": "Ice Cream Cone"
     },
-    "2_scoop_of_ice_cream": {
-        "name": "2 scoop of ice cream"
+    "ice_creamcup": {
+        "name": "Ice CreamCup"
+    },
+    "fruit_ice_cream": {
+        "name": "Fruit Ice Cream"
     },
     "honey_": {
         "name": "Honey "
