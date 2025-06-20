@@ -102,11 +102,6 @@
         "picture_small": "menu_pics/filter_coffee_small.webp",
         "picture_large": "menu_pics/filter_coffee_large.webp"
     },
-    "red_eye": {
-        "large_price": 165,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
     "black_eye": {
         "large_price": 165,
         "picture_small": "menu_pics/hot_coffees_small.webp",
