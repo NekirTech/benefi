@@ -342,13 +342,13 @@
         "name": "Medovik ( Rusya)"
     },
     "schwarzwälder_kirschtorte_(germany)": {
-        "name": "Karaorman Pastası (Almanya)"
+        "name": "Karaorman Pastası (Schwazwalderckirschtorte)  (Almanya)"
     },
     "käsesahne_torte_(germany)": {
         "name": "Peynir Kreması Pastası (Almanya)"
     },
     "bienenstich_cake_(germany)": {
-        "name": "Arı Sokması Pastası (Almanya)"
+        "name": "Bienenstich (Arı Sokması) Pastası (Almanya)"
     },
     "strawberry_and_chocolate__cake": {
         "name": "Çilekli Çikolatalı Pasta (Rusya)"
@@ -409,9 +409,6 @@
     },
     "croissant_(chocolate)": {
         "name": "Kruvasan  (çikolatalı)"
-    },
-    "croissant_big_(chocolate)": {
-        "name": "Kruvasan Jumbo (Çikolatalı)"
     },
     "croissant_three_cheese": {
         "name": "Kruvasan Jumbo Üç Peynirli"

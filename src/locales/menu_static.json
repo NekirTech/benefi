@@ -562,9 +562,6 @@
         "picture_small": "menu_pics/croissant_(chocolate)_small.webp",
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
-    "croissant_big_(chocolate)": {
-        "large_price": 150
-    },
     "croissant_three_cheese": {
         "large_price": 180,
         "picture_small": "menu_pics/croissant_three_cheese_small.webp",
