@@ -301,16 +301,16 @@
     "smoothie_(banane/_strawberry)": {
         "large_price": 180
     },
-    "smoothie_(edema_reliever-_green_fruit_and_vegetable)": {},
+    "smoothie_(edema_reliever-_green_fruit_and_vegetable)": {
+        "large_price": 180
+    },
     "frappe": {
         "large_price": 180,
         "picture_small": "menu_pics/frappe_small.webp",
         "picture_large": "menu_pics/frappe_large.webp"
     },
-    "frozen": {
-        "large_price": 170,
-        "picture_small": "menu_pics/frozen_small.webp",
-        "picture_large": "menu_pics/frozen_large.webp"
+    "frozen_(_banane_/_strawberry_/_blueberry)_": {
+        "large_price": 170
     },
     "italyan_sodas": {
         "large_price": 125,
@@ -379,7 +379,7 @@
         "picture_large": "menu_pics/cool_lime_large.webp"
     },
     "coca_cola,_zero,_pepsi,_fanta,_sprite": {
-        "large_price": 70,
+        "large_price": 80,
         "picture_small": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_small.webp",
         "picture_large": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_large.webp"
     },
@@ -394,22 +394,22 @@
         "picture_large": "menu_pics/naren_fruizy_(katkısız_meyve_suları)_large.webp"
     },
     "soda_types": {
-        "large_price": 60,
+        "large_price": 70,
         "picture_small": "menu_pics/soda_types_small.webp",
         "picture_large": "menu_pics/soda_types_large.webp"
     },
     "plain_soda": {
-        "large_price": 65,
+        "large_price": 70,
         "picture_small": "menu_pics/plain_soda_small.webp",
         "picture_large": "menu_pics/plain_soda_large.webp"
     },
     "lemon_soda": {
-        "large_price": 65,
+        "large_price": 70,
         "picture_small": "menu_pics/lemon_soda_small.webp",
         "picture_large": "menu_pics/lemon_soda_large.webp"
     },
     "ayran": {
-        "large_price": 40,
+        "large_price": 60,
         "picture_small": "menu_pics/ayran_small.webp",
         "picture_large": "menu_pics/ayran_large.webp"
     },
