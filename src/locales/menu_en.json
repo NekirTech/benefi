@@ -83,6 +83,9 @@
     "latte_macchiato": {
         "name": "Latte Macchiato"
     },
+    "latte_caramel_macchiato": {
+        "name": "Latte Caramel Macchiato"
+    },
     "mocha": {
         "name": "Mocha"
     },

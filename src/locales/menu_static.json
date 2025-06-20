@@ -77,6 +77,11 @@
         "picture_small": "menu_pics/latte_macchiato_small.webp",
         "picture_large": "menu_pics/latte_macchiato_large.webp"
     },
+    "latte_caramel_macchiato": {
+        "large_price": 160,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
+    },
     "mocha": {
         "large_price": 160,
         "picture_small": "menu_pics/mocha_small.webp",
