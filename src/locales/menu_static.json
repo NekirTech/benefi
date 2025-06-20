@@ -298,11 +298,10 @@
     "milkshake_(oreo)": {
         "large_price": 195
     },
-    "smoothie": {
-        "large_price": 180,
-        "picture_small": "menu_pics/smoothie_small.webp",
-        "picture_large": "menu_pics/smoothie_large.webp"
+    "smoothie_(banane/_strawberry)": {
+        "large_price": 180
     },
+    "smoothie_(edema_reliever-_green_fruit_and_vegetable)": {},
     "frappe": {
         "large_price": 180,
         "picture_small": "menu_pics/frappe_small.webp",

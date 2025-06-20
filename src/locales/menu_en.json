@@ -218,8 +218,11 @@
     "milkshake_(oreo)": {
         "name": "Milkshake (Oreo)"
     },
-    "smoothie": {
-        "name": "Smoothie"
+    "smoothie_(banane/_strawberry)": {
+        "name": "Smoothie (Banane/ Strawberry)"
+    },
+    "smoothie_(edema_reliever-_green_fruit_and_vegetable)": {
+        "name": "Smoothie (Edema Reliever- Green Fruit and vegetable)"
     },
     "frappe": {
         "name": "Frappe"
