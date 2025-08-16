@@ -374,7 +374,7 @@
         "picture_large": "menu_pics/black_mulberry__(homemade)_large.webp"
     },
     "cool_lime": {
-        "large_price": 130,
+        "large_price": 150,
         "picture_small": "menu_pics/cool_lime_small.webp",
         "picture_large": "menu_pics/cool_lime_large.webp"
     },
@@ -436,6 +436,12 @@
     },
     "gluten_free_and_vegan_cake": {
         "large_price": 240
+    },
+    "donut_pink": {
+        "large_price": 170
+    },
+    "donut__chocolate": {
+        "large_price": 185
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "large_price": 215
@@ -630,7 +636,7 @@
         "large_price": 20
     },
     "additional_syrup": {
-        "large_price": 20
+        "large_price": 25
     },
     "ice_cream_cone": {
         "large_price": 40
