@@ -245,23 +245,24 @@
     "iced_tea": {
         "name": "Buzlu Çay / Iced Tea"
     },
+    "blue_lagon": {},
+    "color_mix": {},
     "island_rush_cooler": {
-        "name": "Island Rush Cooler"
-    },
-    "pina_colada": {
-        "name": "Pina Colada"
-    },
-    "color_mix": {
         "name": "Color Mix"
     },
+    "mor_zest": {},
+    "night_&_green": {},
+    "pina_colada": {},
+    "summer_brezze": {},
+    "velvet_dream": {},
+    "iced_tea_-hibiskus_cold_": {},
+    "iced_tea-_blue__butterfly_orange": {},
+    "iced_tea-_mango_orange": {},
     "churchill": {
         "name": "Churchill"
     },
     "bubble_tea": {
         "name": "Bubble Tea"
-    },
-    "summer_brezze": {
-        "name": "Summer Brezze"
     },
     "lemonade_(homemade)": {
         "name": "Limonata (EV YAPIMI)"
@@ -322,6 +323,9 @@
     },
     "donut__chocolate": {
         "name": "Donut Çikolatalı"
+    },
+    "raisin_muffin": {
+        "name": "Üzümlü Çöre"
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "name": "Cheescake ( Her gün farklı bir çeşit pişiyor. Lütfen bilgi alınız)"

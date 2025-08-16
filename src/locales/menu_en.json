@@ -245,23 +245,44 @@
     "iced_tea": {
         "name": "Iced Tea"
     },
+    "blue_lagon": {
+        "name": "Blue Lagon"
+    },
+    "color_mix": {
+        "name": "Color Mix"
+    },
     "island_rush_cooler": {
         "name": "Island Rush Cooler"
+    },
+    "mor_zest": {
+        "name": "Mor Zest"
+    },
+    "night_&_green": {
+        "name": "Night & Green"
     },
     "pina_colada": {
         "name": "Pina Colada"
     },
-    "color_mix": {
-        "name": "Color Mix"
+    "summer_brezze": {
+        "name": "Summer Brezze"
+    },
+    "velvet_dream": {
+        "name": "Velvet Dream"
+    },
+    "iced_tea_-hibiskus_cold_": {
+        "name": "Iced Tea -Hibiskus Cold "
+    },
+    "iced_tea-_blue__butterfly_orange": {
+        "name": "Iced Tea- Blue  Butterfly Orange"
+    },
+    "iced_tea-_mango_orange": {
+        "name": "Iced Tea- Mango Orange"
     },
     "churchill": {
         "name": "Churchill"
     },
     "bubble_tea": {
         "name": "Bubble Tea"
-    },
-    "summer_brezze": {
-        "name": "Summer Brezze"
     },
     "lemonade_(homemade)": {
         "name": "Lemonade (HOMEMADE)"
@@ -322,6 +343,9 @@
     },
     "donut__chocolate": {
         "name": "Donut  Chocolate"
+    },
+    "raisin_muffin": {
+        "name": "Raisin muffin"
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "name": "Cheesecake (A diffenrent variety is cooked every day. Please get information)"

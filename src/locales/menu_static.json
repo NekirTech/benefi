@@ -337,21 +337,27 @@
         "picture_small": "menu_pics/iced_tea_small.webp",
         "picture_large": "menu_pics/iced_tea_large.webp"
     },
+    "blue_lagon": {},
+    "color_mix": {
+        "picture_small": "menu_pics/color_mix_small.webp",
+        "picture_large": "menu_pics/color_mix_large.webp"
+    },
     "island_rush_cooler": {
         "large_price": 150,
         "picture_small": "menu_pics/island_rush_cooler_small.webp",
         "picture_large": "menu_pics/island_rush_cooler_large.webp"
     },
+    "mor_zest": {},
+    "night_&_green": {},
     "pina_colada": {
-        "large_price": 150,
         "picture_small": "menu_pics/pina_colada_small.webp",
         "picture_large": "menu_pics/pina_colada_large.webp"
     },
-    "color_mix": {
-        "large_price": 150,
-        "picture_small": "menu_pics/color_mix_small.webp",
-        "picture_large": "menu_pics/color_mix_large.webp"
-    },
+    "summer_brezze": {},
+    "velvet_dream": {},
+    "iced_tea_-hibiskus_cold_": {},
+    "iced_tea-_blue__butterfly_orange": {},
+    "iced_tea-_mango_orange": {},
     "churchill": {
         "large_price": 150
     },
@@ -359,9 +365,6 @@
         "large_price": 125,
         "picture_small": "menu_pics/bubble_tea_small.webp",
         "picture_large": "menu_pics/bubble_tea_large.webp"
-    },
-    "summer_brezze": {
-        "large_price": 150
     },
     "lemonade_(homemade)": {
         "large_price": 110,
@@ -442,6 +445,9 @@
     },
     "donut__chocolate": {
         "large_price": 185
+    },
+    "raisin_muffin": {
+        "large_price": 110
     },
     "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)": {
         "large_price": 215

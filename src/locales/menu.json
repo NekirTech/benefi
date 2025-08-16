@@ -77,12 +77,19 @@
             "iced_blue_lagoon",
             "iced_chocolate",
             "iced_tea",
-            "island_rush_cooler",
-            "pina_colada",
+            "blue_lagon",
             "color_mix",
+            "island_rush_cooler",
+            "mor_zest",
+            "night_&_green",
+            "pina_colada",
+            "summer_brezze",
+            "velvet_dream",
+            "iced_tea_-hibiskus_cold_",
+            "iced_tea-_blue__butterfly_orange",
+            "iced_tea-_mango_orange",
             "churchill",
             "bubble_tea",
-            "summer_brezze",
             "lemonade_(homemade)",
             "black_mulberry__(homemade)",
             "cool_lime"
@@ -108,7 +115,8 @@
             "gluten_free_and_vegan_browni",
             "gluten_free_and_vegan_cake",
             "donut_pink",
-            "donut__chocolate"
+            "donut__chocolate",
+            "raisin_muffin"
         ],
         "homemade_sweets_(please_ask_for_daily_cakes)": [
             "cheesecake_(a_diffenrent_variety_is_cooked_every_day._please_get_information)",
