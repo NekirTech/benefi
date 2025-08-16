@@ -332,13 +332,11 @@
         "picture_small": "menu_pics/iced_chocolate_small.webp",
         "picture_large": "menu_pics/iced_chocolate_large.webp"
     },
-    "iced_tea": {
-        "large_price": 130,
-        "picture_small": "menu_pics/iced_tea_small.webp",
-        "picture_large": "menu_pics/iced_tea_large.webp"
+    "blue_lagon": {
+        "large_price": 150
     },
-    "blue_lagon": {},
     "color_mix": {
+        "large_price": 150,
         "picture_small": "menu_pics/color_mix_small.webp",
         "picture_large": "menu_pics/color_mix_large.webp"
     },
@@ -347,17 +345,32 @@
         "picture_small": "menu_pics/island_rush_cooler_small.webp",
         "picture_large": "menu_pics/island_rush_cooler_large.webp"
     },
-    "mor_zest": {},
-    "night_&_green": {},
+    "mor_zest": {
+        "large_price": 150
+    },
+    "night_&_green": {
+        "large_price": 150
+    },
     "pina_colada": {
+        "large_price": 150,
         "picture_small": "menu_pics/pina_colada_small.webp",
         "picture_large": "menu_pics/pina_colada_large.webp"
     },
-    "summer_brezze": {},
-    "velvet_dream": {},
-    "iced_tea_-hibiskus_cold_": {},
-    "iced_tea-_blue__butterfly_orange": {},
-    "iced_tea-_mango_orange": {},
+    "summer_brezze": {
+        "large_price": 150
+    },
+    "velvet_dream": {
+        "large_price": 150
+    },
+    "iced_tea_-hibiskus_cold_": {
+        "large_price": 130
+    },
+    "iced_tea-_blue__butterfly_orange": {
+        "large_price": 130
+    },
+    "iced_tea-_mango_orange": {
+        "large_price": 130
+    },
     "churchill": {
         "large_price": 150
     },
@@ -371,20 +384,13 @@
         "picture_small": "menu_pics/lemonade_(homemade)_small.webp",
         "picture_large": "menu_pics/lemonade_(homemade)_large.webp"
     },
-    "black_mulberry__(homemade)": {
-        "large_price": 110,
-        "picture_small": "menu_pics/black_mulberry__(homemade)_small.webp",
-        "picture_large": "menu_pics/black_mulberry__(homemade)_large.webp"
-    },
     "cool_lime": {
         "large_price": 150,
         "picture_small": "menu_pics/cool_lime_small.webp",
         "picture_large": "menu_pics/cool_lime_large.webp"
     },
-    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
-        "large_price": 80,
-        "picture_small": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_small.webp",
-        "picture_large": "menu_pics/coca_cola,_zero,_pepsi,_fanta,_sprite_large.webp"
+    "coca_cola,_coca_cola_zero,__fanta,_sprite": {
+        "large_price": 80
     },
     "naren_(katkısız_meyve_suları)": {
         "large_price": 85,
@@ -574,27 +580,11 @@
         "picture_small": "menu_pics/croissant_(chocolate)_small.webp",
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
-    "croissant_three_cheese": {
-        "large_price": 180,
-        "picture_small": "menu_pics/croissant_three_cheese_small.webp",
-        "picture_large": "menu_pics/croissant_three_cheese_large.webp"
-    },
-    "croissant_with_veal_ham": {
-        "large_price": 180,
-        "picture_small": "menu_pics/croissant_with_veal_ham_small.webp",
-        "picture_large": "menu_pics/croissant_with_veal_ham_large.webp"
-    },
-    "cheese_pastry_(piece)": {
+    "cheese_pastry_(short)": {
         "large_price": 110
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
         "large_price": 130
-    },
-    "meat_and_pea_pastry": {
-        "large_price": 140
-    },
-    "cheese_and_dill_pastry_(piece)": {
-        "large_price": 70
     },
     "breakfast_plate": {
         "large_price": 260,

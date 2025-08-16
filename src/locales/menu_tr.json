@@ -242,22 +242,39 @@
     "iced_chocolate": {
         "name": "Iced Chocolate"
     },
-    "iced_tea": {
-        "name": "Buzlu Çay / Iced Tea"
+    "blue_lagon": {
+        "name": "Bule Lagon"
     },
-    "blue_lagon": {},
-    "color_mix": {},
-    "island_rush_cooler": {
+    "color_mix": {
         "name": "Color Mix"
     },
-    "mor_zest": {},
-    "night_&_green": {},
-    "pina_colada": {},
-    "summer_brezze": {},
-    "velvet_dream": {},
-    "iced_tea_-hibiskus_cold_": {},
-    "iced_tea-_blue__butterfly_orange": {},
-    "iced_tea-_mango_orange": {},
+    "island_rush_cooler": {
+        "name": "Island Rush Cooler"
+    },
+    "mor_zest": {
+        "name": "Mor Zest"
+    },
+    "night_&_green": {
+        "name": "Night & Green"
+    },
+    "pina_colada": {
+        "name": "Pina Colada"
+    },
+    "summer_brezze": {
+        "name": "Summer Brezze"
+    },
+    "velvet_dream": {
+        "name": "Velvet Dream"
+    },
+    "iced_tea_-hibiskus_cold_": {
+        "name": "Iced Tea -Hibiskus Cold "
+    },
+    "iced_tea-_blue__butterfly_orange": {
+        "name": "Iced Tea- Blue  Butterfly Orange"
+    },
+    "iced_tea-_mango_orange": {
+        "name": "Iced Tea- Mango Orange"
+    },
     "churchill": {
         "name": "Churchill"
     },
@@ -267,14 +284,11 @@
     "lemonade_(homemade)": {
         "name": "Limonata (EV YAPIMI)"
     },
-    "black_mulberry__(homemade)": {
-        "name": "Karadut (EV YAPIMI)"
-    },
     "cool_lime": {
         "name": "Cool Lime"
     },
-    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
-        "name": "Coca Kola, Zero, Pepsi, Fanta, Sprite"
+    "coca_cola,_coca_cola_zero,__fanta,_sprite": {
+        "name": "Coca Kola, Coca Cola Zero,  Fanta, Sprite"
     },
     "naren_(katkısız_meyve_suları)": {
         "name": "Naren (Katkısız Meyve Suları)"
@@ -420,23 +434,11 @@
     "croissant_(chocolate)": {
         "name": "Kruvasan  (çikolatalı)"
     },
-    "croissant_three_cheese": {
-        "name": "Kruvasan Jumbo Üç Peynirli"
-    },
-    "croissant_with_veal_ham": {
-        "name": "Kruvasan  Peynir ve Dana Jambonlu"
-    },
-    "cheese_pastry_(piece)": {
-        "name": "Peynirli Börek (uzun-adet)"
+    "cheese_pastry_(short)": {
+        "name": "Peynirli Börek (kısa -adet)"
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
         "name": "Rulo Börek Dünyası (Ispanaklı+3 Peynirli / 3 Peynirli / Patatesli)"
-    },
-    "meat_and_pea_pastry": {
-        "name": "Talaş  Böreği "
-    },
-    "cheese_and_dill_pastry_(piece)": {
-        "name": "Peynirli Dereotlu Poğaça (adet)"
     },
     "breakfast_plate": {
         "name": "Kahvaltı Tabağı ( 2 adet bardakta çay ilave)"

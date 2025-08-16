@@ -242,9 +242,6 @@
     "iced_chocolate": {
         "name": "Iced Chocolate"
     },
-    "iced_tea": {
-        "name": "Iced Tea"
-    },
     "blue_lagon": {
         "name": "Blue Lagon"
     },
@@ -287,14 +284,11 @@
     "lemonade_(homemade)": {
         "name": "Lemonade (HOMEMADE)"
     },
-    "black_mulberry__(homemade)": {
-        "name": "Black Mulberry  (HOMEMADE)"
-    },
     "cool_lime": {
         "name": "Cool Lime"
     },
-    "coca_cola,_zero,_pepsi,_fanta,_sprite": {
-        "name": "Coca Cola, Zero, Pepsi, Fanta, Sprite"
+    "coca_cola,_coca_cola_zero,__fanta,_sprite": {
+        "name": "Coca Cola, Coca Cola Zero,  Fanta, Sprite"
     },
     "naren_(katkısız_meyve_suları)": {
         "name": "Naren (Katkısız Meyve Suları)"
@@ -440,23 +434,11 @@
     "croissant_(chocolate)": {
         "name": "Croissant (chocolate)"
     },
-    "croissant_three_cheese": {
-        "name": "Croissant three cheese"
-    },
-    "croissant_with_veal_ham": {
-        "name": "Croissant with veal ham"
-    },
-    "cheese_pastry_(piece)": {
-        "name": "Cheese Pastry (piece)"
+    "cheese_pastry_(short)": {
+        "name": "Cheese Pastry (short)"
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
         "name": "World of Roll Pastry (spinach+cheese / Three cheese / patato)"
-    },
-    "meat_and_pea_pastry": {
-        "name": "Meat and Pea Pastry"
-    },
-    "cheese_and_dill_pastry_(piece)": {
-        "name": "Cheese and Dill Pastry (piece)"
     },
     "breakfast_plate": {
         "name": "Breakfast Plate"

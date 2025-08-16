@@ -76,7 +76,6 @@
             "iced_matcha_latte",
             "iced_blue_lagoon",
             "iced_chocolate",
-            "iced_tea",
             "blue_lagon",
             "color_mix",
             "island_rush_cooler",
@@ -91,11 +90,10 @@
             "churchill",
             "bubble_tea",
             "lemonade_(homemade)",
-            "black_mulberry__(homemade)",
             "cool_lime"
         ],
         "softdrinks": [
-            "coca_cola,_zero,_pepsi,_fanta,_sprite",
+            "coca_cola,_coca_cola_zero,__fanta,_sprite",
             "naren_(katkısız_meyve_suları)",
             "naren_fruizy_(katkısız_meyve_suları)",
             "soda_types",
@@ -154,14 +152,10 @@
         "savory_world": [
             "croissant_(plain)",
             "croissant_(chocolate)",
-            "croissant_three_cheese",
-            "croissant_with_veal_ham",
-            "cheese_pastry_(piece)"
+            "cheese_pastry_(short)"
         ],
         "homemade_savory_food_(please_ask_for_daily_made_foods)": [
-            "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)",
-            "meat_and_pea_pastry",
-            "cheese_and_dill_pastry_(piece)"
+            "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)"
         ],
         "breakfast_world": [
             "breakfast_plate",
