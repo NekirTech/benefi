@@ -96,6 +96,7 @@
             "coca_cola,_coca_cola_zero,__fanta,_sprite",
             "naren_(katkısız_meyve_suları)",
             "naren_fruizy_(katkısız_meyve_suları)",
+            "cappy",
             "soda_types",
             "plain_soda",
             "lemon_soda",
@@ -165,7 +166,8 @@
         ],
         "fit_world": [
             "fruit_salad",
-            "bowl"
+            "bowl",
+            "fig_dessert_(_sugar-free)"
         ]
     },
     "extras_(selection_will_be_added_to_the_price)": [

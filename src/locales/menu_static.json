@@ -402,6 +402,9 @@
         "picture_small": "menu_pics/naren_fruizy_(katkısız_meyve_suları)_small.webp",
         "picture_large": "menu_pics/naren_fruizy_(katkısız_meyve_suları)_large.webp"
     },
+    "cappy": {
+        "large_price": 75
+    },
     "soda_types": {
         "large_price": 70,
         "picture_small": "menu_pics/soda_types_small.webp",
@@ -581,7 +584,7 @@
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
     "cheese_pastry_(short)": {
-        "large_price": 110
+        "large_price": 30
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
         "large_price": 130
@@ -609,6 +612,9 @@
         "large_price": 250,
         "picture_small": "menu_pics/bowl_small.webp",
         "picture_large": "menu_pics/bowl_large.webp"
+    },
+    "fig_dessert_(_sugar-free)": {
+        "large_price": 155
     },
     "decaffeinated_coffee_price_difference_": {
         "large_price": 20

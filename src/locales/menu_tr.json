@@ -296,6 +296,9 @@
     "naren_fruizy_(katkısız_meyve_suları)": {
         "name": "Naren Fruizy (Katkısız Meyve Suları)"
     },
+    "cappy": {
+        "name": "Cappy"
+    },
     "soda_types": {
         "name": "Gazoz Çeşitleri"
     },
@@ -457,6 +460,9 @@
     },
     "bowl": {
         "name": "Bowl"
+    },
+    "fig_dessert_(_sugar-free)": {
+        "name": "İncir Uyutması (Şekersiz)"
     },
     "decaffeinated_coffee_price_difference_": {
         "name": "Kafeinsiz  Kahve  Seçimi fiyat farkı"
