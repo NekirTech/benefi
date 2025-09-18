@@ -272,6 +272,9 @@
         "picture_small": "menu_pics/iced_white_chocolate_mocha_small.webp",
         "picture_large": "menu_pics/iced_white_chocolate_mocha_large.webp"
     },
+    "iced__macchiato": {
+        "large_price": 145
+    },
     "iced_latte": {
         "large_price": 145,
         "picture_small": "menu_pics/iced_latte_small.webp",
