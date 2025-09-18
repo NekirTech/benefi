@@ -453,7 +453,7 @@
         "large_price": 240
     },
     "donut_pink": {
-        "large_price": 170
+        "large_price": 185
     },
     "donut__chocolate": {
         "large_price": 185
@@ -590,7 +590,7 @@
         "large_price": 30
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
-        "large_price": 130
+        "large_price": 150
     },
     "breakfast_plate": {
         "large_price": 260,
@@ -605,6 +605,9 @@
     },
     "sandwich_(cheese_+cheddar+salami)": {
         "large_price": 210
+    },
+    "mini_sandwich": {
+        "large_price": 50
     },
     "glutein_free_cake": {
         "large_price": 165

@@ -458,6 +458,9 @@
     "sandwich_(cheese_+cheddar+salami)": {
         "name": "Sandwich (Cheese +Cheddar+Salami)"
     },
+    "mini_sandwich": {
+        "name": "Mini Sandwich"
+    },
     "glutein_free_cake": {
         "name": "Glutein Free Cake"
     },
