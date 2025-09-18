@@ -166,6 +166,10 @@
             "sandwich_(cheese_+cheddar+salami)",
             "mini_sandwich"
         ],
+        "vegan_-_glutein_free": [
+            "glutein_free_cake",
+            "glutein_free_cookie"
+        ],
         "fit_world": [
             "fruit_salad",
             "bowl",
