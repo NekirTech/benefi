@@ -455,6 +455,12 @@
     "sandwich_(cheese_+cheddar+salami)": {
         "name": "Sandeviç (Kaşar Peyniri+Chedar+Salam)"
     },
+    "glutein_free_cake": {
+        "name": "Gluteinsiz Ekler"
+    },
+    "glutein_free_cookie": {
+        "name": "Gluteinsiz Kurabiye"
+    },
     "fruit_salad": {
         "name": "Meyve Salatası"
     },

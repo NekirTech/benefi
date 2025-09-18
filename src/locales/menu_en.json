@@ -455,6 +455,12 @@
     "sandwich_(cheese_+cheddar+salami)": {
         "name": "Sandwich (Cheese +Cheddar+Salami)"
     },
+    "glutein_free_cake": {
+        "name": "Glutein Free Cake"
+    },
+    "glutein_free_cookie": {
+        "name": "Glutein Free Cookie"
+    },
     "fruit_salad": {
         "name": "Fruit Salad"
     },

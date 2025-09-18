@@ -603,6 +603,12 @@
     "sandwich_(cheese_+cheddar+salami)": {
         "large_price": 210
     },
+    "glutein_free_cake": {
+        "large_price": 165
+    },
+    "glutein_free_cookie": {
+        "large_price": 165
+    },
     "fruit_salad": {
         "large_price": 220,
         "picture_small": "menu_pics/fruit_salad_small.webp",
