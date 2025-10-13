@@ -43,121 +43,116 @@
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "cortado": {
-        "large_price": 130,
+        "large_price": 150,
         "picture_small": "menu_pics/cortado_small.webp",
         "picture_large": "menu_pics/cortado_large.webp"
     },
     "cafe_bombom": {
-        "large_price": 125,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "filter_coffee": {
-        "large_price": 125,
-        "picture_small": "menu_pics/filter_coffee_small.webp",
-        "picture_large": "menu_pics/filter_coffee_large.webp"
-    },
-    "con_panne": {
-        "large_price": 120,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "americano": {
-        "large_price": 130,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "dark_americano": {
-        "large_price": 140,
-        "picture_small": "menu_pics/hot_coffees_small.webp",
-        "picture_large": "menu_pics/hot_coffees_large.webp"
-    },
-    "cappuccino": {
-        "large_price": 135,
-        "picture_small": "menu_pics/cappuccino_small.webp",
-        "picture_large": "menu_pics/cappuccino_large.webp"
-    },
-    "flat_white": {
         "large_price": 150,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
+    "filter_coffee": {
+        "large_price": 130,
+        "picture_small": "menu_pics/filter_coffee_small.webp",
+        "picture_large": "menu_pics/filter_coffee_large.webp"
+    },
+    "con_panne": {
+        "large_price": 150,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
+    },
+    "americano": {
+        "large_price": 160,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
+    },
+    "cappuccino": {
+        "large_price": 165,
+        "picture_small": "menu_pics/cappuccino_small.webp",
+        "picture_large": "menu_pics/cappuccino_large.webp"
+    },
+    "flat_white": {
+        "large_price": 175,
+        "picture_small": "menu_pics/hot_coffees_small.webp",
+        "picture_large": "menu_pics/hot_coffees_large.webp"
+    },
     "latte": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/latte_small.webp",
         "picture_large": "menu_pics/latte_large.webp"
     },
     "latte_macchiato": {
-        "large_price": 140,
+        "large_price": 165,
         "picture_small": "menu_pics/latte_macchiato_small.webp",
         "picture_large": "menu_pics/latte_macchiato_large.webp"
     },
     "latte_caramel_macchiato": {
-        "large_price": 160,
+        "large_price": 185,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "mocha": {
-        "large_price": 160,
+        "large_price": 175,
         "picture_small": "menu_pics/mocha_small.webp",
         "picture_large": "menu_pics/mocha_large.webp"
     },
     "white_mocha": {
-        "large_price": 160,
+        "large_price": 175,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "black_eye": {
-        "large_price": 165,
+        "large_price": 190,
         "picture_small": "menu_pics/hot_coffees_small.webp",
         "picture_large": "menu_pics/hot_coffees_large.webp"
     },
     "turkish_coffee": {
-        "medium_price": 115,
-        "large_price": 125,
+        "medium_price": 140,
+        "large_price": 150,
         "picture_small": "menu_pics/turkish_coffee_small.webp",
         "picture_large": "menu_pics/turkish_coffee_large.webp"
     },
     "decaffeinated_turkish_coffee": {
-        "medium_price": 125,
-        "large_price": 130,
+        "medium_price": 150,
+        "large_price": 160,
         "picture_small": "menu_pics/decaffeinated_turkish_coffee_small.webp",
         "picture_large": "menu_pics/decaffeinated_turkish_coffee_large.webp"
     },
     "dibek_turkish_coffee_(harput_coffee)": {
-        "medium_price": 125,
-        "large_price": 130,
+        "medium_price": 150,
+        "large_price": 160,
         "picture_small": "menu_pics/dibek_turkish_coffee_(harput_coffee)_small.webp",
         "picture_large": "menu_pics/dibek_turkish_coffee_(harput_coffee)_large.webp"
     },
     "black_tea": {
-        "medium_price": 40,
-        "large_price": 60,
+        "medium_price": 60,
+        "large_price": 80,
         "picture_small": "menu_pics/black_tea_small.webp",
         "picture_large": "menu_pics/black_tea_large.webp"
     },
     "linden": {
-        "large_price": 140,
+        "large_price": 160,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "winter_tea": {
-        "large_price": 140,
+        "large_price": 150,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "sage": {
-        "large_price": 140,
+        "large_price": 150,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "mint_lemon_tea": {
-        "large_price": 130,
+        "large_price": 150,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "green_tea": {
-        "large_price": 130,
+        "large_price": 150,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
