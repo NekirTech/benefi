@@ -2,7 +2,11 @@
     "hot_drinks": {
         "hot_coffees": [
             "espresso",
+            "espresso_macchiato",
             "lungo",
+            "cortado",
+            "cafe_bombom",
+            "filter_coffee",
             "con_panne",
             "americano",
             "dark_americano",

@@ -56,8 +56,20 @@
     "espresso": {
         "name": "Espresso"
     },
+    "espresso_macchiato": {
+        "name": "Espresso Macchiato"
+    },
     "lungo": {
         "name": "Lungo"
+    },
+    "cortado": {
+        "name": "Cortado"
+    },
+    "cafe_bombom": {
+        "name": "Cafe Bombom"
+    },
+    "filter_coffee": {
+        "name": "Filter Coffee"
     },
     "con_panne": {
         "name": "Con Panne"
@@ -67,9 +79,6 @@
     },
     "dark_americano": {
         "name": "Dark Americano"
-    },
-    "cortado": {
-        "name": "Cortado"
     },
     "cappuccino": {
         "name": "Cappuccino"
@@ -91,12 +100,6 @@
     },
     "white_mocha": {
         "name": "White Mocha"
-    },
-    "cafe_bombom": {
-        "name": "Cafe Bombom"
-    },
-    "filter_coffee": {
-        "name": "Filter Coffee"
     },
     "black_eye": {
         "name": "Black Eye"
