@@ -281,12 +281,12 @@
         "picture_large": "menu_pics/iced_red_eye_large.webp"
     },
     "iced_black_eye": {
-        "large_price": 180,
+        "large_price": 210,
         "picture_small": "menu_pics/iced_black_eye_small.webp",
         "picture_large": "menu_pics/iced_black_eye_large.webp"
     },
     "cold_brew": {
-        "large_price": 140,
+        "large_price": 160,
         "picture_small": "menu_pics/cold_brew_small.webp",
         "picture_large": "menu_pics/cold_brew_large.webp"
     },
@@ -578,7 +578,7 @@
         "picture_small": "menu_pics/croissant_(chocolate)_small.webp",
         "picture_large": "menu_pics/croissant_(chocolate)_large.webp"
     },
-    "cheese_pastry_(short)": {
+    "mini_patty__(_cheese_/_spinach)_": {
         "large_price": 30
     },
     "world_of_roll_pastry_(spinach+cheese_/_three_cheese_/_patato)": {
