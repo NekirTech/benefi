@@ -242,20 +242,14 @@
     "iced_chocolate": {
         "name": "Iced Chocolate"
     },
-    "blue_lagon": {
-        "name": "Bule Lagon"
-    },
     "color_mix": {
         "name": "Color Mix"
     },
     "island_rush_cooler": {
         "name": "Island Rush Cooler"
     },
-    "mor_zest": {
-        "name": "Mor Zest"
-    },
-    "night_&_green": {
-        "name": "Night & Green"
+    "blu_lagon": {
+        "name": "Blu Lagon"
     },
     "pina_colada": {
         "name": "Pina Colada"
@@ -265,6 +259,9 @@
     },
     "velvet_dream": {
         "name": "Velvet Dream"
+    },
+    "green_benefi": {
+        "name": "Green Benefi"
     },
     "iced_tea_-hibiskus_cold_": {
         "name": "Iced Tea -Hibiskus Cold "

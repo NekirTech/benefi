@@ -311,7 +311,7 @@
         "large_price": 200
     },
     "italyan_sodas": {
-        "large_price": 125,
+        "large_price": 150,
         "picture_small": "menu_pics/italyan_sodas_small.webp",
         "picture_large": "menu_pics/italyan_sodas_large.webp"
     },
@@ -330,35 +330,32 @@
         "picture_small": "menu_pics/iced_chocolate_small.webp",
         "picture_large": "menu_pics/iced_chocolate_large.webp"
     },
-    "blue_lagon": {
-        "large_price": 150
-    },
     "color_mix": {
-        "large_price": 150,
+        "large_price": 175,
         "picture_small": "menu_pics/color_mix_small.webp",
         "picture_large": "menu_pics/color_mix_large.webp"
     },
     "island_rush_cooler": {
-        "large_price": 150,
+        "large_price": 175,
         "picture_small": "menu_pics/island_rush_cooler_small.webp",
         "picture_large": "menu_pics/island_rush_cooler_large.webp"
     },
-    "mor_zest": {
-        "large_price": 150
-    },
-    "night_&_green": {
-        "large_price": 150
+    "blu_lagon": {
+        "large_price": 175
     },
     "pina_colada": {
-        "large_price": 150,
+        "large_price": 175,
         "picture_small": "menu_pics/pina_colada_small.webp",
         "picture_large": "menu_pics/pina_colada_large.webp"
     },
     "summer_brezze": {
-        "large_price": 150
+        "large_price": 175
     },
     "velvet_dream": {
-        "large_price": 150
+        "large_price": 175
+    },
+    "green_benefi": {
+        "large_price": 175
     },
     "iced_tea_-hibiskus_cold_": {
         "large_price": 130
