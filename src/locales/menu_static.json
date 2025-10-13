@@ -157,72 +157,67 @@
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
     "mint_green_tea": {
-        "large_price": 130,
-        "picture_small": "menu_pics/hot_teas_small.webp",
-        "picture_large": "menu_pics/hot_teas_large.webp"
-    },
-    "detox_tea": {
-        "large_price": 130,
-        "picture_small": "menu_pics/hot_teas_small.webp",
-        "picture_large": "menu_pics/hot_teas_large.webp"
-    },
-    "dream_tea": {
-        "large_price": 130,
-        "picture_small": "menu_pics/hot_teas_small.webp",
-        "picture_large": "menu_pics/hot_teas_large.webp"
-    },
-    "blue_butterfly_tea": {
-        "large_price": 130,
-        "picture_small": "menu_pics/blue_butterfly_tea_small.webp",
-        "picture_large": "menu_pics/blue_butterfly_tea_large.webp"
-    },
-    "chai_tea_latte": {
         "large_price": 150,
         "picture_small": "menu_pics/hot_teas_small.webp",
         "picture_large": "menu_pics/hot_teas_large.webp"
     },
+    "detox_tea": {
+        "large_price": 150,
+        "picture_small": "menu_pics/hot_teas_small.webp",
+        "picture_large": "menu_pics/hot_teas_large.webp"
+    },
+    "dream_tea": {
+        "large_price": 150,
+        "picture_small": "menu_pics/hot_teas_small.webp",
+        "picture_large": "menu_pics/hot_teas_large.webp"
+    },
+    "chai_tea_latte": {
+        "large_price": 165,
+        "picture_small": "menu_pics/hot_teas_small.webp",
+        "picture_large": "menu_pics/hot_teas_large.webp"
+    },
     "rooibos_cream_orange": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "ayurveda_herbs_&_ginger": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "tropical_sun": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "masalia_chai": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "white_yin_long": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "morgentau": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "lychee_&_goji": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "jasmine_pearls": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
     "huckleberry_find": {
-        "large_price": 135,
+        "large_price": 165,
         "picture_small": "menu_pics/ronnefeldt_world_tea_small.webp",
         "picture_large": "menu_pics/ronnefeldt_world_tea_large.webp"
     },
@@ -296,24 +291,24 @@
         "picture_large": "menu_pics/cold_brew_large.webp"
     },
     "milkshake_(_vanilla_/_chocolate_/_strawberry_/_banana_)": {
-        "large_price": 180
+        "large_price": 200
     },
     "milkshake_(oreo)": {
-        "large_price": 195
+        "large_price": 220
     },
     "smoothie_(banane/_strawberry)": {
-        "large_price": 180
+        "large_price": 200
     },
     "smoothie_(edema_reliever-_green_fruit_and_vegetable)": {
-        "large_price": 180
+        "large_price": 200
     },
     "frappe": {
-        "large_price": 180,
+        "large_price": 200,
         "picture_small": "menu_pics/frappe_small.webp",
         "picture_large": "menu_pics/frappe_large.webp"
     },
     "frozen_(_banane_/_strawberry_/_blueberry)_": {
-        "large_price": 170
+        "large_price": 200
     },
     "italyan_sodas": {
         "large_price": 125,
@@ -378,12 +373,12 @@
         "large_price": 150
     },
     "bubble_tea": {
-        "large_price": 125,
+        "large_price": 150,
         "picture_small": "menu_pics/bubble_tea_small.webp",
         "picture_large": "menu_pics/bubble_tea_large.webp"
     },
     "lemonade_(homemade)": {
-        "large_price": 110,
+        "large_price": 130,
         "picture_small": "menu_pics/lemonade_(homemade)_small.webp",
         "picture_large": "menu_pics/lemonade_(homemade)_large.webp"
     },
@@ -593,15 +588,15 @@
         "large_price": 150
     },
     "breakfast_plate": {
-        "large_price": 260,
+        "large_price": 310,
         "picture_small": "menu_pics/breakfast_plate_small.webp",
         "picture_large": "menu_pics/breakfast_plate_large.webp"
     },
     "toast_with_cheddar": {
-        "large_price": 210
+        "large_price": 250
     },
     "toast_with_cheddar+salami": {
-        "large_price": 210
+        "large_price": 250
     },
     "sandwich_(cheese_+cheddar+salami)": {
         "large_price": 210
@@ -621,7 +616,7 @@
         "picture_large": "menu_pics/fruit_salad_large.webp"
     },
     "bowl": {
-        "large_price": 250,
+        "large_price": 300,
         "picture_small": "menu_pics/bowl_small.webp",
         "picture_large": "menu_pics/bowl_large.webp"
     },
