@@ -1,0 +1,4 @@
+# menu_converter.py uses positional access (row[6]), which pandas 3 removed.
+pandas>=2.2,<3
+openpyxl>=3.1
+requests>=2.32

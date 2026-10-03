@@ -1,22 +1,42 @@
 {
-  "welcome": "Welcome to Benefi Café in Didim",
-  "enjoy": "Enjoy Coffee, Tea and homemade cakes in our lovely atmosphere!",
-  "opening": "Opening Hours",
-  "times": [
-    "Monday: 08 - 24",
-    "Tuesday: 08 - 24",
-    "Wednesday: 08 - 24",
-    "Thursday: 08 - 24",
-    "Friday: 08 - 24",
-    "Saturday: 08 - 24",
-    "Sunday: 10 - 24"
+  "tagline": "Coffee, tea & homemade cakes in Didim",
+  "enjoy": "Enjoy coffee, tea and homemade cakes in our lovely atmosphere – right across from the city square.",
+  "toMenu": "See the menu",
+  "menu": "Menu",
+  "home": "Home",
+  "opening": "Opening hours",
+  "today": "today",
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
   ],
-  "location": "Location",
-  "located": "Directly opposite of the city square",
+  "hours": [
+    "08 – 24",
+    "08 – 24",
+    "08 – 24",
+    "08 – 24",
+    "08 – 24",
+    "08 – 24",
+    "10 – 24"
+  ],
+  "location": "Find us",
+  "located": "Directly opposite the city square",
+  "directions": "Open in Google Maps",
+  "contact": "Contact",
   "imprint": "Imprint",
   "name": "Benefi Cafe",
   "street": "Yeni, Atatürk Blv. No:138",
   "postcode": "09270 Didim/Aydın",
-  "phone": "00 90 555 692 43 15",
-  "email": "E-Mail: info@benefi.cafe"
+  "phone": "+90 555 692 43 15",
+  "email": "info@benefi.cafe",
+  "search": "Search the menu",
+  "noResults": "Nothing found for",
+  "close": "Close",
+  "notFound": "This page doesn't exist.",
+  "backHome": "Back to the start page"
 }

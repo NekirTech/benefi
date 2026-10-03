@@ -1,0 +1,13 @@
+.git
+.claude
+.vscode
+node_modules
+dist
+helper_skripts/image_converter
+helper_skripts/deploy
+helper_skripts/*.png
+helper_skripts/*.svg
+helper_skripts/menu_converter/*.xlsx
+Dockerfile
+docker-compose.yml
+README.md

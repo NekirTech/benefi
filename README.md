@@ -1,5 +1,71 @@
-# Benefi Cafe
+# Benefi Café
 
-Vue.js Website build with the Quasar Framework
+Website von https://benefi.cafe – Vue 3 + Vite, ausgeliefert in einem Docker-Container.
 
-https://benefi.cafe
+## Aufbau
+
+- `src/` – Website (Startseite, Menü unter `/menu`)
+- `src/locales/menu*.json` – Menüdaten, erzeugt von `helper_skripts/menu_converter/menu_converter.py`
+  aus dem Google-Sheet. Das Format bleibt so, wie das Skript es schreibt.
+- `src/locales/en.json`, `tr.json` – Texte der Seite
+- `public/menu_pics/` – Produktbilder (`<name>_small.webp` / `<name>_large.webp`)
+
+Die Seite lädt das Menü beim Öffnen von `/data/*.json`. Im Container schreibt der Converter
+diese Dateien direkt in ein Volume, eine Preisänderung im Google-Sheet ist also ohne neuen
+Build online (Standard: alle 15 Minuten). Die Kopie im Repo dient nur als Startwert für ein
+neues Volume und als Fallback.
+
+## Lokal entwickeln
+
+```bash
+npm install
+npm run dev
+```
+
+Weitere Befehle: `npm run build`, `npm run lint`, `npm run typecheck`, `npm run format`.
+
+Menü manuell aktualisieren (schreibt nach `src/locales/`):
+
+```bash
+pip install -r helper_skripts/menu_converter/requirements.txt
+python3 helper_skripts/menu_converter/menu_converter.py
+```
+
+## Docker
+
+Ein Container enthält Caddy (Webserver, Port 8080) und den Python-Converter.
+
+```bash
+docker compose up -d --build
+```
+
+Einstellungen über Umgebungsvariablen:
+
+| Variable               | Standard | Bedeutung                              |
+| ---------------------- | -------- | -------------------------------------- |
+| `HOST_PORT`            | `80`     | Port auf dem Server                    |
+| `MENU_REFRESH_MINUTES` | `15`     | Abstand der Menü-Updates aus dem Sheet |
+
+Logs: `docker logs benefi` zeigt bei jedem Lauf `[menu] updated …` oder bei Fehlern die
+letzten Zeilen des Skripts. Schlägt ein Update fehl, bleibt das bisherige Menü online.
+
+## Portainer
+
+1. **Stacks → Add stack → Repository**
+2. Repository URL: `https://github.com/NekirTech/benefi`, Reference: `refs/heads/main`,
+   Compose path: `docker-compose.yml`
+3. Optional unter Environment variables `HOST_PORT` / `MENU_REFRESH_MINUTES` setzen.
+4. **GitOps updates** aktivieren (Mechanism: Polling, z.B. 5m), damit Portainer nach einem
+   Push auf `main` den Stack neu baut und startet.
+5. Deploy.
+
+Nach dem ersten Push prüfen, ob die neue Version wirklich gebaut wurde (Stack → Images bzw.
+Seite neu laden). Falls Portainer das alte Image weiterverwendet: im Stack
+**Pull and redeploy** mit aktiviertem **Re-pull image** ausführen.
+
+### Umstieg vom alten Server
+
+Der Cronjob mit `update_server.sh` (git pull, `quasar build`, Kopie nach `/var/www/html`)
+wird nicht mehr gebraucht und sollte deaktiviert werden. Läuft Apache noch auf Port 80,
+muss er vorher gestoppt werden (`sudo systemctl disable --now apache2`), sonst kann der
+Container den Port nicht belegen.

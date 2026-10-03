@@ -1,0 +1,3 @@
+dist
+# written by helper_skripts/menu_converter/menu_converter.py
+src/locales/menu*.json
