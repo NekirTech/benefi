@@ -27,6 +27,10 @@
         {{ site.city }}/{{ site.region }} ·
         <a :href="`mailto:${site.email}`">{{ site.email }}</a>
       </p>
+      <p class="credit">
+        Powered by
+        <a href="https://nekir.tech" target="_blank" rel="noopener">nekir.tech</a>
+      </p>
     </div>
   </footer>
 </template>
@@ -91,5 +95,10 @@ main {
 
 .site-footer p {
   margin-top: 0.75rem;
+}
+
+.credit {
+  font-size: 0.75rem;
+  opacity: 0.75;
 }
 </style>
