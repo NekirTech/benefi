@@ -9,7 +9,8 @@
         <router-link v-if="route.path !== '/menu'" to="/menu" class="nav-link">
           {{ text.menu }}
         </router-link>
-        <LangSwitch />
+        <!-- On the menu page the switch sits in the category bar. -->
+        <LangSwitch v-if="route.path !== '/menu'" />
       </nav>
     </div>
   </header>

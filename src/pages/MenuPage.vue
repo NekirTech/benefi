@@ -17,9 +17,9 @@
       </label>
     </div>
 
-    <nav v-show="!query" ref="navEl" class="categories" aria-label="Categories">
-      <div class="wrap">
-        <ul>
+    <nav ref="navEl" class="categories" aria-label="Categories">
+      <div class="wrap bar">
+        <ul v-show="!query">
           <li v-for="key in topKeys" :key="key">
             <button
               type="button"
@@ -31,6 +31,7 @@
             </button>
           </li>
         </ul>
+        <LangSwitch class="lang" />
       </div>
     </nav>
 
@@ -66,6 +67,7 @@ import {
   ref,
   watch,
 } from 'vue';
+import LangSwitch from 'src/components/LangSwitch.vue';
 import MenuSection from 'src/components/MenuSection.vue';
 import { useLocale } from 'src/composables/useLocale';
 import { useMenu, type MenuTree } from 'src/composables/useMenu';
@@ -231,11 +233,15 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
-.categories .wrap {
+.categories .bar {
+  display: flex;
+  align-items: center;
   padding-inline: 0;
 }
 
 .categories ul {
+  flex: 1;
+  min-width: 0;
   display: flex;
   gap: 1.25rem;
   margin: 0;
@@ -249,7 +255,16 @@ h1 {
   display: none;
 }
 
-.categories button {
+/* Stays visible on the right while the categories scroll underneath. */
+.categories .lang {
+  flex: none;
+  margin-left: auto;
+  margin-right: var(--gutter);
+  box-shadow: -1rem 0 0.75rem var(--paper);
+  background: var(--paper);
+}
+
+.categories ul button {
   padding: 0.9rem 0 0.75rem;
   border: 0;
   border-bottom: 2px solid transparent;
@@ -262,7 +277,7 @@ h1 {
   cursor: pointer;
 }
 
-.categories button[aria-current='true'] {
+.categories ul button[aria-current='true'] {
   color: var(--ink);
   border-bottom-color: var(--mint);
 }
