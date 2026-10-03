@@ -18,7 +18,7 @@ RUN pip install --no-cache-dir -r helper_skripts/menu_converter/requirements.txt
  && useradd --system --uid 10001 --home-dir /app benefi
 
 COPY docker/Caddyfile /etc/caddy/Caddyfile
-COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY --chmod=755 docker/entrypoint.sh /usr/local/bin/entrypoint.sh
 COPY helper_skripts/menu_converter/menu_converter.py helper_skripts/menu_converter/
 COPY src/locales/menu*.json seed/
 COPY --from=build /src/dist dist
