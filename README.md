@@ -8,7 +8,24 @@ Website von https://benefi.cafe – Vue 3 + Vite, ausgeliefert in einem Docker-C
 - `src/locales/menu*.json` – Menüdaten, erzeugt von `helper_skripts/menu_converter/menu_converter.py`
   aus dem Google-Sheet. Das Format bleibt so, wie das Skript es schreibt.
 - `src/locales/en.json`, `tr.json` – Texte der Seite
-- `public/menu_pics/` – Produktbilder (`<name>_small.webp` / `<name>_large.webp`)
+- `public/menu_pics/` – Produktbilder (`<name>_small.webp` / `<name>_large.webp`), erzeugt aus
+  den Originalfotos in `helper_skripts/image_converter/input/`
+
+## Bilder
+
+Neues Foto als `<menü-schlüssel>.<heic|jpg|png>` (z.B. `iced_latte.heic`) nach
+`helper_skripts/image_converter/input/` legen, dann:
+
+```bash
+pip install -r helper_skripts/image_converter/requirements.txt
+python3 helper_skripts/image_converter/image_converter.py
+```
+
+Das Skript bearbeitet nur neue oder geänderte Fotos (`--force` für alle) und erzeugt je Foto
+ein quadratisches Vorschaubild (192 px, ~5 kB) und ein großes Bild (max. 1200 px), richtig
+gedreht und ohne EXIF/GPS-Daten. Außerdem entsteht `public/og_image.jpg` (1200 × 630) für
+Link-Vorschauen – das Ausgangsfoto steht oben im Skript (`OG_SOURCE`). Nach Commit und Deploy
+findet der Menü-Converter die neuen Bilder automatisch.
 
 Die Seite lädt das Menü beim Öffnen von `/data/*.json`. Im Container schreibt der Converter
 diese Dateien direkt in ein Volume, eine Preisänderung im Google-Sheet ist also ohne neuen
@@ -23,8 +40,8 @@ Inhalt sehen. Dabei werden automatisch erzeugt:
 
 - Titel, Beschreibung, Canonical-Link und Open-Graph-Tags je Seite (Texte in
   `src/locales/*.json`, Schlüssel `meta…`)
-- strukturierte Daten (schema.org `CafeOrCoffeeShop`: Adresse, Öffnungszeiten, Menü-Link,
-  Instagram) aus `src/site.ts`
+- strukturierte Daten (schema.org `CafeOrCoffeeShop`: Adresse, Koordinaten, Öffnungszeiten,
+  Menü-Link, Google-Maps-Eintrag, Instagram) aus `src/site.ts`
 - `sitemap.xml` (mit Build-Datum) und `robots.txt`
 
 Adresse, Telefon, Öffnungszeiten usw. nur in `src/site.ts` ändern – Seite und strukturierte

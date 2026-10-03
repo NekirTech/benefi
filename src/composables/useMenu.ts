@@ -71,6 +71,15 @@ export function provideMenuData(data: MenuData) {
   loading = Promise.resolve();
 }
 
+/** Small square thumbnail for lists, large photo for the dialog. */
+export function picturesOf(values: StaticValues) {
+  const thumb = values.picture_small ?? values.picture_large;
+  const large = values.picture_large ?? values.picture_small;
+  return thumb && large
+    ? { thumb: '/' + thumb, large: '/' + large }
+    : undefined;
+}
+
 // "vegan_-_glutein_free" -> "Vegan - glutein free"
 function prettify(key: string) {
   const s = key.replace(/_/g, ' ').replace(/\s+/g, ' ').trim();

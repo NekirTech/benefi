@@ -305,6 +305,8 @@ h1 {
 .lightbox img {
   width: 100%;
   height: auto;
+  max-height: 80vh;
+  object-fit: contain;
 }
 
 .lightbox p {

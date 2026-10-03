@@ -49,7 +49,7 @@
           {{ site.postcode }} {{ site.city }}/{{ site.region }}
         </address>
         <p class="muted">{{ text.located }}</p>
-        <a :href="mapsUrl" target="_blank" rel="noopener" class="text-link">
+        <a :href="site.maps" target="_blank" rel="noopener" class="text-link">
           {{ text.directions }}
         </a>
       </section>
@@ -88,10 +88,6 @@ onMounted(() => {
 function formatHours([opens, closes]: readonly [string, string]) {
   return [opens, closes].map((t) => t.replace(/:00$/, '')).join(' – ');
 }
-
-const mapsUrl =
-  'https://www.google.com/maps/search/?api=1&query=' +
-  encodeURIComponent('Benefi Cafe, Atatürk Blv. No:138, 09270 Didim');
 </script>
 
 <style scoped>

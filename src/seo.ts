@@ -62,6 +62,8 @@ export function businessJsonLd() {
       addressRegion: site.region,
       addressCountry: site.country,
     },
+    geo: { '@type': 'GeoCoordinates', ...site.geo },
+    hasMap: site.maps,
     hasMenu: `${site.url}/menu`,
     servesCuisine: ['Coffee', 'Tea', 'Cakes', 'Breakfast'],
     currenciesAccepted: 'TRY',

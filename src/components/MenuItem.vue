@@ -9,9 +9,9 @@
       type="button"
       class="thumb"
       :aria-label="title"
-      @click="openImage(photo, title)"
+      @click="openImage(photo.large, title)"
     >
-      <img :src="photo" alt="" loading="lazy" width="48" height="48" />
+      <img :src="photo.thumb" alt="" loading="lazy" width="48" height="48" />
     </button>
     <span class="price">
       <span v-for="tag in tags" :key="tag.size ?? 'one'" class="tag">
@@ -24,7 +24,7 @@
 
 <script setup lang="ts">
 import { computed, inject } from 'vue';
-import { useMenu } from 'src/composables/useMenu';
+import { picturesOf, useMenu } from 'src/composables/useMenu';
 import { priceTags } from 'src/utils/price';
 import { openImageKey } from 'src/utils/keys';
 
@@ -41,9 +41,8 @@ const tags = computed(() => priceTags(info(props.itemKey)));
 // That one is already shown next to the category heading.
 const photo = computed(() => {
   const values = info(props.itemKey);
-  const src = values.picture_large ?? values.picture_small;
-  if (!src || values.picture_small === props.categoryPicture) return undefined;
-  return '/' + src;
+  if (values.picture_small === props.categoryPicture) return undefined;
+  return picturesOf(values);
 });
 </script>
 

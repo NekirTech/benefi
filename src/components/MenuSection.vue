@@ -12,7 +12,7 @@
         @click="openImage(picture.large, label.title)"
       >
         <img
-          :src="picture.large"
+          :src="picture.thumb"
           alt=""
           loading="lazy"
           width="44"
@@ -48,7 +48,7 @@
 <script setup lang="ts">
 import { computed, inject } from 'vue';
 import MenuItem from './MenuItem.vue';
-import { useMenu, type MenuTree } from 'src/composables/useMenu';
+import { picturesOf, useMenu, type MenuTree } from 'src/composables/useMenu';
 import { splitNote } from 'src/utils/heading';
 import { openImageKey } from 'src/utils/keys';
 
@@ -63,11 +63,7 @@ const openImage = inject(openImageKey)!;
 
 const anchor = computed(() => 'c-' + props.categoryKey.replace(/[^\w-]/g, ''));
 const label = computed(() => splitNote(name(props.categoryKey)));
-const picture = computed(() => {
-  const values = info(props.categoryKey);
-  const src = values.picture_large ?? values.picture_small;
-  return src ? { large: '/' + src } : undefined;
-});
+const picture = computed(() => picturesOf(info(props.categoryKey)));
 </script>
 
 <style scoped>

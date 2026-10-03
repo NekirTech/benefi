@@ -9,8 +9,12 @@ export const site = {
   country: 'TR',
   phone: '+90 555 692 43 15',
   email: 'info@benefi.cafe',
+  // Position of the Google Maps entry "Benefi Cafe".
+  geo: { latitude: 37.3708502, longitude: 27.2681505 },
+  maps: 'https://maps.google.com/?cid=290700912312207222',
   instagram: 'https://www.instagram.com/benefi_cafe/',
-  image: '/coffee.jpg',
+  // Created by helper_skripts/image_converter/image_converter.py
+  image: '/og_image.jpg',
   // Monday first, 24-hour clock.
   hours: [
     ['08:00', '24:00'],
