@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Outfit';
-  src: url('./fonts/Outfit-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-}
-
 :root {
   --paper: #f8f4ee;
   --paper-raised: #fffdf9;
@@ -16,7 +9,7 @@
   --mint-wash: #e4f4e9;
 
   --serif: 'Fraunces Variable', Georgia, serif;
-  --sans: 'Outfit', system-ui, sans-serif;
+  --sans: 'Outfit Variable', system-ui, sans-serif;
   --measure: 40rem;
   --gutter: 1.25rem;
 

@@ -25,10 +25,13 @@ function devMenuData(): Plugin {
   };
 }
 
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [vue(), devMenuData()],
   resolve: {
     alias: { src: fileURLToPath(new URL('./src', import.meta.url)) },
   },
-  build: { outDir: 'dist' },
-});
+  // The server build is only used by scripts/prerender.js.
+  build: isSsrBuild
+    ? { outDir: 'dist-ssr' }
+    : { outDir: 'dist', ssrManifest: true },
+}));

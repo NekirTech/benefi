@@ -23,8 +23,9 @@
     <div class="wrap">
       <SocialLinks />
       <p>
-        {{ text.name }} · {{ text.street }}, {{ text.postcode }} ·
-        <a :href="`mailto:${text.email}`">{{ text.email }}</a>
+        {{ site.name }} · {{ site.street }}, {{ site.postcode }}
+        {{ site.city }}/{{ site.region }} ·
+        <a :href="`mailto:${site.email}`">{{ site.email }}</a>
       </p>
     </div>
   </footer>
@@ -35,6 +36,7 @@ import { useRoute } from 'vue-router';
 import LangSwitch from 'src/components/LangSwitch.vue';
 import SocialLinks from 'src/components/SocialLinks.vue';
 import { useLocale } from 'src/composables/useLocale';
+import { site } from 'src/site';
 
 const route = useRoute();
 const { text } = useLocale();

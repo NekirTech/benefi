@@ -15,6 +15,24 @@ diese Dateien direkt in ein Volume, eine Preisänderung im Google-Sheet ist also
 Build online (Standard: alle 15 Minuten). Die Kopie im Repo dient nur als Startwert für ein
 neues Volume und als Fallback.
 
+## SEO
+
+`npm run build` rendert Startseite, Menü und 404-Seite zusätzlich als fertiges HTML vor
+(`scripts/prerender.js`), damit Suchmaschinen und Link-Vorschauen (WhatsApp, Instagram …)
+Inhalt sehen. Dabei werden automatisch erzeugt:
+
+- Titel, Beschreibung, Canonical-Link und Open-Graph-Tags je Seite (Texte in
+  `src/locales/*.json`, Schlüssel `meta…`)
+- strukturierte Daten (schema.org `CafeOrCoffeeShop`: Adresse, Öffnungszeiten, Menü-Link,
+  Instagram) aus `src/site.ts`
+- `sitemap.xml` (mit Build-Datum) und `robots.txt`
+
+Adresse, Telefon, Öffnungszeiten usw. nur in `src/site.ts` ändern – Seite und strukturierte
+Daten übernehmen sie. Neue Seiten in `src/seo.ts` (`indexedPaths`, `pageMeta`) eintragen.
+
+Die vorgerenderte Seite ist auf Türkisch; im Browser wechselt sie danach in die gespeicherte
+bzw. Browsersprache, das Menü wird live geladen.
+
 ## Lokal entwickeln
 
 ```bash

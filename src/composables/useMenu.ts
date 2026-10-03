@@ -28,8 +28,17 @@ async function fetchJson<T>(file: string): Promise<T> {
   return res.json() as Promise<T>;
 }
 
+type MenuData = [MenuTree, Texts, Texts, Record<string, StaticValues>];
+
+function setData(data: MenuData) {
+  tree.value = data[0];
+  texts.value = { en: data[1], tr: data[2] };
+  statics.value = data[3];
+  loaded.value = true;
+}
+
 async function load() {
-  let data: [MenuTree, Texts, Texts, Record<string, StaticValues>];
+  let data: MenuData;
   try {
     data = await Promise.all([
       fetchJson<MenuTree>('menu.json'),
@@ -47,10 +56,19 @@ async function load() {
       import('src/locales/menu_static.json'),
     ]).then((mods) => mods.map((m) => m.default))) as typeof data;
   }
-  tree.value = data[0];
-  texts.value = { en: data[1], tr: data[2] };
-  statics.value = data[3];
-  loaded.value = true;
+  setData(data);
+}
+
+/** Starts loading the menu (once) and resolves when it is there. */
+export function loadMenu() {
+  loading ??= load();
+  return loading;
+}
+
+/** Used when prerendering: fill in the menu without fetching. */
+export function provideMenuData(data: MenuData) {
+  setData(data);
+  loading = Promise.resolve();
 }
 
 // "vegan_-_glutein_free" -> "Vegan - glutein free"
@@ -61,7 +79,7 @@ function prettify(key: string) {
 
 export function useMenu() {
   const { lang } = useLocale();
-  loading ??= load();
+  loadMenu();
 
   const current = computed(() => texts.value[lang.value]);
 

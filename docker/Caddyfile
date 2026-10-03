@@ -8,6 +8,12 @@
 	encode zstd gzip
 	root * /app/dist
 
+	# One URL per page for search engines.
+	redir /index.html / 301
+	redir /menu.html /menu 301
+	redir /menu/ /menu 301
+	redir /404.html / 301
+
 	# Menu data written by menu_converter.py into the volume.
 	handle_path /data/* {
 		@menu path /menu.json /menu_en.json /menu_tr.json /menu_static.json
@@ -25,11 +31,24 @@
 		file_server
 	}
 
-	handle {
+	# Prerendered pages (/ -> index.html, /menu -> menu.html) and static files.
+	@exists file {
+		try_files {path} {path}.html {path}index.html
+	}
+	handle @exists {
+		rewrite * {file_match.relative}
 		@pictures path /menu_pics/* *.jpg *.png *.svg *.webp
 		header @pictures Cache-Control "public, max-age=86400"
 		header ?Cache-Control "no-cache"
-		try_files {path} /index.html
+		header /manifest.webmanifest Content-Type "application/manifest+json"
 		file_server
+	}
+
+	handle {
+		rewrite * /404.html
+		header Cache-Control "no-cache"
+		file_server {
+			status 404
+		}
 	}
 }

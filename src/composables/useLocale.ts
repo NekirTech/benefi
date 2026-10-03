@@ -8,6 +8,8 @@ const STORAGE_KEY = 'benefi-lang';
 const texts = { en, tr };
 
 function initialLang(): Lang {
+  // Prerendering at build time happens without a browser: Turkish first.
+  if (typeof window === 'undefined') return 'tr';
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved === 'tr' || saved === 'en') return saved;
@@ -20,6 +22,7 @@ function initialLang(): Lang {
 const lang = ref<Lang>(initialLang());
 
 watchEffect(() => {
+  if (typeof document === 'undefined') return;
   document.documentElement.lang = lang.value;
   try {
     localStorage.setItem(STORAGE_KEY, lang.value);

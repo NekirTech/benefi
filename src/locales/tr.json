@@ -15,28 +15,18 @@
     "Cumartesi",
     "Pazar"
   ],
-  "hours": [
-    "08 – 24",
-    "08 – 24",
-    "08 – 24",
-    "08 – 24",
-    "08 – 24",
-    "08 – 24",
-    "10 – 24"
-  ],
   "location": "Konum",
   "located": "Kent Meydanı, YapıKredi Bankası karşısı",
   "directions": "Google Haritalar'da aç",
   "contact": "İletişim",
-  "imprint": "İletişim bilgileri",
-  "name": "Benefi Cafe",
-  "street": "Yeni, Atatürk Blv. No:138",
-  "postcode": "09270 Didim/Aydın",
-  "phone": "+90 555 692 43 15",
-  "email": "info@benefi.cafe",
   "search": "Menüde ara",
   "noResults": "Sonuç bulunamadı:",
   "close": "Kapat",
   "notFound": "Bu sayfa mevcut değil.",
-  "backHome": "Ana sayfaya dön"
+  "backHome": "Ana sayfaya dön",
+  "metaHomeTitle": "Benefi Café Didim – Kahve, Çay ve Ev Yapımı Pastalar",
+  "metaHomeDescription": "Didim Kent Meydanı karşısında Benefi Café: özel kahveler, Ronnefeldt çayları, ev yapımı pastalar ve kahvaltı. Açılış saatleri, konum ve menü.",
+  "metaMenuTitle": "Menü – Benefi Café Didim",
+  "metaMenuDescription": "Didim'deki Benefi Café menüsü: sıcak ve soğuk kahveler, çaylar, ev yapımı tatlılar, tuzlular ve kahvaltı – güncel fiyatlarla.",
+  "metaNotFoundTitle": "Sayfa bulunamadı – Benefi Café"
 }

@@ -2,11 +2,17 @@
   <div class="home">
     <div class="wrap">
       <figure class="photo">
-        <img src="/coffee.jpg" alt="" width="720" height="604" />
+        <img
+          src="/coffee.jpg"
+          alt="Benefi Café – latte art"
+          width="720"
+          height="604"
+          fetchpriority="high"
+        />
       </figure>
 
       <section class="intro">
-        <p class="eyebrow">Coffee &amp; Tea · Est. 2023</p>
+        <p class="eyebrow">{{ text.tagline }}</p>
         <h1>Benefi Café</h1>
         <p class="lead">{{ text.enjoy }}</p>
         <router-link to="/menu" class="cta">
@@ -30,7 +36,7 @@
                   text.today
                 }}</span>
               </th>
-              <td>{{ text.hours[index] }}</td>
+              <td>{{ formatHours(site.hours[index]) }}</td>
             </tr>
           </tbody>
         </table>
@@ -39,8 +45,8 @@
       <section>
         <h2>{{ text.location }}</h2>
         <address>
-          {{ text.street }}<br />
-          {{ text.postcode }}
+          {{ site.street }}<br />
+          {{ site.postcode }} {{ site.city }}/{{ site.region }}
         </address>
         <p class="muted">{{ text.located }}</p>
         <a :href="mapsUrl" target="_blank" rel="noopener" class="text-link">
@@ -52,12 +58,12 @@
         <h2>{{ text.contact }}</h2>
         <ul class="contact">
           <li>
-            <a :href="`tel:${text.phone.replace(/\s/g, '')}`">{{
-              text.phone
+            <a :href="`tel:${site.phone.replace(/\s/g, '')}`">{{
+              site.phone
             }}</a>
           </li>
           <li>
-            <a :href="`mailto:${text.email}`">{{ text.email }}</a>
+            <a :href="`mailto:${site.email}`">{{ site.email }}</a>
           </li>
         </ul>
       </section>
@@ -66,12 +72,22 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, ref } from 'vue';
 import { useLocale } from 'src/composables/useLocale';
+import { site } from 'src/site';
 
 const { text } = useLocale();
 
-// Monday = 0, matching the order in the locale files.
-const todayIndex = (new Date().getDay() + 6) % 7;
+// Monday = 0. Set in the browser only, the prerendered page has no "today".
+const todayIndex = ref(-1);
+onMounted(() => {
+  todayIndex.value = (new Date().getDay() + 6) % 7;
+});
+
+// "08:00" – "24:00" -> "08 – 24"
+function formatHours([opens, closes]: readonly [string, string]) {
+  return [opens, closes].map((t) => t.replace(/:00$/, '')).join(' – ');
+}
 
 const mapsUrl =
   'https://www.google.com/maps/search/?api=1&query=' +

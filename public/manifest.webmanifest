@@ -1,0 +1,12 @@
+{
+  "name": "Benefi Café Didim",
+  "short_name": "Benefi",
+  "start_url": "/menu",
+  "display": "standalone",
+  "background_color": "#f8f4ee",
+  "theme_color": "#f8f4ee",
+  "icons": [
+    { "src": "/benefi_logo.png", "sizes": "320x320", "type": "image/png" },
+    { "src": "/benefi_logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
